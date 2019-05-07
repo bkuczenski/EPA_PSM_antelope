@@ -1,0 +1,6 @@
+==========
+Tue May 07 16:07:21 -0700 2019
+
+Dangerous to commit this to the repo with an indication of (a) the start of work and (b) the apparent total hours spent.
+
+Anyway- I did miss part of the kickoff slideshow but 
