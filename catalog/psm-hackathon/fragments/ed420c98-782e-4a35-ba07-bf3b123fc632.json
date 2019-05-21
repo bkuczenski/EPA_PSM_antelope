@@ -1,0 +1,185 @@
+{
+  "fragments": [
+    {
+      "direction": "Input",
+      "entityId": "ed420c98-782e-4a35-ba07-bf3b123fc632",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.0
+      },
+      "externalId": "74A400734-1003 ASSEMBLY",
+      "flow": "74A400734-1003",
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": null,
+      "tags": {
+        "Comment": "",
+        "Name": "UNIV ASSY",
+        "Row": 40,
+        "Source": "74A400700-1013",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {
+          "externalId": "74A400734-1003 ASSEMBLY",
+          "origin": "local.data.GitHub.2019.EPA_PSM_antelope.catalog.psm-hackathon"
+        }
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "722f1ef2-77ea-44c3-8c54-93b2e8b386dd",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.0
+      },
+      "externalId": "722f1ef2-77ea-44c3-8c54-93b2e8b386dd",
+      "flow": "74A400739-2003",
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "74A400734-1003 ASSEMBLY",
+      "tags": {
+        "Comment": "",
+        "Name": "PIN, STRAIGHT",
+        "Row": 45,
+        "Source": "74A400700-1013",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {}
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "ba99963f-c3b6-464c-9c6a-42cac0253922",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.0
+      },
+      "externalId": "ba99963f-c3b6-464c-9c6a-42cac0253922",
+      "flow": "74A400744-2001",
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "74A400734-1003 ASSEMBLY",
+      "tags": {
+        "Comment": "",
+        "Name": "PAD, JACK",
+        "Row": 46,
+        "Source": "74A400700-1013",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {}
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "d6ec2b6d-991f-41e7-9f64-8886567e2442",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.0
+      },
+      "externalId": "d6ec2b6d-991f-41e7-9f64-8886567e2442",
+      "flow": "74A400720-1003",
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "74A400734-1003 ASSEMBLY",
+      "tags": {
+        "Comment": "",
+        "Name": "SPINDLE ASSY",
+        "Row": 41,
+        "Source": "74A400700-1013",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {
+          "externalId": "d6ec2b6d-991f-41e7-9f64-8886567e2442",
+          "origin": "local.data.GitHub.2019.EPA_PSM_antelope.catalog.psm-hackathon"
+        }
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "3a4d03a4-df54-4afd-8914-11883257a291",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 2.0,
+        "1": 0.0
+      },
+      "externalId": "3a4d03a4-df54-4afd-8914-11883257a291",
+      "flow": "74A400755-2001",
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "d6ec2b6d-991f-41e7-9f64-8886567e2442",
+      "tags": {
+        "Comment": "",
+        "Name": "BUSHING",
+        "Row": 43,
+        "Source": "74A400700-1013",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {}
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "4191e8b2-a6a5-46ae-8d10-a016a61189e4",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.0
+      },
+      "externalId": "4191e8b2-a6a5-46ae-8d10-a016a61189e4",
+      "flow": "74A400735-2003",
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "d6ec2b6d-991f-41e7-9f64-8886567e2442",
+      "tags": {
+        "Comment": "",
+        "Name": "SPINDLE",
+        "Row": 42,
+        "Source": "74A400700-1013",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {}
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "980a7460-45f4-4765-a7f0-348b0a134e7f",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 2.0,
+        "1": 0.0
+      },
+      "externalId": "980a7460-45f4-4765-a7f0-348b0a134e7f",
+      "flow": "NAS516-1A",
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "d6ec2b6d-991f-41e7-9f64-8886567e2442",
+      "tags": {
+        "Comment": "",
+        "Name": "FITTING",
+        "Row": 44,
+        "Source": "74A400700-1013",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {}
+      }
+    }
+  ]
+}

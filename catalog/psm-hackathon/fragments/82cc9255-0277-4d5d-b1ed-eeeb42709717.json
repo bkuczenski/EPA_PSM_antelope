@@ -1,0 +1,438 @@
+{
+  "fragments": [
+    {
+      "direction": "Input",
+      "entityId": "82cc9255-0277-4d5d-b1ed-eeeb42709717",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.0
+      },
+      "externalId": "74A400561-1005 ASSEMBLY",
+      "flow": "74A400561-1005",
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": null,
+      "tags": {
+        "Comment": "",
+        "Name": "LINK ASSY, LOWER",
+        "Row": 13,
+        "Source": "74A400500-1017",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {
+          "externalId": "74A400561-1005 ASSEMBLY",
+          "origin": "local.data.GitHub.2019.EPA_PSM_antelope.catalog.psm-hackathon"
+        }
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "0f194c36-60ab-431d-b647-8d6c1b11099d",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.0
+      },
+      "externalId": "0f194c36-60ab-431d-b647-8d6c1b11099d",
+      "flow": "74B410058-107",
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "74A400561-1005 ASSEMBLY",
+      "tags": {
+        "Comment": "",
+        "Name": "SCRAPER, LWR PLAN",
+        "Row": 25,
+        "Source": "74A400500-1017",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {}
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "35d8e5f0-adc5-4aa4-9156-d03c9a6de26c",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.0
+      },
+      "externalId": "35d8e5f0-adc5-4aa4-9156-d03c9a6de26c",
+      "flow": "74A400570-1001",
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "74A400561-1005 ASSEMBLY",
+      "tags": {
+        "Comment": "",
+        "Name": "ROD END ASSY",
+        "Row": 20,
+        "Source": "74A400500-1017",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {
+          "externalId": "35d8e5f0-adc5-4aa4-9156-d03c9a6de26c",
+          "origin": "local.data.GitHub.2019.EPA_PSM_antelope.catalog.psm-hackathon"
+        }
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "a6c0c5f7-654b-4ff7-a4c1-22ad2155ceed",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.0
+      },
+      "externalId": "a6c0c5f7-654b-4ff7-a4c1-22ad2155ceed",
+      "flow": "ST4M197-6",
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "35d8e5f0-adc5-4aa4-9156-d03c9a6de26c",
+      "tags": {
+        "Comment": "",
+        "Name": "BEARING",
+        "Row": 22,
+        "Source": "74A400500-1017",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {}
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "b5e290c1-3a3b-4f18-8214-e929ea315d1e",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.0
+      },
+      "externalId": "b5e290c1-3a3b-4f18-8214-e929ea315d1e",
+      "flow": "74A400587-2001",
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "35d8e5f0-adc5-4aa4-9156-d03c9a6de26c",
+      "tags": {
+        "Comment": "",
+        "Name": "ROD END",
+        "Row": 21,
+        "Source": "74A400500-1017",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {}
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "3e6d95c3-f945-414b-9877-41779fe7703f",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.0
+      },
+      "externalId": "3e6d95c3-f945-414b-9877-41779fe7703f",
+      "flow": "NAS1193K12C",
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "74A400561-1005 ASSEMBLY",
+      "tags": {
+        "Comment": "",
+        "Name": "LOCKING DEVICE",
+        "Row": 27,
+        "Source": "74A400500-1017",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {}
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "482b7049-d808-45af-9a4b-335c05afa9ed",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.0
+      },
+      "externalId": "482b7049-d808-45af-9a4b-335c05afa9ed",
+      "flow": "74A400565-2001",
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "74A400561-1005 ASSEMBLY",
+      "tags": {
+        "Comment": "",
+        "Name": "SPOOL",
+        "Row": 18,
+        "Source": "74A400500-1017",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {}
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "7a813f6d-203a-464d-80e4-fb58abfd9be4",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.0
+      },
+      "externalId": "7a813f6d-203a-464d-80e4-fb58abfd9be4",
+      "flow": "MS20995NC32",
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "74A400561-1005 ASSEMBLY",
+      "tags": {
+        "Comment": "",
+        "Name": "LOCKWIRE",
+        "Row": 29,
+        "Source": "74A400500-1017",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {}
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "979f5d05-1879-4459-8b33-654861630aae",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.0
+      },
+      "externalId": "979f5d05-1879-4459-8b33-654861630aae",
+      "flow": "NAS1423C12",
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "74A400561-1005 ASSEMBLY",
+      "tags": {
+        "Comment": "",
+        "Name": "NUT,PLAIN,HEX, JAM",
+        "Row": 28,
+        "Source": "74A400500-1017",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {}
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "aaa84ec4-a98d-4427-abc8-6097d8f383c2",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.0
+      },
+      "externalId": "aaa84ec4-a98d-4427-abc8-6097d8f383c2",
+      "flow": "MS24665-304",
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "74A400561-1005 ASSEMBLY",
+      "tags": {
+        "Comment": "",
+        "Name": "PIN",
+        "Row": 26,
+        "Source": "74A400500-1017",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {}
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "b9c9da43-87df-4054-a714-4cdb36bb02b0",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.0
+      },
+      "externalId": "b9c9da43-87df-4054-a714-4cdb36bb02b0",
+      "flow": "74A400564-2005",
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "74A400561-1005 ASSEMBLY",
+      "tags": {
+        "Comment": "",
+        "Name": "CYCLINDER, LOWER",
+        "Row": 17,
+        "Source": "74A400500-1017",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {}
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "d89e5c72-103f-4f9b-b63b-0bcbd142a2a4",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.0
+      },
+      "externalId": "d89e5c72-103f-4f9b-b63b-0bcbd142a2a4",
+      "flow": "74A400572-2003",
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "74A400561-1005 ASSEMBLY",
+      "tags": {
+        "Comment": "",
+        "Name": "NUT,CASTLE",
+        "Row": 23,
+        "Source": "74A400500-1017",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {}
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "da71c99a-9482-4f2a-9ad9-26675194ce78",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.0
+      },
+      "externalId": "da71c99a-9482-4f2a-9ad9-26675194ce78",
+      "flow": "74B400562-201",
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "74A400561-1005 ASSEMBLY",
+      "tags": {
+        "Comment": "",
+        "Name": "SPRING, LWR PLAN",
+        "Row": 24,
+        "Source": "74A400500-1017",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {}
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "efba3c82-c67d-4dea-9050-3304023a73f1",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 2.0,
+        "1": 0.0
+      },
+      "externalId": "efba3c82-c67d-4dea-9050-3304023a73f1",
+      "flow": "74A400566-2001",
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "74A400561-1005 ASSEMBLY",
+      "tags": {
+        "Comment": "",
+        "Name": "SEAT",
+        "Row": 19,
+        "Source": "74A400500-1017",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {}
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "f0d84cca-df7c-455f-83fb-a40c9580e606",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.0
+      },
+      "externalId": "f0d84cca-df7c-455f-83fb-a40c9580e606",
+      "flow": "74A400563-1001",
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "74A400561-1005 ASSEMBLY",
+      "tags": {
+        "Comment": "",
+        "Name": "CLEVIS ASSY",
+        "Row": 14,
+        "Source": "74A400500-1017",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {
+          "externalId": "f0d84cca-df7c-455f-83fb-a40c9580e606",
+          "origin": "local.data.GitHub.2019.EPA_PSM_antelope.catalog.psm-hackathon"
+        }
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "03f56c2f-555d-420c-857a-27548c87883b",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 2.0,
+        "1": 0.0
+      },
+      "externalId": "03f56c2f-555d-420c-857a-27548c87883b",
+      "flow": "74A400557-2001",
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "f0d84cca-df7c-455f-83fb-a40c9580e606",
+      "tags": {
+        "Comment": "",
+        "Name": "BUSHING",
+        "Row": 16,
+        "Source": "74A400500-1017",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {}
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "92202224-8dc6-4a1c-a02e-88dfc8c425ee",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.0
+      },
+      "externalId": "92202224-8dc6-4a1c-a02e-88dfc8c425ee",
+      "flow": "74A400556-2001",
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "f0d84cca-df7c-455f-83fb-a40c9580e606",
+      "tags": {
+        "Comment": "",
+        "Name": "CLEVIS",
+        "Row": 15,
+        "Source": "74A400500-1017",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {}
+      }
+    }
+  ]
+}

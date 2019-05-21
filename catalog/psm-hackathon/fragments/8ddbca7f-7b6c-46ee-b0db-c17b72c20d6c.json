@@ -1,0 +1,82 @@
+{
+  "fragments": [
+    {
+      "direction": "Input",
+      "entityId": "8ddbca7f-7b6c-46ee-b0db-c17b72c20d6c",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.0
+      },
+      "externalId": "74A400736-1001 ASSEMBLY",
+      "flow": "74A400736-1001",
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": null,
+      "tags": {
+        "Comment": "",
+        "Name": "ADAPTER ASSY",
+        "Row": 47,
+        "Source": "74A400700-1014",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {
+          "externalId": "74A400736-1001 ASSEMBLY",
+          "origin": "local.data.GitHub.2019.EPA_PSM_antelope.catalog.psm-hackathon"
+        }
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "26638347-01e1-46e8-9285-0d5e63c5597a",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.0
+      },
+      "externalId": "26638347-01e1-46e8-9285-0d5e63c5597a",
+      "flow": "74B400738-101",
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "74A400736-1001 ASSEMBLY",
+      "tags": {
+        "Comment": "",
+        "Name": "BEARING",
+        "Row": 49,
+        "Source": "74A400700-1014",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {}
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "3be1b82b-401b-408f-b552-5741d654a30e",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.0
+      },
+      "externalId": "3be1b82b-401b-408f-b552-5741d654a30e",
+      "flow": "74A400737-2001",
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "74A400736-1001 ASSEMBLY",
+      "tags": {
+        "Comment": "",
+        "Name": "ADAPTER",
+        "Row": 48,
+        "Source": "74A400700-1014",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {}
+      }
+    }
+  ]
+}

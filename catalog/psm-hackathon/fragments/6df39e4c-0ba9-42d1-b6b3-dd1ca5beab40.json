@@ -1,0 +1,163 @@
+{
+  "fragments": [
+    {
+      "direction": "Input",
+      "entityId": "6df39e4c-0ba9-42d1-b6b3-dd1ca5beab40",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.0
+      },
+      "externalId": "74A400730-1003 ASSEMBLY",
+      "flow": "74A400730-1003",
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": null,
+      "tags": {
+        "Comment": "",
+        "Name": "SIDE BR ASSY,UPR",
+        "Row": 34,
+        "Source": "74A400700-1013",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {
+          "externalId": "74A400730-1003 ASSEMBLY",
+          "origin": "local.data.GitHub.2019.EPA_PSM_antelope.catalog.psm-hackathon"
+        }
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "0cafa116-6d09-4f6b-b9c3-60decef9bccc",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.0
+      },
+      "externalId": "0cafa116-6d09-4f6b-b9c3-60decef9bccc",
+      "flow": "74A400731-2005",
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "74A400730-1003 ASSEMBLY",
+      "tags": {
+        "Comment": "",
+        "Name": "SIDE BRACE,UPR",
+        "Row": 36,
+        "Source": "74A400700-1013",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {
+          "externalId": "0cafa116-6d09-4f6b-b9c3-60decef9bccc",
+          "origin": "local.data.GitHub.2019.EPA_PSM_antelope.catalog.psm-hackathon"
+        }
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "d795c0cf-2f8f-4d41-9f47-1b7a4298c939",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.0
+      },
+      "externalId": "d795c0cf-2f8f-4d41-9f47-1b7a4298c939",
+      "flow": "74A400731-2001",
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "0cafa116-6d09-4f6b-b9c3-60decef9bccc",
+      "tags": {
+        "Comment": "",
+        "Name": "SIDE BRACE,UPR",
+        "Row": 37,
+        "Source": "74A400700-1013",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {
+          "externalId": "d795c0cf-2f8f-4d41-9f47-1b7a4298c939",
+          "origin": "local.data.GitHub.2019.EPA_PSM_antelope.catalog.psm-hackathon"
+        }
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "482eb23a-3177-45aa-8724-74319fa27b0b",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.0
+      },
+      "externalId": "482eb23a-3177-45aa-8724-74319fa27b0b",
+      "flow": "74A400733-2001",
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "d795c0cf-2f8f-4d41-9f47-1b7a4298c939",
+      "tags": {
+        "Comment": "",
+        "Name": "SIDE BRACE,UPR,FORGING",
+        "Row": 38,
+        "Source": "74A400700-1013",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {}
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "b00f5023-1d10-4af2-bf87-96795fedea12",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 2.0,
+        "1": 0.0
+      },
+      "externalId": "b00f5023-1d10-4af2-bf87-96795fedea12",
+      "flow": "74A400728-2001",
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "74A400730-1003 ASSEMBLY",
+      "tags": {
+        "Comment": "",
+        "Name": "BUSHING",
+        "Row": 35,
+        "Source": "74A400700-1013",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {}
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "b2582aa5-2513-4954-9c36-59ecb81ba54a",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 4.0,
+        "1": 0.0
+      },
+      "externalId": "b2582aa5-2513-4954-9c36-59ecb81ba54a",
+      "flow": "NAS516-1A",
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "74A400730-1003 ASSEMBLY",
+      "tags": {
+        "Comment": "",
+        "Name": "FITTING",
+        "Row": 39,
+        "Source": "74A400700-1013",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {}
+      }
+    }
+  ]
+}

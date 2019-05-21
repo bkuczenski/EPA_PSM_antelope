@@ -4,9 +4,9 @@
       "dataSource": "$CAT_ROOT/psm-hackathon",
       "dataSourceType": "LcForeground",
       "interfaces": [
+        "basic",
         "foreground",
-        "index",
-        "basic"
+        "index"
       ],
       "priority": 50,
       "static": false,

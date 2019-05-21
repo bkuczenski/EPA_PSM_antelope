@@ -1,0 +1,163 @@
+{
+  "fragments": [
+    {
+      "direction": "Input",
+      "entityId": "0af12bd2-529c-438c-bd19-62e14161d062",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.0
+      },
+      "externalId": "74A400940-1003 ASSEMBLY",
+      "flow": "74A400940-1003",
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": null,
+      "tags": {
+        "Comment": "",
+        "Name": "AXLE ASSY",
+        "Row": 204,
+        "Source": "74A400500-1017",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {
+          "externalId": "74A400940-1003 ASSEMBLY",
+          "origin": "local.data.GitHub.2019.EPA_PSM_antelope.catalog.psm-hackathon"
+        }
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "13fe7812-0e01-4912-9d71-f8532d89dc25",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 2.0,
+        "1": 0.0
+      },
+      "externalId": "13fe7812-0e01-4912-9d71-f8532d89dc25",
+      "flow": "M83461/1-012",
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "74A400940-1003 ASSEMBLY",
+      "tags": {
+        "Comment": "",
+        "Name": "PACKING",
+        "Row": 208,
+        "Source": "74A400500-1017",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {}
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "79d25ce9-4d24-48e6-898b-acb65262eefb",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.0
+      },
+      "externalId": "79d25ce9-4d24-48e6-898b-acb65262eefb",
+      "flow": "74A400941-2007",
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "74A400940-1003 ASSEMBLY",
+      "tags": {
+        "Comment": "",
+        "Name": "AXLE",
+        "Row": 205,
+        "Source": "74A400500-1017",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {
+          "externalId": "79d25ce9-4d24-48e6-898b-acb65262eefb",
+          "origin": "local.data.GitHub.2019.EPA_PSM_antelope.catalog.psm-hackathon"
+        }
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "6da6bcb9-b759-46d5-ad8a-3104ff50a359",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.0
+      },
+      "externalId": "6da6bcb9-b759-46d5-ad8a-3104ff50a359",
+      "flow": "74A400941-2005",
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "79d25ce9-4d24-48e6-898b-acb65262eefb",
+      "tags": {
+        "Comment": "",
+        "Name": "AXLE",
+        "Row": 206,
+        "Source": "74A400500-1017",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {
+          "externalId": "6da6bcb9-b759-46d5-ad8a-3104ff50a359",
+          "origin": "local.data.GitHub.2019.EPA_PSM_antelope.catalog.psm-hackathon"
+        }
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "3b183bb1-8462-47c8-a7ea-7d83ce067721",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.0
+      },
+      "externalId": "3b183bb1-8462-47c8-a7ea-7d83ce067721",
+      "flow": "74A400943-2001",
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "6da6bcb9-b759-46d5-ad8a-3104ff50a359",
+      "tags": {
+        "Comment": "",
+        "Name": "AXLE, FORGING",
+        "Row": 207,
+        "Source": "74A400500-1017",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {}
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "ae664acd-89cf-46ad-a5af-cf98cc0bed58",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 2.0,
+        "1": 0.0
+      },
+      "externalId": "ae664acd-89cf-46ad-a5af-cf98cc0bed58",
+      "flow": "AS5986-06",
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "74A400940-1003 ASSEMBLY",
+      "tags": {
+        "Comment": "",
+        "Name": "ADAPTER",
+        "Row": 209,
+        "Source": "74A400500-1017",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {}
+      }
+    }
+  ]
+}

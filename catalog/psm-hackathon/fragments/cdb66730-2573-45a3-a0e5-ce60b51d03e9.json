@@ -1,0 +1,163 @@
+{
+  "fragments": [
+    {
+      "direction": "Input",
+      "entityId": "cdb66730-2573-45a3-a0e5-ce60b51d03e9",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.0
+      },
+      "externalId": "74A400701-1005 ASSEMBLY",
+      "flow": "74A400701-1005",
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": null,
+      "tags": {
+        "Comment": "",
+        "Name": "BELLCRANK ASSY-UPR",
+        "Row": 13,
+        "Source": "74A400700-1013",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {
+          "externalId": "74A400701-1005 ASSEMBLY",
+          "origin": "local.data.GitHub.2019.EPA_PSM_antelope.catalog.psm-hackathon"
+        }
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "16b6bf16-bbce-4e50-a578-e8d3db9e894b",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 2.0,
+        "1": 0.0
+      },
+      "externalId": "16b6bf16-bbce-4e50-a578-e8d3db9e894b",
+      "flow": "74A400704-2001",
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "74A400701-1005 ASSEMBLY",
+      "tags": {
+        "Comment": "",
+        "Name": "BUSHING",
+        "Row": 17,
+        "Source": "74A400700-1013",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {}
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "55dfae9d-45f9-45ff-99f8-03e902db105c",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.0
+      },
+      "externalId": "55dfae9d-45f9-45ff-99f8-03e902db105c",
+      "flow": "74A400702-2009",
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "74A400701-1005 ASSEMBLY",
+      "tags": {
+        "Comment": "",
+        "Name": "BELLCRANK",
+        "Row": 14,
+        "Source": "74A400700-1013",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {
+          "externalId": "55dfae9d-45f9-45ff-99f8-03e902db105c",
+          "origin": "local.data.GitHub.2019.EPA_PSM_antelope.catalog.psm-hackathon"
+        }
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "46338a42-b5a8-4937-a701-e18a8db0c4ef",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.0
+      },
+      "externalId": "46338a42-b5a8-4937-a701-e18a8db0c4ef",
+      "flow": "74A400702-2005",
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "55dfae9d-45f9-45ff-99f8-03e902db105c",
+      "tags": {
+        "Comment": "",
+        "Name": "BELLCRANK",
+        "Row": 15,
+        "Source": "74A400700-1013",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {
+          "externalId": "46338a42-b5a8-4937-a701-e18a8db0c4ef",
+          "origin": "local.data.GitHub.2019.EPA_PSM_antelope.catalog.psm-hackathon"
+        }
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "dead5393-da72-40e5-a6fa-cc9e6e8edac8",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.0
+      },
+      "externalId": "dead5393-da72-40e5-a6fa-cc9e6e8edac8",
+      "flow": "74A400703-2003",
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "46338a42-b5a8-4937-a701-e18a8db0c4ef",
+      "tags": {
+        "Comment": "",
+        "Name": "BELLCRANK, FORGING",
+        "Row": 16,
+        "Source": "74A400700-1013",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {}
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "66a698ad-0496-4fc3-868e-19cf6ccdfefb",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 2.0,
+        "1": 0.0
+      },
+      "externalId": "66a698ad-0496-4fc3-868e-19cf6ccdfefb",
+      "flow": "NAS516-1A",
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "74A400701-1005 ASSEMBLY",
+      "tags": {
+        "Comment": "",
+        "Name": "FITTING",
+        "Row": 18,
+        "Source": "74A400700-1013",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {}
+      }
+    }
+  ]
+}

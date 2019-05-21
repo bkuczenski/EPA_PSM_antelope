@@ -1,0 +1,5002 @@
+{
+  "fragments": [
+    {
+      "direction": "Input",
+      "entityId": "9b37ca92-1b6d-42f4-833e-b67c6b027385",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.0
+      },
+      "externalId": "74A400500-1017 ASSEMBLY",
+      "flow": "74A400500-1017",
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": null,
+      "tags": {
+        "Comment": "",
+        "Name": "74A400500-1017 ASSEMBLY",
+        "Row": 2,
+        "Source": "74A400500-1017",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {
+          "externalId": "74A400500-1017 ASSEMBLY",
+          "origin": "local.data.GitHub.2019.EPA_PSM_antelope.catalog.psm-hackathon"
+        }
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "080dcd4d-4216-45f3-a32a-200b10c6436a",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 2.0,
+        "1": 0.0
+      },
+      "externalId": "080dcd4d-4216-45f3-a32a-200b10c6436a",
+      "flow": "4M116-39001",
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "74A400500-1017 ASSEMBLY",
+      "tags": {
+        "Comment": "",
+        "Name": "WASHER, FLAT",
+        "Row": 289,
+        "Source": "74A400500-1017",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {}
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "0fc45bb6-ebde-481e-bcef-63fbf8f8c314",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.0
+      },
+      "externalId": "0fc45bb6-ebde-481e-bcef-63fbf8f8c314",
+      "flow": "74A400502-2005",
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "74A400500-1017 ASSEMBLY",
+      "tags": {
+        "Comment": "",
+        "Name": "WASHER, KEY",
+        "Row": 3,
+        "Source": "74A400500-1017",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {}
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "1720309a-c027-4b2e-b18c-0ad35510b1aa",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 2.0,
+        "1": 0.0
+      },
+      "externalId": "1720309a-c027-4b2e-b18c-0ad35510b1aa",
+      "flow": "NAS1149C0663R",
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "74A400500-1017 ASSEMBLY",
+      "tags": {
+        "Comment": "",
+        "Name": "WASHER, FLAT",
+        "Row": 294,
+        "Source": "74A400500-1017",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {}
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "1c0a5579-6708-46ca-a0e1-f06687752be2",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.0
+      },
+      "externalId": "1c0a5579-6708-46ca-a0e1-f06687752be2",
+      "flow": "74A400503-2001",
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "74A400500-1017 ASSEMBLY",
+      "tags": {
+        "Comment": "",
+        "Name": "PLATE, IDENT",
+        "Row": 4,
+        "Source": "74A400500-1017",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {}
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "24eb2d08-4995-4658-9112-895a2f740dd7",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.0
+      },
+      "externalId": "24eb2d08-4995-4658-9112-895a2f740dd7",
+      "flow": "74A400650-2005",
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "74A400500-1017 ASSEMBLY",
+      "tags": {
+        "Comment": "",
+        "Name": "BOLT, SHOULDER",
+        "Row": 139,
+        "Source": "74A400500-1017",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {}
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "2655df7f-33f6-46fc-b763-913fbb337761",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.0
+      },
+      "externalId": "2655df7f-33f6-46fc-b763-913fbb337761",
+      "flow": "MS20995NC32",
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "74A400500-1017 ASSEMBLY",
+      "tags": {
+        "Comment": "",
+        "Name": "LOCKWIRE",
+        "Row": 299,
+        "Source": "74A400500-1017",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {}
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "27709097-0644-41c4-bf23-fe9d883177e7",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.0
+      },
+      "externalId": "27709097-0644-41c4-bf23-fe9d883177e7",
+      "flow": "74A400592-1001",
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "74A400500-1017 ASSEMBLY",
+      "tags": {
+        "Comment": "",
+        "Name": "SUPPORT ASSY",
+        "Row": 56,
+        "Source": "74A400500-1017",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {
+          "externalId": "27709097-0644-41c4-bf23-fe9d883177e7",
+          "origin": "local.data.GitHub.2019.EPA_PSM_antelope.catalog.psm-hackathon"
+        }
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "3d6e1505-9217-4e33-ac57-3a0bbed5d84f",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.0
+      },
+      "externalId": "3d6e1505-9217-4e33-ac57-3a0bbed5d84f",
+      "flow": "74A400593-2003A",
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "27709097-0644-41c4-bf23-fe9d883177e7",
+      "tags": {
+        "Comment": "",
+        "Name": "SUPPORT",
+        "Row": 57,
+        "Source": "74A400500-1017",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {
+          "externalId": "3d6e1505-9217-4e33-ac57-3a0bbed5d84f",
+          "origin": "local.data.GitHub.2019.EPA_PSM_antelope.catalog.psm-hackathon"
+        }
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "a2213cf8-234e-4fa7-8a47-374df963e9fe",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.0
+      },
+      "externalId": "a2213cf8-234e-4fa7-8a47-374df963e9fe",
+      "flow": "74A400593-2005",
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "3d6e1505-9217-4e33-ac57-3a0bbed5d84f",
+      "tags": {
+        "Comment": "",
+        "Name": "SUPPORT, CASTING",
+        "Row": 58,
+        "Source": "74A400500-1017",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {}
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "aa539630-72d5-4b55-9475-bc54f9f25002",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 4.0,
+        "1": 0.0
+      },
+      "externalId": "aa539630-72d5-4b55-9475-bc54f9f25002",
+      "flow": "MS21209F1-15",
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "27709097-0644-41c4-bf23-fe9d883177e7",
+      "tags": {
+        "Comment": "",
+        "Name": "INSERT",
+        "Row": 59,
+        "Source": "74A400500-1017",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {}
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "283a8b5e-0a4f-45a5-b668-e9e47ab5beb2",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.0
+      },
+      "externalId": "283a8b5e-0a4f-45a5-b668-e9e47ab5beb2",
+      "flow": "ST9M387-6",
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "74A400500-1017 ASSEMBLY",
+      "tags": {
+        "Comment": "",
+        "Name": "PLATE",
+        "Row": 292,
+        "Source": "74A400500-1017",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {}
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "31f201f2-7127-4c06-abce-f7e2affcd6fc",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.0
+      },
+      "externalId": "31f201f2-7127-4c06-abce-f7e2affcd6fc",
+      "flow": "74A400550-1001",
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "74A400500-1017 ASSEMBLY",
+      "tags": {
+        "Comment": "",
+        "Name": "PLANING MECH ASSY",
+        "Row": 12,
+        "Source": "74A400500-1017",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {
+          "externalId": "31f201f2-7127-4c06-abce-f7e2affcd6fc",
+          "origin": "local.data.GitHub.2019.EPA_PSM_antelope.catalog.psm-hackathon"
+        }
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "0ce9979c-9c30-4d3d-a06d-844d2d0dbd49",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.0
+      },
+      "externalId": "0ce9979c-9c30-4d3d-a06d-844d2d0dbd49",
+      "flow": "NAS6706D19",
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "31f201f2-7127-4c06-abce-f7e2affcd6fc",
+      "tags": {
+        "Comment": "",
+        "Name": "BOLT",
+        "Row": 54,
+        "Source": "74A400500-1017",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {}
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "2ad662a5-3a36-4431-934a-ac061c9e7cef",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.0
+      },
+      "externalId": "2ad662a5-3a36-4431-934a-ac061c9e7cef",
+      "flow": "74A400574-1001",
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "31f201f2-7127-4c06-abce-f7e2affcd6fc",
+      "tags": {
+        "Comment": "New subfragment",
+        "Name": "LINK ASSY, UPPER",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {
+          "externalId": "74A400574-1001 ASSEMBLY",
+          "origin": "local.data.GitHub.2019.EPA_PSM_antelope.catalog.psm-hackathon"
+        }
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "54062bd3-0bb1-4444-b61c-cf2af8c3a916",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.0
+      },
+      "externalId": "54062bd3-0bb1-4444-b61c-cf2af8c3a916",
+      "flow": "MS20995C32",
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "31f201f2-7127-4c06-abce-f7e2affcd6fc",
+      "tags": {
+        "Comment": "",
+        "Name": "LOCKWIRE",
+        "Row": 55,
+        "Source": "74A400500-1017",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {}
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "5aea393b-33c1-4e43-ad3a-37f7e82b331a",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.0
+      },
+      "externalId": "5aea393b-33c1-4e43-ad3a-37f7e82b331a",
+      "flow": "MS24665-153",
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "31f201f2-7127-4c06-abce-f7e2affcd6fc",
+      "tags": {
+        "Comment": "",
+        "Name": "PIN",
+        "Row": 47,
+        "Source": "74A400500-1017",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {}
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "5b5414bc-7d68-4692-8239-fb02bf63ac97",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.0
+      },
+      "externalId": "5b5414bc-7d68-4692-8239-fb02bf63ac97",
+      "flow": "NAS1149C0663R",
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "31f201f2-7127-4c06-abce-f7e2affcd6fc",
+      "tags": {
+        "Comment": "",
+        "Name": "WASHER, FLAT",
+        "Row": 52,
+        "Source": "74A400500-1017",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {}
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "5efed039-e146-490a-8aee-1e5cf9a8758b",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.0
+      },
+      "externalId": "5efed039-e146-490a-8aee-1e5cf9a8758b",
+      "flow": "NAS1149C0463R",
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "31f201f2-7127-4c06-abce-f7e2affcd6fc",
+      "tags": {
+        "Comment": "",
+        "Name": "WASHER",
+        "Row": 51,
+        "Source": "74A400500-1017",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {}
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "929e0045-6e01-47ac-8765-75f27277ee7d",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.0
+      },
+      "externalId": "929e0045-6e01-47ac-8765-75f27277ee7d",
+      "flow": "74A400561-1005",
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "31f201f2-7127-4c06-abce-f7e2affcd6fc",
+      "tags": {
+        "Comment": "New subfragment",
+        "Name": "LINK ASSY, LOWER",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {
+          "externalId": "74A400561-1005 ASSEMBLY",
+          "origin": "local.data.GitHub.2019.EPA_PSM_antelope.catalog.psm-hackathon"
+        }
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "961cb69c-70cc-4764-9893-4baad1ac9da6",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.0
+      },
+      "externalId": "961cb69c-70cc-4764-9893-4baad1ac9da6",
+      "flow": "NAS6704D17",
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "31f201f2-7127-4c06-abce-f7e2affcd6fc",
+      "tags": {
+        "Comment": "",
+        "Name": "BOLT",
+        "Row": 53,
+        "Source": "74A400500-1017",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {}
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "9e8bdf33-703e-4b5f-925e-fbfcb4443931",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.0
+      },
+      "externalId": "9e8bdf33-703e-4b5f-925e-fbfcb4443931",
+      "flow": "ST3M404C4",
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "31f201f2-7127-4c06-abce-f7e2affcd6fc",
+      "tags": {
+        "Comment": "",
+        "Name": "NUT",
+        "Row": 49,
+        "Source": "74A400500-1017",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {}
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "e3e2ecb2-9d46-44a6-b064-282629f00485",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.0
+      },
+      "externalId": "e3e2ecb2-9d46-44a6-b064-282629f00485",
+      "flow": "MS24665-300",
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "31f201f2-7127-4c06-abce-f7e2affcd6fc",
+      "tags": {
+        "Comment": "",
+        "Name": "PIN, COTTER",
+        "Row": 48,
+        "Source": "74A400500-1017",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {}
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "ecbe2f14-8713-4e57-b0e7-37d8eb77ade7",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.0
+      },
+      "externalId": "ecbe2f14-8713-4e57-b0e7-37d8eb77ade7",
+      "flow": "ST3M404C6",
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "31f201f2-7127-4c06-abce-f7e2affcd6fc",
+      "tags": {
+        "Comment": "",
+        "Name": "NUT",
+        "Row": 50,
+        "Source": "74A400500-1017",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {}
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "ed446098-e484-419f-bf5d-9c83cc5cb14a",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.0
+      },
+      "externalId": "ed446098-e484-419f-bf5d-9c83cc5cb14a",
+      "flow": "74A400580-1003",
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "31f201f2-7127-4c06-abce-f7e2affcd6fc",
+      "tags": {
+        "Comment": "",
+        "Name": "BELLCRANK ASSY",
+        "Row": 41,
+        "Source": "74A400500-1017",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {
+          "externalId": "ed446098-e484-419f-bf5d-9c83cc5cb14a",
+          "origin": "local.data.GitHub.2019.EPA_PSM_antelope.catalog.psm-hackathon"
+        }
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "01fdd0b5-c3bb-45d9-924a-f64b924bf642",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 2.0,
+        "1": 0.0
+      },
+      "externalId": "01fdd0b5-c3bb-45d9-924a-f64b924bf642",
+      "flow": "74A400557-2001",
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "ed446098-e484-419f-bf5d-9c83cc5cb14a",
+      "tags": {
+        "Comment": "",
+        "Name": "BUSHING",
+        "Row": 43,
+        "Source": "74A400500-1017",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {}
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "c83d9e2c-8756-481b-b4e5-8ebbf996580c",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 2.0,
+        "1": 0.0
+      },
+      "externalId": "c83d9e2c-8756-481b-b4e5-8ebbf996580c",
+      "flow": "74A400552-2001",
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "ed446098-e484-419f-bf5d-9c83cc5cb14a",
+      "tags": {
+        "Comment": "",
+        "Name": "BUSHING,PIVOT,PTFE",
+        "Row": 42,
+        "Source": "74A400500-1017",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {}
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "c8ec8593-b584-4ab5-bcef-17adb7a158be",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.0
+      },
+      "externalId": "c8ec8593-b584-4ab5-bcef-17adb7a158be",
+      "flow": "74A400581-2003",
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "ed446098-e484-419f-bf5d-9c83cc5cb14a",
+      "tags": {
+        "Comment": "",
+        "Name": "BELL CRANK",
+        "Row": 44,
+        "Source": "74A400500-1017",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {
+          "externalId": "c8ec8593-b584-4ab5-bcef-17adb7a158be",
+          "origin": "local.data.GitHub.2019.EPA_PSM_antelope.catalog.psm-hackathon"
+        }
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "9df9249d-a364-4e36-b8d4-6e01fc734bd3",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.0
+      },
+      "externalId": "9df9249d-a364-4e36-b8d4-6e01fc734bd3",
+      "flow": "74A400583-2001",
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "c8ec8593-b584-4ab5-bcef-17adb7a158be",
+      "tags": {
+        "Comment": "",
+        "Name": "BELLCRANK, FORGING",
+        "Row": 45,
+        "Source": "74A400500-1017",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {}
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "d067baa5-efa1-42e9-a9d9-257f6b847122",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 2.0,
+        "1": 0.0
+      },
+      "externalId": "d067baa5-efa1-42e9-a9d9-257f6b847122",
+      "flow": "74A400591-2001",
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "ed446098-e484-419f-bf5d-9c83cc5cb14a",
+      "tags": {
+        "Comment": "",
+        "Name": "BUSHING, BELLCRANK",
+        "Row": 46,
+        "Source": "74A400500-1017",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {}
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "343c0cff-4424-4ef0-9a60-e4d0d12f29df",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 2.0,
+        "1": 0.0
+      },
+      "externalId": "343c0cff-4424-4ef0-9a60-e4d0d12f29df",
+      "flow": "74A400647-2005",
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "74A400500-1017 ASSEMBLY",
+      "tags": {
+        "Comment": "",
+        "Name": "WASHER, KEY",
+        "Row": 138,
+        "Source": "74A400500-1017",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {}
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "36537ee8-797d-4d1b-96bf-ee92061d4a43",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.0
+      },
+      "externalId": "36537ee8-797d-4d1b-96bf-ee92061d4a43",
+      "flow": "MS24665-300",
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "74A400500-1017 ASSEMBLY",
+      "tags": {
+        "Comment": "",
+        "Name": "PIN, COTTER",
+        "Row": 286,
+        "Source": "74A400500-1017",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {}
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "3f0b3e17-1373-4152-b3c2-d4cfce84808e",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.0
+      },
+      "externalId": "3f0b3e17-1373-4152-b3c2-d4cfce84808e",
+      "flow": "74A400645-2001",
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "74A400500-1017 ASSEMBLY",
+      "tags": {
+        "Comment": "",
+        "Name": "BOLT, SHOULDER",
+        "Row": 136,
+        "Source": "74A400500-1017",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {}
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "42e032dc-bac4-4893-9204-ce5f221f2e5d",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.0
+      },
+      "externalId": "42e032dc-bac4-4893-9204-ce5f221f2e5d",
+      "flow": "74A400534-2003",
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "74A400500-1017 ASSEMBLY",
+      "tags": {
+        "Comment": "",
+        "Name": "BOLT, SHOULDER",
+        "Row": 10,
+        "Source": "74A400500-1017",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {}
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "4787223b-1507-4da5-902a-21e2252f6969",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.0
+      },
+      "externalId": "4787223b-1507-4da5-902a-21e2252f6969",
+      "flow": "NAS6706D19",
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "74A400500-1017 ASSEMBLY",
+      "tags": {
+        "Comment": "",
+        "Name": "BOLT",
+        "Row": 298,
+        "Source": "74A400500-1017",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {}
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "493df798-7e0e-4d33-ad46-5d370900247c",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.0
+      },
+      "externalId": "493df798-7e0e-4d33-ad46-5d370900247c",
+      "flow": "74A400515-2001",
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "74A400500-1017 ASSEMBLY",
+      "tags": {
+        "Comment": "",
+        "Name": "SPACER, SLEEVE",
+        "Row": 7,
+        "Source": "74A400500-1017",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {}
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "4f3f64e6-db3e-4024-994a-3affb8a8fe4b",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 2.0,
+        "1": 0.0
+      },
+      "externalId": "4f3f64e6-db3e-4024-994a-3affb8a8fe4b",
+      "flow": "NAS1149E1290R",
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "74A400500-1017 ASSEMBLY",
+      "tags": {
+        "Comment": "",
+        "Name": "WASHER, FLAT",
+        "Row": 296,
+        "Source": "74A400500-1017",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {}
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "58a8b359-e159-4bbf-8999-b33c5a7be855",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.0
+      },
+      "externalId": "58a8b359-e159-4bbf-8999-b33c5a7be855",
+      "flow": "74A400985-1007",
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "74A400500-1017 ASSEMBLY",
+      "tags": {
+        "Comment": "",
+        "Name": "TRUNNION ASSY",
+        "Row": 247,
+        "Source": "74A400500-1017",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {
+          "externalId": "58a8b359-e159-4bbf-8999-b33c5a7be855",
+          "origin": "local.data.GitHub.2019.EPA_PSM_antelope.catalog.psm-hackathon"
+        }
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "229b9abc-1348-4970-ba19-e88c45c9b541",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.0
+      },
+      "externalId": "229b9abc-1348-4970-ba19-e88c45c9b541",
+      "flow": "74A400966-2003",
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "58a8b359-e159-4bbf-8999-b33c5a7be855",
+      "tags": {
+        "Comment": "",
+        "Name": "WASHER, FLAT",
+        "Row": 265,
+        "Source": "74A400500-1017",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {}
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "2834da0f-5322-4639-ac81-aefa7f989ac0",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.0
+      },
+      "externalId": "2834da0f-5322-4639-ac81-aefa7f989ac0",
+      "flow": "74A400988-2001",
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "58a8b359-e159-4bbf-8999-b33c5a7be855",
+      "tags": {
+        "Comment": "",
+        "Name": "BRACKET",
+        "Row": 269,
+        "Source": "74A400500-1017",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {}
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "33e7d6e2-e1ad-4384-a331-73f96250d7b3",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 2.0,
+        "1": 0.0
+      },
+      "externalId": "33e7d6e2-e1ad-4384-a331-73f96250d7b3",
+      "flow": "74A410524-2001",
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "58a8b359-e159-4bbf-8999-b33c5a7be855",
+      "tags": {
+        "Comment": "",
+        "Name": "BOLT, SHACKLE",
+        "Row": 275,
+        "Source": "74A400500-1017",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {}
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "352ca7d2-8432-4179-9fab-ccee032a9ba7",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.0
+      },
+      "externalId": "352ca7d2-8432-4179-9fab-ccee032a9ba7",
+      "flow": "MS35266-59",
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "58a8b359-e159-4bbf-8999-b33c5a7be855",
+      "tags": {
+        "Comment": "",
+        "Name": "MACHINE SCREW",
+        "Row": 278,
+        "Source": "74A400500-1017",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {}
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "3a8da42a-8f7a-458a-9bbc-0477d30785ed",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.0
+      },
+      "externalId": "3a8da42a-8f7a-458a-9bbc-0477d30785ed",
+      "flow": "74A400965-2001A",
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "58a8b359-e159-4bbf-8999-b33c5a7be855",
+      "tags": {
+        "Comment": "",
+        "Name": "BOLT,SHOULDER",
+        "Row": 264,
+        "Source": "74A400500-1017",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {}
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "48700e3d-e539-4eae-9489-f65e77b2837c",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 2.0,
+        "1": 0.0
+      },
+      "externalId": "48700e3d-e539-4eae-9489-f65e77b2837c",
+      "flow": "74A410518-2005A",
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "58a8b359-e159-4bbf-8999-b33c5a7be855",
+      "tags": {
+        "Comment": "",
+        "Name": "RING, TIEDOWN",
+        "Row": 272,
+        "Source": "74A400500-1017",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {
+          "externalId": "48700e3d-e539-4eae-9489-f65e77b2837c",
+          "origin": "local.data.GitHub.2019.EPA_PSM_antelope.catalog.psm-hackathon"
+        }
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "73d295e6-7892-4089-9d71-5e766b4c2ddf",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.0
+      },
+      "externalId": "73d295e6-7892-4089-9d71-5e766b4c2ddf",
+      "flow": "74A410518-2001",
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "48700e3d-e539-4eae-9489-f65e77b2837c",
+      "tags": {
+        "Comment": "",
+        "Name": "RING, TIEDOWN, FORGING",
+        "Row": 273,
+        "Source": "74A400500-1017",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {}
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "4c028e78-b043-4219-ace3-48f9d5b12bcb",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.0
+      },
+      "externalId": "4c028e78-b043-4219-ace3-48f9d5b12bcb",
+      "flow": "74A400960-1003",
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "58a8b359-e159-4bbf-8999-b33c5a7be855",
+      "tags": {
+        "Comment": "",
+        "Name": "TRUNNION ASSY",
+        "Row": 249,
+        "Source": "74A400500-1017",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {
+          "externalId": "4c028e78-b043-4219-ace3-48f9d5b12bcb",
+          "origin": "local.data.GitHub.2019.EPA_PSM_antelope.catalog.psm-hackathon"
+        }
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "0bbb6fee-6b46-40c7-8d04-0f1f929b2552",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.0
+      },
+      "externalId": "0bbb6fee-6b46-40c7-8d04-0f1f929b2552",
+      "flow": "74A400961-2007",
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "4c028e78-b043-4219-ace3-48f9d5b12bcb",
+      "tags": {
+        "Comment": "",
+        "Name": "TRUNNION",
+        "Row": 250,
+        "Source": "74A400500-1017",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {
+          "externalId": "0bbb6fee-6b46-40c7-8d04-0f1f929b2552",
+          "origin": "local.data.GitHub.2019.EPA_PSM_antelope.catalog.psm-hackathon"
+        }
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "3111c685-3294-4831-b5c7-5a2a43c3b301",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.0
+      },
+      "externalId": "3111c685-3294-4831-b5c7-5a2a43c3b301",
+      "flow": "74A400961-2005",
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "0bbb6fee-6b46-40c7-8d04-0f1f929b2552",
+      "tags": {
+        "Comment": "",
+        "Name": "TRUNNION",
+        "Row": 251,
+        "Source": "74A400500-1017",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {
+          "externalId": "3111c685-3294-4831-b5c7-5a2a43c3b301",
+          "origin": "local.data.GitHub.2019.EPA_PSM_antelope.catalog.psm-hackathon"
+        }
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "3e1d1d38-d395-4d52-aa18-297ec25cf80a",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.0
+      },
+      "externalId": "3e1d1d38-d395-4d52-aa18-297ec25cf80a",
+      "flow": "74A400963-2001",
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "3111c685-3294-4831-b5c7-5a2a43c3b301",
+      "tags": {
+        "Comment": "",
+        "Name": "TRUNNION, FORGING",
+        "Row": 252,
+        "Source": "74A400500-1017",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {}
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "2200f505-fed7-4026-b19a-912ae219e3c6",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.0
+      },
+      "externalId": "2200f505-fed7-4026-b19a-912ae219e3c6",
+      "flow": "74A400971-2003A",
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "4c028e78-b043-4219-ace3-48f9d5b12bcb",
+      "tags": {
+        "Comment": "",
+        "Name": "BUSHING",
+        "Row": 253,
+        "Source": "74A400500-1017",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {}
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "6b835636-38d4-42b4-adbc-1c32ba079e89",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.0
+      },
+      "externalId": "6b835636-38d4-42b4-adbc-1c32ba079e89",
+      "flow": "74A400980-2001",
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "4c028e78-b043-4219-ace3-48f9d5b12bcb",
+      "tags": {
+        "Comment": "",
+        "Name": "BUSHING",
+        "Row": 260,
+        "Source": "74A400500-1017",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {}
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "8df9c840-2cbd-43d0-88d9-1a7a5d666cfa",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 2.0,
+        "1": 0.0
+      },
+      "externalId": "8df9c840-2cbd-43d0-88d9-1a7a5d666cfa",
+      "flow": "74A400975-2001",
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "4c028e78-b043-4219-ace3-48f9d5b12bcb",
+      "tags": {
+        "Comment": "",
+        "Name": "BUSHING",
+        "Row": 258,
+        "Source": "74A400500-1017",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {}
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "979d5e7c-d3c8-49e9-a52d-475229284260",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.0
+      },
+      "externalId": "979d5e7c-d3c8-49e9-a52d-475229284260",
+      "flow": "74A400974-2003",
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "4c028e78-b043-4219-ace3-48f9d5b12bcb",
+      "tags": {
+        "Comment": "",
+        "Name": "BUSHING",
+        "Row": 257,
+        "Source": "74A400500-1017",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {}
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "a0b120c7-61c7-4605-91c1-c0b00ea5ef45",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 4.0,
+        "1": 0.0
+      },
+      "externalId": "a0b120c7-61c7-4605-91c1-c0b00ea5ef45",
+      "flow": "74A400984-2001",
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "4c028e78-b043-4219-ace3-48f9d5b12bcb",
+      "tags": {
+        "Comment": "",
+        "Name": "BUSHING",
+        "Row": 261,
+        "Source": "74A400500-1017",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {}
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "b616f29b-ce6f-4f82-bc85-f3c106154ac6",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 2.0,
+        "1": 0.0
+      },
+      "externalId": "b616f29b-ce6f-4f82-bc85-f3c106154ac6",
+      "flow": "74A400973-2003A",
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "4c028e78-b043-4219-ace3-48f9d5b12bcb",
+      "tags": {
+        "Comment": "",
+        "Name": "BUSHING",
+        "Row": 255,
+        "Source": "74A400500-1017",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {}
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "c051123d-6e5e-4645-acab-07a759f28eb6",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.0
+      },
+      "externalId": "c051123d-6e5e-4645-acab-07a759f28eb6",
+      "flow": "74A400974-2001",
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "4c028e78-b043-4219-ace3-48f9d5b12bcb",
+      "tags": {
+        "Comment": "",
+        "Name": "BUSHING",
+        "Row": 256,
+        "Source": "74A400500-1017",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {}
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "ec47cb76-3c31-45bf-afa3-e414adfbf683",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 3.0,
+        "1": 0.0
+      },
+      "externalId": "ec47cb76-3c31-45bf-afa3-e414adfbf683",
+      "flow": "NAS516-1A",
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "4c028e78-b043-4219-ace3-48f9d5b12bcb",
+      "tags": {
+        "Comment": "",
+        "Name": "FITTING",
+        "Row": 262,
+        "Source": "74A400500-1017",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {}
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "ee0d6ab3-4e36-4915-9453-ada1d7f98533",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 2.0,
+        "1": 0.0
+      },
+      "externalId": "ee0d6ab3-4e36-4915-9453-ada1d7f98533",
+      "flow": "74A400979-2003",
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "4c028e78-b043-4219-ace3-48f9d5b12bcb",
+      "tags": {
+        "Comment": "",
+        "Name": "BUSHING",
+        "Row": 259,
+        "Source": "74A400500-1017",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {}
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "f0246d8c-afc5-4e3b-a79f-e8b20b55700e",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.0
+      },
+      "externalId": "f0246d8c-afc5-4e3b-a79f-e8b20b55700e",
+      "flow": "74A400971-2005A",
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "4c028e78-b043-4219-ace3-48f9d5b12bcb",
+      "tags": {
+        "Comment": "",
+        "Name": "BUSHING",
+        "Row": 254,
+        "Source": "74A400500-1017",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {}
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "55cfca2c-248b-4f95-a43f-57aa37920823",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.0
+      },
+      "externalId": "55cfca2c-248b-4f95-a43f-57aa37920823",
+      "flow": "MS24665-306",
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "58a8b359-e159-4bbf-8999-b33c5a7be855",
+      "tags": {
+        "Comment": "",
+        "Name": "COTTER PIN",
+        "Row": 276,
+        "Source": "74A400500-1017",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {}
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "5be1cde5-ce43-4813-9125-20fb1fc0ad00",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.0
+      },
+      "externalId": "5be1cde5-ce43-4813-9125-20fb1fc0ad00",
+      "flow": "74A400967-2003",
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "58a8b359-e159-4bbf-8999-b33c5a7be855",
+      "tags": {
+        "Comment": "",
+        "Name": "LOCK",
+        "Row": 266,
+        "Source": "74A400500-1017",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {}
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "62585b06-8f83-4a3e-9e80-75e994793ac3",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.0
+      },
+      "externalId": "62585b06-8f83-4a3e-9e80-75e994793ac3",
+      "flow": "74A400970-2003",
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "58a8b359-e159-4bbf-8999-b33c5a7be855",
+      "tags": {
+        "Comment": "",
+        "Name": "WASHER, KEY",
+        "Row": 268,
+        "Source": "74A400500-1017",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {}
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "692cd91a-d65c-4590-90ac-859ceffad7eb",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 2.0,
+        "1": 0.0
+      },
+      "externalId": "692cd91a-d65c-4590-90ac-859ceffad7eb",
+      "flow": "74A400989-2003",
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "58a8b359-e159-4bbf-8999-b33c5a7be855",
+      "tags": {
+        "Comment": "",
+        "Name": "BRACKET,SHACKLE",
+        "Row": 270,
+        "Source": "74A400500-1017",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {}
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "6f5489fa-ecc4-478d-819e-7e4d6eb0853a",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.0
+      },
+      "externalId": "6f5489fa-ecc4-478d-819e-7e4d6eb0853a",
+      "flow": "74A400968-2003",
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "58a8b359-e159-4bbf-8999-b33c5a7be855",
+      "tags": {
+        "Comment": "",
+        "Name": "PLUG, THREADED",
+        "Row": 267,
+        "Source": "74A400500-1017",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {}
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "740d197f-bd02-49c7-88e6-648ffd107bd2",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.0
+      },
+      "externalId": "740d197f-bd02-49c7-88e6-648ffd107bd2",
+      "flow": "ST3M404-12",
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "58a8b359-e159-4bbf-8999-b33c5a7be855",
+      "tags": {
+        "Comment": "",
+        "Name": "NUT",
+        "Row": 279,
+        "Source": "74A400500-1017",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {}
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "791e4bea-1f20-4ec0-ba97-7ae0f25a858f",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 3.0,
+        "1": 0.0
+      },
+      "externalId": "791e4bea-1f20-4ec0-ba97-7ae0f25a858f",
+      "flow": "NAS1149C1063R",
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "58a8b359-e159-4bbf-8999-b33c5a7be855",
+      "tags": {
+        "Comment": "",
+        "Name": "WASHER",
+        "Row": 281,
+        "Source": "74A400500-1017",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {}
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "8fd60abf-6050-42c2-bdb8-5eabef4471b6",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.0
+      },
+      "externalId": "8fd60abf-6050-42c2-bdb8-5eabef4471b6",
+      "flow": "74A400964-2003",
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "58a8b359-e159-4bbf-8999-b33c5a7be855",
+      "tags": {
+        "Comment": "",
+        "Name": "PIN, TRUNNION",
+        "Row": 263,
+        "Source": "74A400500-1017",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {}
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "91b41b9d-0a9f-433d-9352-e898caeea0ef",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 2.0,
+        "1": 0.0
+      },
+      "externalId": "91b41b9d-0a9f-433d-9352-e898caeea0ef",
+      "flow": "NAS1149C1232R",
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "58a8b359-e159-4bbf-8999-b33c5a7be855",
+      "tags": {
+        "Comment": "",
+        "Name": "WASHER",
+        "Row": 282,
+        "Source": "74A400500-1017",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {}
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "942f28ee-9611-4aaf-96a4-95e506ebac8f",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 2.0,
+        "1": 0.0
+      },
+      "externalId": "942f28ee-9611-4aaf-96a4-95e506ebac8f",
+      "flow": "74A410519-2003",
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "58a8b359-e159-4bbf-8999-b33c5a7be855",
+      "tags": {
+        "Comment": "",
+        "Name": "SPRING",
+        "Row": 274,
+        "Source": "74A400500-1017",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {}
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "ad4afba0-a285-4621-b3d0-98b5715ee0a6",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 3.0,
+        "1": 0.0
+      },
+      "externalId": "ad4afba0-a285-4621-b3d0-98b5715ee0a6",
+      "flow": "MS24665-374",
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "58a8b359-e159-4bbf-8999-b33c5a7be855",
+      "tags": {
+        "Comment": "",
+        "Name": "PIN",
+        "Row": 277,
+        "Source": "74A400500-1017",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {}
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "b253ef0d-2d5b-478d-b210-eb8ca87979bd",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 3.0,
+        "1": 0.0
+      },
+      "externalId": "b253ef0d-2d5b-478d-b210-eb8ca87979bd",
+      "flow": "ST3M404C10",
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "58a8b359-e159-4bbf-8999-b33c5a7be855",
+      "tags": {
+        "Comment": "",
+        "Name": "NUT",
+        "Row": 280,
+        "Source": "74A400500-1017",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {}
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "bbad3748-d617-44b1-a13e-cc522d00e4a8",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.0
+      },
+      "externalId": "bbad3748-d617-44b1-a13e-cc522d00e4a8",
+      "flow": "74A400827-2001",
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "58a8b359-e159-4bbf-8999-b33c5a7be855",
+      "tags": {
+        "Comment": "",
+        "Name": "BOLT, SHOULDER",
+        "Row": 248,
+        "Source": "74A400500-1017",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {}
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "d8a537d2-4151-4494-aebc-fb7358a85ce8",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.0
+      },
+      "externalId": "d8a537d2-4151-4494-aebc-fb7358a85ce8",
+      "flow": "NAS1149C1290R",
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "58a8b359-e159-4bbf-8999-b33c5a7be855",
+      "tags": {
+        "Comment": "",
+        "Name": "WASHER",
+        "Row": 283,
+        "Source": "74A400500-1017",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {}
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "dfa0db13-888f-489a-bc28-2c37c8c5b249",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.0
+      },
+      "externalId": "dfa0db13-888f-489a-bc28-2c37c8c5b249",
+      "flow": "74A400997-2001",
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "58a8b359-e159-4bbf-8999-b33c5a7be855",
+      "tags": {
+        "Comment": "",
+        "Name": "BRACKET",
+        "Row": 271,
+        "Source": "74A400500-1017",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {}
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "593148fb-e582-4b53-ad65-039da977b547",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.0
+      },
+      "externalId": "593148fb-e582-4b53-ad65-039da977b547",
+      "flow": "NAS1423-9",
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "74A400500-1017 ASSEMBLY",
+      "tags": {
+        "Comment": "",
+        "Name": "NUT,PLAIN,HEXAGON",
+        "Row": 297,
+        "Source": "74A400500-1017",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {}
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "63b0e37d-dd69-49ee-9e63-b3fb1bc10a7c",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 2.0,
+        "1": 0.0
+      },
+      "externalId": "63b0e37d-dd69-49ee-9e63-b3fb1bc10a7c",
+      "flow": "NAS1149C0532R",
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "74A400500-1017 ASSEMBLY",
+      "tags": {
+        "Comment": "",
+        "Name": "WASHER,FLAT",
+        "Row": 293,
+        "Source": "74A400500-1017",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {}
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "63e2bcdb-d156-407f-af9b-2e34bcd3a038",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.0
+      },
+      "externalId": "63e2bcdb-d156-407f-af9b-2e34bcd3a038",
+      "flow": "74A400505-2005",
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "74A400500-1017 ASSEMBLY",
+      "tags": {
+        "Comment": "",
+        "Name": "BOLT-RETAINER",
+        "Row": 6,
+        "Source": "74A400500-1017",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {}
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "6656f83f-d8b3-4088-93d0-7c7af930b537",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 2.0,
+        "1": 0.0
+      },
+      "externalId": "6656f83f-d8b3-4088-93d0-7c7af930b537",
+      "flow": "74A400646-2001",
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "74A400500-1017 ASSEMBLY",
+      "tags": {
+        "Comment": "",
+        "Name": "NUT, PLAIN",
+        "Row": 137,
+        "Source": "74A400500-1017",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {}
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "68326de5-a376-4a71-b644-4aad26c335de",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.0
+      },
+      "externalId": "68326de5-a376-4a71-b644-4aad26c335de",
+      "flow": "74A400524-2003",
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "74A400500-1017 ASSEMBLY",
+      "tags": {
+        "Comment": "",
+        "Name": "STUD",
+        "Row": 9,
+        "Source": "74A400500-1017",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {}
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "7de9c098-60e3-44b1-84f1-6040432ffd8e",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.0
+      },
+      "externalId": "7de9c098-60e3-44b1-84f1-6040432ffd8e",
+      "flow": "MS24665-374",
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "74A400500-1017 ASSEMBLY",
+      "tags": {
+        "Comment": "",
+        "Name": "PIN",
+        "Row": 287,
+        "Source": "74A400500-1017",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {}
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "7e6946e0-02e2-466e-8b41-bb9ab874e839",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.0
+      },
+      "externalId": "7e6946e0-02e2-466e-8b41-bb9ab874e839",
+      "flow": "MS9882-16",
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "74A400500-1017 ASSEMBLY",
+      "tags": {
+        "Comment": "",
+        "Name": "NUT, PLAIN, HEX",
+        "Row": 288,
+        "Source": "74A400500-1017",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {}
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "7ed7534c-bc38-4068-aecd-0864392ce5c7",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.0
+      },
+      "externalId": "7ed7534c-bc38-4068-aecd-0864392ce5c7",
+      "flow": "74A400540-2001",
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "74A400500-1017 ASSEMBLY",
+      "tags": {
+        "Comment": "",
+        "Name": "WASHER, TAB LOCK",
+        "Row": 11,
+        "Source": "74A400500-1017",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {}
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "7f551d35-6515-4be0-b4ed-f9c983a7db13",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.0
+      },
+      "externalId": "7f551d35-6515-4be0-b4ed-f9c983a7db13",
+      "flow": "74A400504-2003",
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "74A400500-1017 ASSEMBLY",
+      "tags": {
+        "Comment": "",
+        "Name": "PIN, PIVOT",
+        "Row": 5,
+        "Source": "74A400500-1017",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {}
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "88285adf-704a-4902-ac32-6708ae413e38",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 2.0,
+        "1": 0.0
+      },
+      "externalId": "88285adf-704a-4902-ac32-6708ae413e38",
+      "flow": "74B400516-2001",
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "74A400500-1017 ASSEMBLY",
+      "tags": {
+        "Comment": "",
+        "Name": "SCREW, CAP",
+        "Row": 284,
+        "Source": "74A400500-1017",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {
+          "externalId": "88285adf-704a-4902-ac32-6708ae413e38",
+          "origin": "local.data.GitHub.2019.EPA_PSM_antelope.catalog.psm-hackathon"
+        }
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "66439216-f6ad-4f10-9dbd-abf023a8cd19",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.0
+      },
+      "externalId": "66439216-f6ad-4f10-9dbd-abf023a8cd19",
+      "flow": "NAS1351C5H12",
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "88285adf-704a-4902-ac32-6708ae413e38",
+      "tags": {
+        "Comment": "",
+        "Name": "MAKE FROM VENDOR PART",
+        "Row": 285,
+        "Source": "74A400500-1017",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {}
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "8cfbf33f-4b72-4048-ac0a-f675aa14e9f4",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.0
+      },
+      "externalId": "8cfbf33f-4b72-4048-ac0a-f675aa14e9f4",
+      "flow": "74A400523-2001",
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "74A400500-1017 ASSEMBLY",
+      "tags": {
+        "Comment": "",
+        "Name": "ADAPTER",
+        "Row": 8,
+        "Source": "74A400500-1017",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {}
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "b2ddc1e9-0c89-4b17-8c6c-1097ceceb221",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.0
+      },
+      "externalId": "b2ddc1e9-0c89-4b17-8c6c-1097ceceb221",
+      "flow": "74A400600-1019",
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "74A400500-1017 ASSEMBLY",
+      "tags": {
+        "Comment": "New subfragment",
+        "Name": "SHOCK ABS ASSY",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {
+          "externalId": "74A400600-1019 ASSEMBLY",
+          "origin": "local.data.GitHub.2019.EPA_PSM_antelope.catalog.psm-hackathon"
+        }
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "bb9ed580-719d-440e-8e75-be4380db06d9",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.0
+      },
+      "externalId": "bb9ed580-719d-440e-8e75-be4380db06d9",
+      "flow": "74A400594-1001",
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "74A400500-1017 ASSEMBLY",
+      "tags": {
+        "Comment": "",
+        "Name": "SUPPORT ASSY",
+        "Row": 60,
+        "Source": "74A400500-1017",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {
+          "externalId": "bb9ed580-719d-440e-8e75-be4380db06d9",
+          "origin": "local.data.GitHub.2019.EPA_PSM_antelope.catalog.psm-hackathon"
+        }
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "0b40ea6e-2e75-4d60-85dc-110aed6bc3a2",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.0
+      },
+      "externalId": "0b40ea6e-2e75-4d60-85dc-110aed6bc3a2",
+      "flow": "MS21209F4-15",
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "bb9ed580-719d-440e-8e75-be4380db06d9",
+      "tags": {
+        "Comment": "",
+        "Name": "INSERT",
+        "Row": 68,
+        "Source": "74A400500-1017",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {}
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "143eae46-183f-4955-aa5f-2c649efac384",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.0
+      },
+      "externalId": "143eae46-183f-4955-aa5f-2c649efac384",
+      "flow": "74A400595-2003",
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "bb9ed580-719d-440e-8e75-be4380db06d9",
+      "tags": {
+        "Comment": "",
+        "Name": "SUPPORT",
+        "Row": 63,
+        "Source": "74A400500-1017",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {
+          "externalId": "143eae46-183f-4955-aa5f-2c649efac384",
+          "origin": "local.data.GitHub.2019.EPA_PSM_antelope.catalog.psm-hackathon"
+        }
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "2629b62e-1aa4-4784-942e-49276cb9fd15",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.0
+      },
+      "externalId": "2629b62e-1aa4-4784-942e-49276cb9fd15",
+      "flow": "74A400595-2001",
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "143eae46-183f-4955-aa5f-2c649efac384",
+      "tags": {
+        "Comment": "",
+        "Name": "SUPPORT, CASTING",
+        "Row": 64,
+        "Source": "74A400500-1017",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {}
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "1e16b81b-89a0-48f2-80d3-512211e59b0c",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 2.0,
+        "1": 0.0
+      },
+      "externalId": "1e16b81b-89a0-48f2-80d3-512211e59b0c",
+      "flow": "MS20426AD3",
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "bb9ed580-719d-440e-8e75-be4380db06d9",
+      "tags": {
+        "Comment": "",
+        "Name": "RIVET",
+        "Row": 66,
+        "Source": "74A400500-1017",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {}
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "616407e6-c59f-40d7-89f6-8bdb89422635",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.0
+      },
+      "externalId": "616407e6-c59f-40d7-89f6-8bdb89422635",
+      "flow": "74A400533-2001",
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "bb9ed580-719d-440e-8e75-be4380db06d9",
+      "tags": {
+        "Comment": "",
+        "Name": "TARGET",
+        "Row": 62,
+        "Source": "74A400500-1017",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {}
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "8e8ae4e9-fd1f-47b1-b839-251d9e091fcf",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.0
+      },
+      "externalId": "8e8ae4e9-fd1f-47b1-b839-251d9e091fcf",
+      "flow": "74A400532-2001",
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "bb9ed580-719d-440e-8e75-be4380db06d9",
+      "tags": {
+        "Comment": "",
+        "Name": "SPACER",
+        "Row": 61,
+        "Source": "74A400500-1017",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {}
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "b5bdda6c-35e9-4304-b960-6e55074e8851",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 3.0,
+        "1": 0.0
+      },
+      "externalId": "b5bdda6c-35e9-4304-b960-6e55074e8851",
+      "flow": "MS21209F1-15",
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "bb9ed580-719d-440e-8e75-be4380db06d9",
+      "tags": {
+        "Comment": "",
+        "Name": "INSERT",
+        "Row": 67,
+        "Source": "74A400500-1017",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {}
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "da2f403c-c6b9-4a7c-9e7f-b56d6abce437",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.0
+      },
+      "externalId": "da2f403c-c6b9-4a7c-9e7f-b56d6abce437",
+      "flow": "AN565DC428H10",
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "bb9ed580-719d-440e-8e75-be4380db06d9",
+      "tags": {
+        "Comment": "",
+        "Name": "SETSCREW",
+        "Row": 65,
+        "Source": "74A400500-1017",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {}
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "d8435de1-4e0e-4fc0-be77-b58e2f06edfe",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.0
+      },
+      "externalId": "d8435de1-4e0e-4fc0-be77-b58e2f06edfe",
+      "flow": "NAS1149E1063R",
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "74A400500-1017 ASSEMBLY",
+      "tags": {
+        "Comment": "",
+        "Name": "WASHER",
+        "Row": 295,
+        "Source": "74A400500-1017",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {}
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "e0e0cb14-2d17-4a58-b163-3f4da66e44fc",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.0
+      },
+      "externalId": "e0e0cb14-2d17-4a58-b163-3f4da66e44fc",
+      "flow": "ST3M404-12",
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "74A400500-1017 ASSEMBLY",
+      "tags": {
+        "Comment": "",
+        "Name": "NUT",
+        "Row": 290,
+        "Source": "74A400500-1017",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {}
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "e43d0746-0a44-41f1-acd5-690eb1a1cb84",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.0
+      },
+      "externalId": "e43d0746-0a44-41f1-acd5-690eb1a1cb84",
+      "flow": "74A400907-1009",
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "74A400500-1017 ASSEMBLY",
+      "tags": {
+        "Comment": "",
+        "Name": "LEVER/AXLE ASSY",
+        "Row": 140,
+        "Source": "74A400500-1017",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {
+          "externalId": "e43d0746-0a44-41f1-acd5-690eb1a1cb84",
+          "origin": "local.data.GitHub.2019.EPA_PSM_antelope.catalog.psm-hackathon"
+        }
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "04892c64-51d3-4b24-a5ba-cead2a057a64",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.0
+      },
+      "externalId": "04892c64-51d3-4b24-a5ba-cead2a057a64",
+      "flow": "74A400927-2001",
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "e43d0746-0a44-41f1-acd5-690eb1a1cb84",
+      "tags": {
+        "Comment": "",
+        "Name": "LINK, PLAIN",
+        "Row": 192,
+        "Source": "74A400500-1017",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {}
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "0544515a-e63e-43dc-b99f-c6565286e619",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.0
+      },
+      "externalId": "0544515a-e63e-43dc-b99f-c6565286e619",
+      "flow": "74A400538-1001",
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "e43d0746-0a44-41f1-acd5-690eb1a1cb84",
+      "tags": {
+        "Comment": "",
+        "Name": "YOKE ASSY",
+        "Row": 155,
+        "Source": "74A400500-1017",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {
+          "externalId": "0544515a-e63e-43dc-b99f-c6565286e619",
+          "origin": "local.data.GitHub.2019.EPA_PSM_antelope.catalog.psm-hackathon"
+        }
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "053a76aa-f280-446b-b64d-7f79277ed0fd",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 2.0,
+        "1": 0.0
+      },
+      "externalId": "053a76aa-f280-446b-b64d-7f79277ed0fd",
+      "flow": "NAS516-1N",
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "0544515a-e63e-43dc-b99f-c6565286e619",
+      "tags": {
+        "Comment": "",
+        "Name": "FITTING",
+        "Row": 159,
+        "Source": "74A400500-1017",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {}
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "53565872-5945-4d92-aa4a-b973d8434d9c",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 2.0,
+        "1": 0.0
+      },
+      "externalId": "53565872-5945-4d92-aa4a-b973d8434d9c",
+      "flow": "74A400529-2001",
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "0544515a-e63e-43dc-b99f-c6565286e619",
+      "tags": {
+        "Comment": "",
+        "Name": "BUSHING",
+        "Row": 157,
+        "Source": "74A400500-1017",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {}
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "cb0c806a-126c-4937-812c-59d69dbb7ff1",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.0
+      },
+      "externalId": "cb0c806a-126c-4937-812c-59d69dbb7ff1",
+      "flow": "74A400539-2001",
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "0544515a-e63e-43dc-b99f-c6565286e619",
+      "tags": {
+        "Comment": "",
+        "Name": "YOKE",
+        "Row": 158,
+        "Source": "74A400500-1017",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {}
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "f72f8811-32da-429f-abc2-9e41d35a45f8",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 2.0,
+        "1": 0.0
+      },
+      "externalId": "f72f8811-32da-429f-abc2-9e41d35a45f8",
+      "flow": "74A400528-2001",
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "0544515a-e63e-43dc-b99f-c6565286e619",
+      "tags": {
+        "Comment": "",
+        "Name": "BUSHING",
+        "Row": 156,
+        "Source": "74A400500-1017",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {}
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "06dcd2db-d9e9-4ce3-a391-0de5c0e816e6",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.0
+      },
+      "externalId": "06dcd2db-d9e9-4ce3-a391-0de5c0e816e6",
+      "flow": "74A400993-2001",
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "e43d0746-0a44-41f1-acd5-690eb1a1cb84",
+      "tags": {
+        "Comment": "",
+        "Name": "LOCK - AXLE CRANK",
+        "Row": 217,
+        "Source": "74A400500-1017",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {}
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "08cd774a-3262-48de-a68b-50d1d0b8b247",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.0
+      },
+      "externalId": "08cd774a-3262-48de-a68b-50d1d0b8b247",
+      "flow": "NAS6304-11",
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "e43d0746-0a44-41f1-acd5-690eb1a1cb84",
+      "tags": {
+        "Comment": "",
+        "Name": "BOLT, HEX HEAD",
+        "Row": 243,
+        "Source": "74A400500-1017",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {}
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "0adb0d8f-59e6-4532-ab55-8aeeabf878a3",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.0
+      },
+      "externalId": "0adb0d8f-59e6-4532-ab55-8aeeabf878a3",
+      "flow": "74B400937-201",
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "e43d0746-0a44-41f1-acd5-690eb1a1cb84",
+      "tags": {
+        "Comment": "",
+        "Name": "SPRING, OUTER",
+        "Row": 220,
+        "Source": "74A400500-1017",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {}
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "2196da93-0ea5-4d6e-85f5-2dbebf4a7dc1",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 2.0,
+        "1": 0.0
+      },
+      "externalId": "2196da93-0ea5-4d6e-85f5-2dbebf4a7dc1",
+      "flow": "74A400913-2003",
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "e43d0746-0a44-41f1-acd5-690eb1a1cb84",
+      "tags": {
+        "Comment": "",
+        "Name": "BOLT, SHOULDER",
+        "Row": 183,
+        "Source": "74A400500-1017",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {}
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "25880655-3d9e-4608-9f23-850119cf0c52",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.0
+      },
+      "externalId": "25880655-3d9e-4608-9f23-850119cf0c52",
+      "flow": "74A400512-1001",
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "e43d0746-0a44-41f1-acd5-690eb1a1cb84",
+      "tags": {
+        "Comment": "",
+        "Name": "LINK ASSY, LWR",
+        "Row": 145,
+        "Source": "74A400500-1017",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {
+          "externalId": "25880655-3d9e-4608-9f23-850119cf0c52",
+          "origin": "local.data.GitHub.2019.EPA_PSM_antelope.catalog.psm-hackathon"
+        }
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "9f5cde82-a809-48f7-9bb4-ba1e008833c6",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 2.0,
+        "1": 0.0
+      },
+      "externalId": "9f5cde82-a809-48f7-9bb4-ba1e008833c6",
+      "flow": "74A400933-2003",
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "25880655-3d9e-4608-9f23-850119cf0c52",
+      "tags": {
+        "Comment": "",
+        "Name": "BUSHING",
+        "Row": 149,
+        "Source": "74A400500-1017",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {}
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "c3569f83-60bd-4cb9-bfab-bdf17f9f2f58",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 2.0,
+        "1": 0.0
+      },
+      "externalId": "c3569f83-60bd-4cb9-bfab-bdf17f9f2f58",
+      "flow": "74A400933-2001",
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "25880655-3d9e-4608-9f23-850119cf0c52",
+      "tags": {
+        "Comment": "",
+        "Name": "BUSHING",
+        "Row": 148,
+        "Source": "74A400500-1017",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {}
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "d9a7f03b-34ea-487d-bf44-bf34ac21ab96",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.0
+      },
+      "externalId": "d9a7f03b-34ea-487d-bf44-bf34ac21ab96",
+      "flow": "74A400513-2003",
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "25880655-3d9e-4608-9f23-850119cf0c52",
+      "tags": {
+        "Comment": "",
+        "Name": "LINK",
+        "Row": 146,
+        "Source": "74A400500-1017",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {
+          "externalId": "d9a7f03b-34ea-487d-bf44-bf34ac21ab96",
+          "origin": "local.data.GitHub.2019.EPA_PSM_antelope.catalog.psm-hackathon"
+        }
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "c0c41679-9ad4-4593-b29b-8ca0d405d2b9",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.0
+      },
+      "externalId": "c0c41679-9ad4-4593-b29b-8ca0d405d2b9",
+      "flow": "74A400513-2001",
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "d9a7f03b-34ea-487d-bf44-bf34ac21ab96",
+      "tags": {
+        "Comment": "",
+        "Name": "LINK",
+        "Row": 147,
+        "Source": "74A400500-1017",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {}
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "287149d4-ceda-42f5-9a41-7c8e750f0d0f",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.0
+      },
+      "externalId": "287149d4-ceda-42f5-9a41-7c8e750f0d0f",
+      "flow": "74A400906-2001",
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "e43d0746-0a44-41f1-acd5-690eb1a1cb84",
+      "tags": {
+        "Comment": "",
+        "Name": "NUT, AXLE",
+        "Row": 178,
+        "Source": "74A400500-1017",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {}
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "2ff58088-e83c-43b2-b730-84899122e8de",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.0
+      },
+      "externalId": "2ff58088-e83c-43b2-b730-84899122e8de",
+      "flow": "74A400546-2003",
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "e43d0746-0a44-41f1-acd5-690eb1a1cb84",
+      "tags": {
+        "Comment": "",
+        "Name": "TARGET,PROX SW",
+        "Row": 161,
+        "Source": "74A400500-1017",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {}
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "3371716a-38b4-4077-a2a2-c716b96eef5d",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.0
+      },
+      "externalId": "3371716a-38b4-4077-a2a2-c716b96eef5d",
+      "flow": "MS20995NC32",
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "e43d0746-0a44-41f1-acd5-690eb1a1cb84",
+      "tags": {
+        "Comment": "",
+        "Name": "LOCKWIRE",
+        "Row": 246,
+        "Source": "74A400500-1017",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {}
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "33cd9307-cf36-481f-9b2f-e5156f9eaf53",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.0
+      },
+      "externalId": "33cd9307-cf36-481f-9b2f-e5156f9eaf53",
+      "flow": "MS24665-302",
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "e43d0746-0a44-41f1-acd5-690eb1a1cb84",
+      "tags": {
+        "Comment": "",
+        "Name": "PIN",
+        "Row": 226,
+        "Source": "74A400500-1017",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {}
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "3615451c-a179-4261-803d-c9c01fa0a8f3",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.0
+      },
+      "externalId": "3615451c-a179-4261-803d-c9c01fa0a8f3",
+      "flow": "74B400936-201",
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "e43d0746-0a44-41f1-acd5-690eb1a1cb84",
+      "tags": {
+        "Comment": "",
+        "Name": "SPRING, INNER",
+        "Row": 219,
+        "Source": "74A400500-1017",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {}
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "3a27e88d-714f-4083-a388-02868b86e7d2",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.0
+      },
+      "externalId": "3a27e88d-714f-4083-a388-02868b86e7d2",
+      "flow": "NAS1149C0763R",
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "e43d0746-0a44-41f1-acd5-690eb1a1cb84",
+      "tags": {
+        "Comment": "",
+        "Name": "WASHER, FLAT",
+        "Row": 238,
+        "Source": "74A400500-1017",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {}
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "3de51749-8ee5-4b5b-93b1-ba1ca07c297d",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.0
+      },
+      "externalId": "3de51749-8ee5-4b5b-93b1-ba1ca07c297d",
+      "flow": "74B400910-201",
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "e43d0746-0a44-41f1-acd5-690eb1a1cb84",
+      "tags": {
+        "Comment": "",
+        "Name": "ROLLER, UPLOCK",
+        "Row": 218,
+        "Source": "74A400500-1017",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {}
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "3e7664dc-3e91-4b24-b473-f661a1e88b38",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.0
+      },
+      "externalId": "3e7664dc-3e91-4b24-b473-f661a1e88b38",
+      "flow": "74A400545-2001",
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "e43d0746-0a44-41f1-acd5-690eb1a1cb84",
+      "tags": {
+        "Comment": "",
+        "Name": "NUT, PIN ASSY",
+        "Row": 160,
+        "Source": "74A400500-1017",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {}
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "3f0ac12b-5688-421a-8128-35c98ec020e8",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.0
+      },
+      "externalId": "3f0ac12b-5688-421a-8128-35c98ec020e8",
+      "flow": "74A400917-2003",
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "e43d0746-0a44-41f1-acd5-690eb1a1cb84",
+      "tags": {
+        "Comment": "",
+        "Name": "BOLT, SHOULDER",
+        "Row": 184,
+        "Source": "74A400500-1017",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {}
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "4b8bbeab-5697-4c57-85c9-b0f4d2591b8f",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.0
+      },
+      "externalId": "4b8bbeab-5697-4c57-85c9-b0f4d2591b8f",
+      "flow": "NAS1149C0632R",
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "e43d0746-0a44-41f1-acd5-690eb1a1cb84",
+      "tags": {
+        "Comment": "",
+        "Name": "WASHER, FLAT",
+        "Row": 236,
+        "Source": "74A400500-1017",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {}
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "4e912660-4446-4e49-aa51-dc68111265be",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 2.0,
+        "1": 0.0
+      },
+      "externalId": "4e912660-4446-4e49-aa51-dc68111265be",
+      "flow": "ST3M494-3D10",
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "e43d0746-0a44-41f1-acd5-690eb1a1cb84",
+      "tags": {
+        "Comment": "",
+        "Name": "BOLT, SHOULDER",
+        "Row": 232,
+        "Source": "74A400500-1017",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {}
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "581ff3e4-9f1b-4d30-9789-88d4d9c2160c",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.0
+      },
+      "externalId": "581ff3e4-9f1b-4d30-9789-88d4d9c2160c",
+      "flow": "NAS1291C4M",
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "e43d0746-0a44-41f1-acd5-690eb1a1cb84",
+      "tags": {
+        "Comment": "",
+        "Name": "NUT, SELF LOCKING",
+        "Row": 239,
+        "Source": "74A400500-1017",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {}
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "68390625-db37-40e4-b262-131e9779064c",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.0
+      },
+      "externalId": "68390625-db37-40e4-b262-131e9779064c",
+      "flow": "74A400510-1001",
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "e43d0746-0a44-41f1-acd5-690eb1a1cb84",
+      "tags": {
+        "Comment": "",
+        "Name": "PIN ASSY",
+        "Row": 141,
+        "Source": "74A400500-1017",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {
+          "externalId": "68390625-db37-40e4-b262-131e9779064c",
+          "origin": "local.data.GitHub.2019.EPA_PSM_antelope.catalog.psm-hackathon"
+        }
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "0c90b45a-3644-4cfe-98cd-cd3ad56b1eee",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.0
+      },
+      "externalId": "0c90b45a-3644-4cfe-98cd-cd3ad56b1eee",
+      "flow": "ST4M197-6",
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "68390625-db37-40e4-b262-131e9779064c",
+      "tags": {
+        "Comment": "",
+        "Name": "BEARING",
+        "Row": 144,
+        "Source": "74A400500-1017",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {}
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "c0d0970f-2bab-459b-acc2-66542ff84d31",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.0
+      },
+      "externalId": "c0d0970f-2bab-459b-acc2-66542ff84d31",
+      "flow": "74A400511-2003",
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "68390625-db37-40e4-b262-131e9779064c",
+      "tags": {
+        "Comment": "",
+        "Name": "PIN",
+        "Row": 142,
+        "Source": "74A400500-1017",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {
+          "externalId": "c0d0970f-2bab-459b-acc2-66542ff84d31",
+          "origin": "local.data.GitHub.2019.EPA_PSM_antelope.catalog.psm-hackathon"
+        }
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "a7e88070-e0b3-41af-aa4c-4974c9ea2263",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.0
+      },
+      "externalId": "a7e88070-e0b3-41af-aa4c-4974c9ea2263",
+      "flow": "74A400511-2001",
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "c0d0970f-2bab-459b-acc2-66542ff84d31",
+      "tags": {
+        "Comment": "",
+        "Name": "PIN",
+        "Row": 143,
+        "Source": "74A400500-1017",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {}
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "6846c3ab-6c11-45e0-a151-3d2d56e6a083",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.0
+      },
+      "externalId": "6846c3ab-6c11-45e0-a151-3d2d56e6a083",
+      "flow": "NAS1149C0663R",
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "e43d0746-0a44-41f1-acd5-690eb1a1cb84",
+      "tags": {
+        "Comment": "",
+        "Name": "WASHER, FLAT",
+        "Row": 237,
+        "Source": "74A400500-1017",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {}
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "68827897-afe6-4303-ba62-9b1a60bd5337",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 2.0,
+        "1": 0.0
+      },
+      "externalId": "68827897-afe6-4303-ba62-9b1a60bd5337",
+      "flow": "NAS509-18C",
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "e43d0746-0a44-41f1-acd5-690eb1a1cb84",
+      "tags": {
+        "Comment": "",
+        "Name": "NUT, DRILLED JAM",
+        "Row": 241,
+        "Source": "74A400500-1017",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {}
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "69d751fb-27bc-4f24-abe1-5999e73e9009",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.0
+      },
+      "externalId": "69d751fb-27bc-4f24-abe1-5999e73e9009",
+      "flow": "74A400939-1001",
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "e43d0746-0a44-41f1-acd5-690eb1a1cb84",
+      "tags": {
+        "Comment": "New subfragment",
+        "Name": "ROD ASSY, SPR",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {
+          "externalId": "74A400939-1001 ASSEMBLY",
+          "origin": "local.data.GitHub.2019.EPA_PSM_antelope.catalog.psm-hackathon"
+        }
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "6c7ba98a-6738-4393-b378-e23971c5a396",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.0
+      },
+      "externalId": "6c7ba98a-6738-4393-b378-e23971c5a396",
+      "flow": "4M38C616L",
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "e43d0746-0a44-41f1-acd5-690eb1a1cb84",
+      "tags": {
+        "Comment": "",
+        "Name": "WASHER, LAMINATED",
+        "Row": 228,
+        "Source": "74A400500-1017",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {}
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "70400f2d-2180-438f-93c9-ec12301daebb",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.0
+      },
+      "externalId": "70400f2d-2180-438f-93c9-ec12301daebb",
+      "flow": "NAS6306U40D",
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "e43d0746-0a44-41f1-acd5-690eb1a1cb84",
+      "tags": {
+        "Comment": "",
+        "Name": "BOLT, HEX HEAD",
+        "Row": 245,
+        "Source": "74A400500-1017",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {}
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "7526e07a-0a96-4bc6-89b8-29bc30d9167e",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.0
+      },
+      "externalId": "7526e07a-0a96-4bc6-89b8-29bc30d9167e",
+      "flow": "74A400920-1001",
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "e43d0746-0a44-41f1-acd5-690eb1a1cb84",
+      "tags": {
+        "Comment": "",
+        "Name": "BRKT ASSY, PROX",
+        "Row": 185,
+        "Source": "74A400500-1017",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {
+          "externalId": "7526e07a-0a96-4bc6-89b8-29bc30d9167e",
+          "origin": "local.data.GitHub.2019.EPA_PSM_antelope.catalog.psm-hackathon"
+        }
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "2a6da25c-1ce9-4126-b508-f11d208e016e",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.0
+      },
+      "externalId": "2a6da25c-1ce9-4126-b508-f11d208e016e",
+      "flow": "74A400921-2003A",
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "7526e07a-0a96-4bc6-89b8-29bc30d9167e",
+      "tags": {
+        "Comment": "",
+        "Name": "BRACKET",
+        "Row": 186,
+        "Source": "74A400500-1017",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {
+          "externalId": "2a6da25c-1ce9-4126-b508-f11d208e016e",
+          "origin": "local.data.GitHub.2019.EPA_PSM_antelope.catalog.psm-hackathon"
+        }
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "4a7e329b-d512-4423-ba7e-7b1d8446455e",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.0
+      },
+      "externalId": "4a7e329b-d512-4423-ba7e-7b1d8446455e",
+      "flow": "74A400921-2001",
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "2a6da25c-1ce9-4126-b508-f11d208e016e",
+      "tags": {
+        "Comment": "",
+        "Name": "BRACKET, CASTING",
+        "Row": 187,
+        "Source": "74A400500-1017",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {}
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "4307af4a-a33b-49ef-be86-cabc60f32c0b",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.0
+      },
+      "externalId": "4307af4a-a33b-49ef-be86-cabc60f32c0b",
+      "flow": "74A400948-2001",
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "7526e07a-0a96-4bc6-89b8-29bc30d9167e",
+      "tags": {
+        "Comment": "",
+        "Name": "BUSHING",
+        "Row": 188,
+        "Source": "74A400500-1017",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {}
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "77bc9906-a93c-45ae-bf54-b1b1b1f3e33d",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.0
+      },
+      "externalId": "77bc9906-a93c-45ae-bf54-b1b1b1f3e33d",
+      "flow": "74A400547-2001",
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "e43d0746-0a44-41f1-acd5-690eb1a1cb84",
+      "tags": {
+        "Comment": "",
+        "Name": "BUSHING, CLAMP-UP",
+        "Row": 162,
+        "Source": "74A400500-1017",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {}
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "7bd21882-0afd-4dc4-9703-9e7651d01a07",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 2.0,
+        "1": 0.0
+      },
+      "externalId": "7bd21882-0afd-4dc4-9703-9e7651d01a07",
+      "flow": "ST3M404C3",
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "e43d0746-0a44-41f1-acd5-690eb1a1cb84",
+      "tags": {
+        "Comment": "",
+        "Name": "NUT",
+        "Row": 229,
+        "Source": "74A400500-1017",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {}
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "8e15c5c3-3778-4021-9eaa-1c45f7589f0d",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.0
+      },
+      "externalId": "8e15c5c3-3778-4021-9eaa-1c45f7589f0d",
+      "flow": "74A400922-2003",
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "e43d0746-0a44-41f1-acd5-690eb1a1cb84",
+      "tags": {
+        "Comment": "",
+        "Name": "SPACER",
+        "Row": 189,
+        "Source": "74A400500-1017",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {}
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "900550ba-832a-4f15-ad3f-7215635e8e42",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.0
+      },
+      "externalId": "900550ba-832a-4f15-ad3f-7215635e8e42",
+      "flow": "NAS1587-4C",
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "e43d0746-0a44-41f1-acd5-690eb1a1cb84",
+      "tags": {
+        "Comment": "",
+        "Name": "WASHER, CSK",
+        "Row": 240,
+        "Source": "74A400500-1017",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {}
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "90bebd39-10fc-42cb-b00b-a5d0bfb40b56",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.0
+      },
+      "externalId": "90bebd39-10fc-42cb-b00b-a5d0bfb40b56",
+      "flow": "NAS509-20C",
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "e43d0746-0a44-41f1-acd5-690eb1a1cb84",
+      "tags": {
+        "Comment": "",
+        "Name": "NUT, DRILLED JAM",
+        "Row": 242,
+        "Source": "74A400500-1017",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {}
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "924b58de-342a-4c0c-9731-6bfdbd4732d7",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.0
+      },
+      "externalId": "924b58de-342a-4c0c-9731-6bfdbd4732d7",
+      "flow": "74A400536-1001",
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "e43d0746-0a44-41f1-acd5-690eb1a1cb84",
+      "tags": {
+        "Comment": "",
+        "Name": "LINK ASSY, UPR",
+        "Row": 150,
+        "Source": "74A400500-1017",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {
+          "externalId": "924b58de-342a-4c0c-9731-6bfdbd4732d7",
+          "origin": "local.data.GitHub.2019.EPA_PSM_antelope.catalog.psm-hackathon"
+        }
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "3dee5cc3-b732-4474-b5cc-9f9f8d5d5b02",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.0
+      },
+      "externalId": "3dee5cc3-b732-4474-b5cc-9f9f8d5d5b02",
+      "flow": "74A400537-2001",
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "924b58de-342a-4c0c-9731-6bfdbd4732d7",
+      "tags": {
+        "Comment": "",
+        "Name": "LINK",
+        "Row": 151,
+        "Source": "74A400500-1017",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {}
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "86161072-c06d-4a90-85c3-c2d441150ac7",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 2.0,
+        "1": 0.0
+      },
+      "externalId": "86161072-c06d-4a90-85c3-c2d441150ac7",
+      "flow": "74A400919-2003",
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "924b58de-342a-4c0c-9731-6bfdbd4732d7",
+      "tags": {
+        "Comment": "",
+        "Name": "BUSHING",
+        "Row": 153,
+        "Source": "74A400500-1017",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {}
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "a94e0fc2-e090-4153-9746-d67500fa0718",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 2.0,
+        "1": 0.0
+      },
+      "externalId": "a94e0fc2-e090-4153-9746-d67500fa0718",
+      "flow": "74A400542-2001",
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "924b58de-342a-4c0c-9731-6bfdbd4732d7",
+      "tags": {
+        "Comment": "",
+        "Name": "BUSHING",
+        "Row": 152,
+        "Source": "74A400500-1017",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {}
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "ee0b0662-a4a5-41c1-b9a5-f6ca6551bf71",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 2.0,
+        "1": 0.0
+      },
+      "externalId": "ee0b0662-a4a5-41c1-b9a5-f6ca6551bf71",
+      "flow": "74B400952-201",
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "924b58de-342a-4c0c-9731-6bfdbd4732d7",
+      "tags": {
+        "Comment": "",
+        "Name": "BUSHING",
+        "Row": 154,
+        "Source": "74A400500-1017",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {}
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "95fb3531-aa74-46ad-9eeb-73fd1868c858",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.0
+      },
+      "externalId": "95fb3531-aa74-46ad-9eeb-73fd1868c858",
+      "flow": "M83461/1-130",
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "e43d0746-0a44-41f1-acd5-690eb1a1cb84",
+      "tags": {
+        "Comment": "",
+        "Name": "PACKING",
+        "Row": 221,
+        "Source": "74A400500-1017",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {}
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "9a31fae5-10bb-4b46-8728-3dc8cde17237",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.0
+      },
+      "externalId": "9a31fae5-10bb-4b46-8728-3dc8cde17237",
+      "flow": "M83461/1-156",
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "e43d0746-0a44-41f1-acd5-690eb1a1cb84",
+      "tags": {
+        "Comment": "",
+        "Name": "PACKING",
+        "Row": 222,
+        "Source": "74A400500-1017",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {}
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "9ce2dbba-d62c-4b1f-a203-97f584fbf130",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.0
+      },
+      "externalId": "9ce2dbba-d62c-4b1f-a203-97f584fbf130",
+      "flow": "MS24665-300",
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "e43d0746-0a44-41f1-acd5-690eb1a1cb84",
+      "tags": {
+        "Comment": "",
+        "Name": "PIN, COTTER",
+        "Row": 225,
+        "Source": "74A400500-1017",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {}
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "a03bfc51-ca45-4ff9-88dd-b2334c897fca",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.0
+      },
+      "externalId": "a03bfc51-ca45-4ff9-88dd-b2334c897fca",
+      "flow": "74A400940-1003",
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "e43d0746-0a44-41f1-acd5-690eb1a1cb84",
+      "tags": {
+        "Comment": "New subfragment",
+        "Name": "AXLE ASSY",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {
+          "externalId": "74A400940-1003 ASSEMBLY",
+          "origin": "local.data.GitHub.2019.EPA_PSM_antelope.catalog.psm-hackathon"
+        }
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "a139b180-a53b-4d85-9cc8-02cf4e6e4753",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 2.0,
+        "1": 0.0
+      },
+      "externalId": "a139b180-a53b-4d85-9cc8-02cf4e6e4753",
+      "flow": "NAS1149C0332R",
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "e43d0746-0a44-41f1-acd5-690eb1a1cb84",
+      "tags": {
+        "Comment": "",
+        "Name": "WASHER, FLAT",
+        "Row": 233,
+        "Source": "74A400500-1017",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {}
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "a30c331d-c8fe-4db9-86ed-672973913fa0",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.0
+      },
+      "externalId": "a30c331d-c8fe-4db9-86ed-672973913fa0",
+      "flow": "M83461/1-240",
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "e43d0746-0a44-41f1-acd5-690eb1a1cb84",
+      "tags": {
+        "Comment": "",
+        "Name": "PACKING",
+        "Row": 223,
+        "Source": "74A400500-1017",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {}
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "acca5e92-cb5a-4c2e-9548-e0bd320cbee3",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.0
+      },
+      "externalId": "acca5e92-cb5a-4c2e-9548-e0bd320cbee3",
+      "flow": "74A400912-1003",
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "e43d0746-0a44-41f1-acd5-690eb1a1cb84",
+      "tags": {
+        "Comment": "New subfragment",
+        "Name": "BOLT, ASSY, RETNR",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {
+          "externalId": "74A400912-1003 ASSEMBLY",
+          "origin": "local.data.GitHub.2019.EPA_PSM_antelope.catalog.psm-hackathon"
+        }
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "ad10cb47-d973-4812-af88-65a6ac682a2f",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.0
+      },
+      "externalId": "ad10cb47-d973-4812-af88-65a6ac682a2f",
+      "flow": "74A400938-2003",
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "e43d0746-0a44-41f1-acd5-690eb1a1cb84",
+      "tags": {
+        "Comment": "",
+        "Name": "SEAT, SPRING",
+        "Row": 200,
+        "Source": "74A400500-1017",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {}
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "b3fb96cb-c1c7-424b-9269-60611f7d7f91",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.0
+      },
+      "externalId": "b3fb96cb-c1c7-424b-9269-60611f7d7f91",
+      "flow": "ST3M404C7",
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "e43d0746-0a44-41f1-acd5-690eb1a1cb84",
+      "tags": {
+        "Comment": "",
+        "Name": "NUT, PLAIN",
+        "Row": 231,
+        "Source": "74A400500-1017",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {}
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "b72d9936-40a7-4776-b9af-ac2a7542ce87",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.0
+      },
+      "externalId": "b72d9936-40a7-4776-b9af-ac2a7542ce87",
+      "flow": "74A400909-2001",
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "e43d0746-0a44-41f1-acd5-690eb1a1cb84",
+      "tags": {
+        "Comment": "",
+        "Name": "BOLT, SHOULDER",
+        "Row": 179,
+        "Source": "74A400500-1017",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {}
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "b979db64-1506-4c7b-9809-06fc4f487c52",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 3.0,
+        "1": 0.0
+      },
+      "externalId": "b979db64-1506-4c7b-9809-06fc4f487c52",
+      "flow": "74A400928-2001",
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "e43d0746-0a44-41f1-acd5-690eb1a1cb84",
+      "tags": {
+        "Comment": "",
+        "Name": "WASHER, KEY, LWR",
+        "Row": 193,
+        "Source": "74A400500-1017",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {}
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "bbec99eb-c4b3-4bcb-b280-2a358451af28",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.0
+      },
+      "externalId": "bbec99eb-c4b3-4bcb-b280-2a358451af28",
+      "flow": "MS24665-304",
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "e43d0746-0a44-41f1-acd5-690eb1a1cb84",
+      "tags": {
+        "Comment": "",
+        "Name": "PIN",
+        "Row": 227,
+        "Source": "74A400500-1017",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {}
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "c6bb29f4-b0fe-4b89-99e3-cc95111e6782",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.0
+      },
+      "externalId": "c6bb29f4-b0fe-4b89-99e3-cc95111e6782",
+      "flow": "74A400932-2003",
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "e43d0746-0a44-41f1-acd5-690eb1a1cb84",
+      "tags": {
+        "Comment": "",
+        "Name": "NUT, PLAIN, RND",
+        "Row": 195,
+        "Source": "74A400500-1017",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {}
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "c9f38077-9f7f-4b81-a719-72b31c8442b7",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.0
+      },
+      "externalId": "c9f38077-9f7f-4b81-a719-72b31c8442b7",
+      "flow": "74A400923-2001",
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "e43d0746-0a44-41f1-acd5-690eb1a1cb84",
+      "tags": {
+        "Comment": "",
+        "Name": "LINK,OVERCENTER",
+        "Row": 190,
+        "Source": "74A400500-1017",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {}
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "ca5342f5-6e1e-43ae-a6aa-f5e81abe161c",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.0
+      },
+      "externalId": "ca5342f5-6e1e-43ae-a6aa-f5e81abe161c",
+      "flow": "74A400930-2001",
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "e43d0746-0a44-41f1-acd5-690eb1a1cb84",
+      "tags": {
+        "Comment": "",
+        "Name": "PLUG, PROTECTIVE",
+        "Row": 194,
+        "Source": "74A400500-1017",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {}
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "cb3cf160-7013-4f3f-8a85-28442dc7df29",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 2.0,
+        "1": 0.0
+      },
+      "externalId": "cb3cf160-7013-4f3f-8a85-28442dc7df29",
+      "flow": "NAS6304U2H",
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "e43d0746-0a44-41f1-acd5-690eb1a1cb84",
+      "tags": {
+        "Comment": "",
+        "Name": "BOLT, HEX HEAD",
+        "Row": 244,
+        "Source": "74A400500-1017",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {}
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "cc3521d1-af5a-4913-9573-2f9d8c6bb927",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.0
+      },
+      "externalId": "cc3521d1-af5a-4913-9573-2f9d8c6bb927",
+      "flow": "74A400900-1003",
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "e43d0746-0a44-41f1-acd5-690eb1a1cb84",
+      "tags": {
+        "Comment": "",
+        "Name": "LEVER ASSY",
+        "Row": 163,
+        "Source": "74A400500-1017",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {
+          "externalId": "cc3521d1-af5a-4913-9573-2f9d8c6bb927",
+          "origin": "local.data.GitHub.2019.EPA_PSM_antelope.catalog.psm-hackathon"
+        }
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "1595e11c-cf3e-431a-b7ee-fef60708a0fc",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 2.0,
+        "1": 0.0
+      },
+      "externalId": "1595e11c-cf3e-431a-b7ee-fef60708a0fc",
+      "flow": "74A400919-2001",
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "cc3521d1-af5a-4913-9573-2f9d8c6bb927",
+      "tags": {
+        "Comment": "",
+        "Name": "BUSHING",
+        "Row": 172,
+        "Source": "74A400500-1017",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {}
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "1c9b1c40-9f8d-40f9-9dad-90c8fa491084",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.0
+      },
+      "externalId": "1c9b1c40-9f8d-40f9-9dad-90c8fa491084",
+      "flow": "74A400901-2007A",
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "cc3521d1-af5a-4913-9573-2f9d8c6bb927",
+      "tags": {
+        "Comment": "",
+        "Name": "LEVER",
+        "Row": 165,
+        "Source": "74A400500-1017",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {
+          "externalId": "1c9b1c40-9f8d-40f9-9dad-90c8fa491084",
+          "origin": "local.data.GitHub.2019.EPA_PSM_antelope.catalog.psm-hackathon"
+        }
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "7d032d89-5bdb-4f40-8e01-aff58803ddb2",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.0
+      },
+      "externalId": "7d032d89-5bdb-4f40-8e01-aff58803ddb2",
+      "flow": "74A400901-2005",
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "1c9b1c40-9f8d-40f9-9dad-90c8fa491084",
+      "tags": {
+        "Comment": "",
+        "Name": "LEVER",
+        "Row": 166,
+        "Source": "74A400500-1017",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {
+          "externalId": "7d032d89-5bdb-4f40-8e01-aff58803ddb2",
+          "origin": "local.data.GitHub.2019.EPA_PSM_antelope.catalog.psm-hackathon"
+        }
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "d2656992-9c1f-4f30-9fd2-475c90b98dd8",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.0
+      },
+      "externalId": "d2656992-9c1f-4f30-9fd2-475c90b98dd8",
+      "flow": "74A400903-2001",
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "7d032d89-5bdb-4f40-8e01-aff58803ddb2",
+      "tags": {
+        "Comment": "",
+        "Name": "LEVER, FORGING",
+        "Row": 167,
+        "Source": "74A400500-1017",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {}
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "24a101ca-3067-40da-a870-1857d48a2cb3",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 2.0,
+        "1": 0.0
+      },
+      "externalId": "24a101ca-3067-40da-a870-1857d48a2cb3",
+      "flow": "74A400994-2001",
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "cc3521d1-af5a-4913-9573-2f9d8c6bb927",
+      "tags": {
+        "Comment": "",
+        "Name": "BUSHING",
+        "Row": 174,
+        "Source": "74A400500-1017",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {}
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "26e2b727-ef94-4138-8b20-3664a70e1156",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.0
+      },
+      "externalId": "26e2b727-ef94-4138-8b20-3664a70e1156",
+      "flow": "74A400915-2005A",
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "cc3521d1-af5a-4913-9573-2f9d8c6bb927",
+      "tags": {
+        "Comment": "",
+        "Name": "BUSHING",
+        "Row": 169,
+        "Source": "74A400500-1017",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {}
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "62843791-bd49-4bb6-80e3-fdc9805800e2",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 2.0,
+        "1": 0.0
+      },
+      "externalId": "62843791-bd49-4bb6-80e3-fdc9805800e2",
+      "flow": "74A400916-2003A",
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "cc3521d1-af5a-4913-9573-2f9d8c6bb927",
+      "tags": {
+        "Comment": "",
+        "Name": "BUSHING",
+        "Row": 170,
+        "Source": "74A400500-1017",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {}
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "99d868b8-6199-41f5-94d5-eeeff7ceb4d8",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 2.0,
+        "1": 0.0
+      },
+      "externalId": "99d868b8-6199-41f5-94d5-eeeff7ceb4d8",
+      "flow": "74A400560-2003",
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "cc3521d1-af5a-4913-9573-2f9d8c6bb927",
+      "tags": {
+        "Comment": "",
+        "Name": "BUSHING",
+        "Row": 164,
+        "Source": "74A400500-1017",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {}
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "a652b119-c6e4-47cb-b2b5-3979b794f04d",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.0
+      },
+      "externalId": "a652b119-c6e4-47cb-b2b5-3979b794f04d",
+      "flow": "74B400977-101",
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "cc3521d1-af5a-4913-9573-2f9d8c6bb927",
+      "tags": {
+        "Comment": "New subfragment",
+        "Name": "BEARING",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {
+          "externalId": "74B400977-101 ASSEMBLY",
+          "origin": "local.data.GitHub.2019.EPA_PSM_antelope.catalog.psm-hackathon"
+        }
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "ad936d21-1e64-4bb0-a975-f0d9d649be32",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.0
+      },
+      "externalId": "ad936d21-1e64-4bb0-a975-f0d9d649be32",
+      "flow": "74A400918-2001A",
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "cc3521d1-af5a-4913-9573-2f9d8c6bb927",
+      "tags": {
+        "Comment": "",
+        "Name": "BUSHING",
+        "Row": 171,
+        "Source": "74A400500-1017",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {}
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "bba46bc9-9a4e-4c0c-b06a-8f0832b9757d",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.0
+      },
+      "externalId": "bba46bc9-9a4e-4c0c-b06a-8f0832b9757d",
+      "flow": "74A400958-2001A",
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "cc3521d1-af5a-4913-9573-2f9d8c6bb927",
+      "tags": {
+        "Comment": "",
+        "Name": "BUSHING",
+        "Row": 173,
+        "Source": "74A400500-1017",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {}
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "c78e57e1-02f0-4ec9-9beb-d2136429b608",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.0
+      },
+      "externalId": "c78e57e1-02f0-4ec9-9beb-d2136429b608",
+      "flow": "74A400915-2003A",
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "cc3521d1-af5a-4913-9573-2f9d8c6bb927",
+      "tags": {
+        "Comment": "",
+        "Name": "BUSHING",
+        "Row": 168,
+        "Source": "74A400500-1017",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {}
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "ec77e4cf-74a4-4573-a79a-6d022c4a621c",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 5.0,
+        "1": 0.0
+      },
+      "externalId": "ec77e4cf-74a4-4573-a79a-6d022c4a621c",
+      "flow": "NAS516-1A",
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "cc3521d1-af5a-4913-9573-2f9d8c6bb927",
+      "tags": {
+        "Comment": "",
+        "Name": "FITTING",
+        "Row": 177,
+        "Source": "74A400500-1017",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {}
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "d12a1058-f9ba-4738-90ba-a0342d011f63",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.0
+      },
+      "externalId": "d12a1058-f9ba-4738-90ba-a0342d011f63",
+      "flow": "74A400935-1001",
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "e43d0746-0a44-41f1-acd5-690eb1a1cb84",
+      "tags": {
+        "Comment": "",
+        "Name": "BRKT ASSY, SPR",
+        "Row": 196,
+        "Source": "74A400500-1017",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {
+          "externalId": "d12a1058-f9ba-4738-90ba-a0342d011f63",
+          "origin": "local.data.GitHub.2019.EPA_PSM_antelope.catalog.psm-hackathon"
+        }
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "b5557b2e-6f08-4d5a-b63a-871aa53a5470",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.0
+      },
+      "externalId": "b5557b2e-6f08-4d5a-b63a-871aa53a5470",
+      "flow": "M81934/1-06A016",
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "d12a1058-f9ba-4738-90ba-a0342d011f63",
+      "tags": {
+        "Comment": "",
+        "Name": "BUSHING",
+        "Row": 199,
+        "Source": "74A400500-1017",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {}
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "dbf90578-a8f9-48e7-a71e-4b0882c1c438",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.0
+      },
+      "externalId": "dbf90578-a8f9-48e7-a71e-4b0882c1c438",
+      "flow": "74A400990-2001",
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "d12a1058-f9ba-4738-90ba-a0342d011f63",
+      "tags": {
+        "Comment": "",
+        "Name": "BRACKET",
+        "Row": 197,
+        "Source": "74A400500-1017",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {}
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "fe227c09-2d92-4b81-8d8a-f905b14ba7c1",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.0
+      },
+      "externalId": "fe227c09-2d92-4b81-8d8a-f905b14ba7c1",
+      "flow": "74A400995-2001",
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "d12a1058-f9ba-4738-90ba-a0342d011f63",
+      "tags": {
+        "Comment": "",
+        "Name": "BUSHING",
+        "Row": 198,
+        "Source": "74A400500-1017",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {}
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "d161637c-f6e8-4a57-b475-b132b9231f45",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.0
+      },
+      "externalId": "d161637c-f6e8-4a57-b475-b132b9231f45",
+      "flow": "ST3M404C6",
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "e43d0746-0a44-41f1-acd5-690eb1a1cb84",
+      "tags": {
+        "Comment": "",
+        "Name": "NUT",
+        "Row": 230,
+        "Source": "74A400500-1017",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {}
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "defc1ccf-6ba1-49a4-a61a-6a3a1986b980",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.0
+      },
+      "externalId": "defc1ccf-6ba1-49a4-a61a-6a3a1986b980",
+      "flow": "74A400950-1011",
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "e43d0746-0a44-41f1-acd5-690eb1a1cb84",
+      "tags": {
+        "Comment": "",
+        "Name": "CRANK ASSY",
+        "Row": 210,
+        "Source": "74A400500-1017",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {
+          "externalId": "defc1ccf-6ba1-49a4-a61a-6a3a1986b980",
+          "origin": "local.data.GitHub.2019.EPA_PSM_antelope.catalog.psm-hackathon"
+        }
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "5604060e-c076-43f9-824c-c6ea67e2bf8d",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.0
+      },
+      "externalId": "5604060e-c076-43f9-824c-c6ea67e2bf8d",
+      "flow": "NAS516-1A",
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "defc1ccf-6ba1-49a4-a61a-6a3a1986b980",
+      "tags": {
+        "Comment": "",
+        "Name": "FITTING",
+        "Row": 216,
+        "Source": "74A400500-1017",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {}
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "84b630b3-6b75-40db-b2a1-4112bb1d3845",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.0
+      },
+      "externalId": "84b630b3-6b75-40db-b2a1-4112bb1d3845",
+      "flow": "74A400951-2017",
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "defc1ccf-6ba1-49a4-a61a-6a3a1986b980",
+      "tags": {
+        "Comment": "",
+        "Name": "CRANK,AXLE",
+        "Row": 211,
+        "Source": "74A400500-1017",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {
+          "externalId": "84b630b3-6b75-40db-b2a1-4112bb1d3845",
+          "origin": "local.data.GitHub.2019.EPA_PSM_antelope.catalog.psm-hackathon"
+        }
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "b8aaee7f-2aa2-4f2c-ab8c-a6a89a6e27b9",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.0
+      },
+      "externalId": "b8aaee7f-2aa2-4f2c-ab8c-a6a89a6e27b9",
+      "flow": "74A400951-2015",
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "84b630b3-6b75-40db-b2a1-4112bb1d3845",
+      "tags": {
+        "Comment": "",
+        "Name": "CRANK,AXLE",
+        "Row": 212,
+        "Source": "74A400500-1017",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {
+          "externalId": "b8aaee7f-2aa2-4f2c-ab8c-a6a89a6e27b9",
+          "origin": "local.data.GitHub.2019.EPA_PSM_antelope.catalog.psm-hackathon"
+        }
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "4ea093a4-fbed-48f4-9122-43456de732bf",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.0
+      },
+      "externalId": "4ea093a4-fbed-48f4-9122-43456de732bf",
+      "flow": "74A400953-2001",
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "b8aaee7f-2aa2-4f2c-ab8c-a6a89a6e27b9",
+      "tags": {
+        "Comment": "",
+        "Name": "CRANK, AXLE, FORGING",
+        "Row": 213,
+        "Source": "74A400500-1017",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {}
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "e8397672-592a-4248-9b3e-448abcc6d39f",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.0
+      },
+      "externalId": "e8397672-592a-4248-9b3e-448abcc6d39f",
+      "flow": "74B400914-105",
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "defc1ccf-6ba1-49a4-a61a-6a3a1986b980",
+      "tags": {
+        "Comment": "New subfragment",
+        "Name": "BEARING,PLAIN",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {
+          "externalId": "74B400914-105 ASSEMBLY",
+          "origin": "local.data.GitHub.2019.EPA_PSM_antelope.catalog.psm-hackathon"
+        }
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "e07f5457-7362-41d3-9fd8-7a484b5a15e3",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.0
+      },
+      "externalId": "e07f5457-7362-41d3-9fd8-7a484b5a15e3",
+      "flow": "74A400925-2001",
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "e43d0746-0a44-41f1-acd5-690eb1a1cb84",
+      "tags": {
+        "Comment": "",
+        "Name": "WASHER, KEY",
+        "Row": 191,
+        "Source": "74A400500-1017",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {}
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "ee57ac3b-c27c-42bc-8aad-c408df80007e",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.0
+      },
+      "externalId": "ee57ac3b-c27c-42bc-8aad-c408df80007e",
+      "flow": "NAS1149C0463R",
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "e43d0746-0a44-41f1-acd5-690eb1a1cb84",
+      "tags": {
+        "Comment": "",
+        "Name": "WASHER",
+        "Row": 235,
+        "Source": "74A400500-1017",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {}
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "f670b741-ea35-4f37-b721-1dc07071c90a",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 2.0,
+        "1": 0.0
+      },
+      "externalId": "f670b741-ea35-4f37-b721-1dc07071c90a",
+      "flow": "NAS1149C0416R",
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "e43d0746-0a44-41f1-acd5-690eb1a1cb84",
+      "tags": {
+        "Comment": "",
+        "Name": "WASHER,FLAT",
+        "Row": 234,
+        "Source": "74A400500-1017",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {}
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "ff41d455-9a20-44cb-a6a7-6a4d6359088b",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 2.0,
+        "1": 0.0
+      },
+      "externalId": "ff41d455-9a20-44cb-a6a7-6a4d6359088b",
+      "flow": "MS24665-151",
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "e43d0746-0a44-41f1-acd5-690eb1a1cb84",
+      "tags": {
+        "Comment": "",
+        "Name": "PIN",
+        "Row": 224,
+        "Source": "74A400500-1017",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {}
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "f7c58caf-0e61-4d02-bbb7-51aca600407a",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.0
+      },
+      "externalId": "f7c58caf-0e61-4d02-bbb7-51aca600407a",
+      "flow": "ST3M404C6",
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "74A400500-1017 ASSEMBLY",
+      "tags": {
+        "Comment": "",
+        "Name": "NUT",
+        "Row": 291,
+        "Source": "74A400500-1017",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {}
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "fd66c42b-f8e9-438e-b622-50ce82a9695e",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.0
+      },
+      "externalId": "fd66c42b-f8e9-438e-b622-50ce82a9695e",
+      "flow": "74A400596-2001",
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "74A400500-1017 ASSEMBLY",
+      "tags": {
+        "Comment": "",
+        "Name": "PLATE",
+        "Row": 69,
+        "Source": "74A400500-1017",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {}
+      }
+    }
+  ]
+}

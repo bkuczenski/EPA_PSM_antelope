@@ -1,0 +1,82 @@
+{
+  "fragments": [
+    {
+      "direction": "Input",
+      "entityId": "9394119a-bebd-49ab-8a51-05b227b7fe36",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.0
+      },
+      "externalId": "74A400912-1003 ASSEMBLY",
+      "flow": "74A400912-1003",
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": null,
+      "tags": {
+        "Comment": "",
+        "Name": "BOLT, ASSY, RETNR",
+        "Row": 180,
+        "Source": "74A400500-1017",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {
+          "externalId": "74A400912-1003 ASSEMBLY",
+          "origin": "local.data.GitHub.2019.EPA_PSM_antelope.catalog.psm-hackathon"
+        }
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "6f187c29-5217-4576-ae95-1a235106d55e",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.0
+      },
+      "externalId": "6f187c29-5217-4576-ae95-1a235106d55e",
+      "flow": "74A400904-2003",
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "74A400912-1003 ASSEMBLY",
+      "tags": {
+        "Comment": "",
+        "Name": "BOLT-RETAINER",
+        "Row": 181,
+        "Source": "74A400500-1017",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {}
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "9d104d33-0296-4434-985b-8976d4ddd901",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.0
+      },
+      "externalId": "9d104d33-0296-4434-985b-8976d4ddd901",
+      "flow": "74A400959-2001",
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "74A400912-1003 ASSEMBLY",
+      "tags": {
+        "Comment": "",
+        "Name": "BUSHING",
+        "Row": 182,
+        "Source": "74A400500-1017",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {}
+      }
+    }
+  ]
+}

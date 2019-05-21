@@ -1,0 +1,57 @@
+{
+  "fragments": [
+    {
+      "direction": "Input",
+      "entityId": "7eb7ce22-bd84-4cdc-a682-4b16709ce3d2",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.0
+      },
+      "externalId": "74B400516-2001 ASSEMBLY",
+      "flow": "74B400516-2001",
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": null,
+      "tags": {
+        "Comment": "",
+        "Name": "SCREW, CAP",
+        "Row": 284,
+        "Source": "74A400500-1018",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {
+          "externalId": "74B400516-2001 ASSEMBLY",
+          "origin": "local.data.GitHub.2019.EPA_PSM_antelope.catalog.psm-hackathon"
+        }
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "d39ab269-2f23-4284-9cb5-357cacb59839",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.0
+      },
+      "externalId": "d39ab269-2f23-4284-9cb5-357cacb59839",
+      "flow": "NAS1351C5H12",
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "74B400516-2001 ASSEMBLY",
+      "tags": {
+        "Comment": "",
+        "Name": "MAKE FROM VENDOR PART",
+        "Row": 285,
+        "Source": "74A400500-1018",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {}
+      }
+    }
+  ]
+}

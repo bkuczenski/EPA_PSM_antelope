@@ -1,0 +1,57 @@
+{
+  "fragments": [
+    {
+      "direction": "Input",
+      "entityId": "c0a83d65-1cec-47d1-8a0d-5723c7f64926",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.0
+      },
+      "externalId": "74A410518-2005A ASSEMBLY",
+      "flow": "74A410518-2005A",
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": null,
+      "tags": {
+        "Comment": "",
+        "Name": "RING, TIEDOWN",
+        "Row": 272,
+        "Source": "74A400500-1018",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {
+          "externalId": "74A410518-2005A ASSEMBLY",
+          "origin": "local.data.GitHub.2019.EPA_PSM_antelope.catalog.psm-hackathon"
+        }
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "c6e41084-21a9-4d56-8a0f-1171a6947ab9",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.0
+      },
+      "externalId": "c6e41084-21a9-4d56-8a0f-1171a6947ab9",
+      "flow": "74A410518-2001",
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "74A410518-2005A ASSEMBLY",
+      "tags": {
+        "Comment": "",
+        "Name": "RING, TIEDOWN, FORGING",
+        "Row": 273,
+        "Source": "74A400500-1018",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {}
+      }
+    }
+  ]
+}

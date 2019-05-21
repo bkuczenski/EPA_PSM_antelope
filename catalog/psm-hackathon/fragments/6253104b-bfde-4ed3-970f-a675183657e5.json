@@ -1,0 +1,82 @@
+{
+  "fragments": [
+    {
+      "direction": "Input",
+      "entityId": "6253104b-bfde-4ed3-970f-a675183657e5",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.0
+      },
+      "externalId": "74A400711-1001 ASSEMBLY",
+      "flow": "74A400711-1001",
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": null,
+      "tags": {
+        "Comment": "",
+        "Name": "RING ASSY",
+        "Row": 21,
+        "Source": "74A400700-1014",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {
+          "externalId": "74A400711-1001 ASSEMBLY",
+          "origin": "local.data.GitHub.2019.EPA_PSM_antelope.catalog.psm-hackathon"
+        }
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "a9076c3a-49c4-48b9-bbdd-3b5fe44073ad",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.0
+      },
+      "externalId": "a9076c3a-49c4-48b9-bbdd-3b5fe44073ad",
+      "flow": "74A400711-2001",
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "74A400711-1001 ASSEMBLY",
+      "tags": {
+        "Comment": "",
+        "Name": "RING",
+        "Row": 22,
+        "Source": "74A400700-1014",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {}
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "dba293e1-2d6e-4065-8ed7-03cc1f78d1b1",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.0
+      },
+      "externalId": "dba293e1-2d6e-4065-8ed7-03cc1f78d1b1",
+      "flow": "74A400711-2003",
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "74A400711-1001 ASSEMBLY",
+      "tags": {
+        "Comment": "",
+        "Name": "RING",
+        "Row": 23,
+        "Source": "74A400700-1014",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {}
+      }
+    }
+  ]
+}

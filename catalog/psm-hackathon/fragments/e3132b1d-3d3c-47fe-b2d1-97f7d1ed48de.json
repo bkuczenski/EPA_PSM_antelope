@@ -1,0 +1,185 @@
+{
+  "fragments": [
+    {
+      "direction": "Input",
+      "entityId": "e3132b1d-3d3c-47fe-b2d1-97f7d1ed48de",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.0
+      },
+      "externalId": "74A400517-1003 ASSEMBLY",
+      "flow": "74A400517-1003",
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": null,
+      "tags": {
+        "Comment": "",
+        "Name": "BOLT ASSY",
+        "Row": 4,
+        "Source": "74A400700-1013",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {
+          "externalId": "74A400517-1003 ASSEMBLY",
+          "origin": "local.data.GitHub.2019.EPA_PSM_antelope.catalog.psm-hackathon"
+        }
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "382e2b61-9731-4b59-a77d-be8fb019a822",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.0
+      },
+      "externalId": "382e2b61-9731-4b59-a77d-be8fb019a822",
+      "flow": "74A400526-1001",
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "74A400517-1003 ASSEMBLY",
+      "tags": {
+        "Comment": "",
+        "Name": "INSERT",
+        "Row": 5,
+        "Source": "74A400700-1013",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {
+          "externalId": "382e2b61-9731-4b59-a77d-be8fb019a822",
+          "origin": "local.data.GitHub.2019.EPA_PSM_antelope.catalog.psm-hackathon"
+        }
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "2eb77a77-4847-497c-a442-ae8108eff89a",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.0
+      },
+      "externalId": "2eb77a77-4847-497c-a442-ae8108eff89a",
+      "flow": "74A400526-2001",
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "382e2b61-9731-4b59-a77d-be8fb019a822",
+      "tags": {
+        "Comment": "",
+        "Name": "INSERT",
+        "Row": 6,
+        "Source": "74A400700-1013",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {}
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "e76d5fcf-07d1-4ed6-9e86-ca4861f4bbb5",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.0
+      },
+      "externalId": "e76d5fcf-07d1-4ed6-9e86-ca4861f4bbb5",
+      "flow": "NAS516-1A",
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "382e2b61-9731-4b59-a77d-be8fb019a822",
+      "tags": {
+        "Comment": "",
+        "Name": "FITTING",
+        "Row": 7,
+        "Source": "74A400700-1013",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {}
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "3e8fac8f-3952-4788-9163-fa25ed5bb3e4",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.0
+      },
+      "externalId": "3e8fac8f-3952-4788-9163-fa25ed5bb3e4",
+      "flow": "M27426-3123C",
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "74A400517-1003 ASSEMBLY",
+      "tags": {
+        "Comment": "",
+        "Name": "RING",
+        "Row": 9,
+        "Source": "74A400700-1013",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {}
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "b4875a11-44ec-44e1-86fa-bf1a3591b351",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 2.0,
+        "1": 0.0
+      },
+      "externalId": "b4875a11-44ec-44e1-86fa-bf1a3591b351",
+      "flow": "M83461/1-018",
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "74A400517-1003 ASSEMBLY",
+      "tags": {
+        "Comment": "",
+        "Name": "PACKING",
+        "Row": 10,
+        "Source": "74A400700-1013",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {}
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "d589a7c1-d4f0-4b24-b611-f888fe025eec",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.0
+      },
+      "externalId": "d589a7c1-d4f0-4b24-b611-f888fe025eec",
+      "flow": "74A400527-2003",
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "74A400517-1003 ASSEMBLY",
+      "tags": {
+        "Comment": "",
+        "Name": "BOLT",
+        "Row": 8,
+        "Source": "74A400700-1013",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {}
+      }
+    }
+  ]
+}

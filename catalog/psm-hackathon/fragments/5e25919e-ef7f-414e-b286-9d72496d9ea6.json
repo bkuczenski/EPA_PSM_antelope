@@ -1,0 +1,291 @@
+{
+  "fragments": [
+    {
+      "direction": "Input",
+      "entityId": "5e25919e-ef7f-414e-b286-9d72496d9ea6",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.0
+      },
+      "externalId": "74A400574-1001 ASSEMBLY",
+      "flow": "74A400574-1001",
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": null,
+      "tags": {
+        "Comment": "",
+        "Name": "LINK ASSY, UPPER",
+        "Row": 30,
+        "Source": "74A400500-1018",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {
+          "externalId": "74A400574-1001 ASSEMBLY",
+          "origin": "local.data.GitHub.2019.EPA_PSM_antelope.catalog.psm-hackathon"
+        }
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "0fada3a7-22ce-473a-8334-451090910f9c",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.0
+      },
+      "externalId": "0fada3a7-22ce-473a-8334-451090910f9c",
+      "flow": "NAS509L6C",
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "74A400574-1001 ASSEMBLY",
+      "tags": {
+        "Comment": "",
+        "Name": "NUT (LH)",
+        "Row": 39,
+        "Source": "74A400500-1018",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {}
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "37bb685d-27c7-4505-8274-6c096bbcb688",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.0
+      },
+      "externalId": "37bb685d-27c7-4505-8274-6c096bbcb688",
+      "flow": "74B400555-101",
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "74A400574-1001 ASSEMBLY",
+      "tags": {
+        "Comment": "",
+        "Name": "ROD END ASSY (LH)",
+        "Row": 33,
+        "Source": "74A400500-1018",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {
+          "externalId": "37bb685d-27c7-4505-8274-6c096bbcb688",
+          "origin": "local.data.GitHub.2019.EPA_PSM_antelope.catalog.psm-hackathon"
+        }
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "f4d3276b-b77f-467a-addc-e36feae6801c",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.0
+      },
+      "externalId": "f4d3276b-b77f-467a-addc-e36feae6801c",
+      "flow": "74B400555-201",
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "37bb685d-27c7-4505-8274-6c096bbcb688",
+      "tags": {
+        "Comment": "",
+        "Name": "BEARING",
+        "Row": 34,
+        "Source": "74A400500-1018",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {}
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "6b00c6c9-0054-4580-a7e9-9e5fbf844f78",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.0
+      },
+      "externalId": "6b00c6c9-0054-4580-a7e9-9e5fbf844f78",
+      "flow": "NAS509-6C",
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "74A400574-1001 ASSEMBLY",
+      "tags": {
+        "Comment": "",
+        "Name": "NUT (RH)",
+        "Row": 38,
+        "Source": "74A400500-1018",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {}
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "7868ed7a-e54a-48cd-8d7e-ea4a8382093f",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 2.0,
+        "1": 0.0
+      },
+      "externalId": "7868ed7a-e54a-48cd-8d7e-ea4a8382093f",
+      "flow": "M81935/3-6",
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "74A400574-1001 ASSEMBLY",
+      "tags": {
+        "Comment": "",
+        "Name": "LOCKING DEVICE",
+        "Row": 37,
+        "Source": "74A400500-1018",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {}
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "87bccdc4-9339-4ae4-a6e8-21731455ceb3",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.0
+      },
+      "externalId": "87bccdc4-9339-4ae4-a6e8-21731455ceb3",
+      "flow": "74B400555-103",
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "74A400574-1001 ASSEMBLY",
+      "tags": {
+        "Comment": "",
+        "Name": "ROD END ASSY (RH)",
+        "Row": 35,
+        "Source": "74A400500-1018",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {
+          "externalId": "87bccdc4-9339-4ae4-a6e8-21731455ceb3",
+          "origin": "local.data.GitHub.2019.EPA_PSM_antelope.catalog.psm-hackathon"
+        }
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "cfecc5f7-2607-4169-bf9c-e7a690b7d80e",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.0
+      },
+      "externalId": "cfecc5f7-2607-4169-bf9c-e7a690b7d80e",
+      "flow": "74B400555-203",
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "87bccdc4-9339-4ae4-a6e8-21731455ceb3",
+      "tags": {
+        "Comment": "",
+        "Name": "BEARING",
+        "Row": 36,
+        "Source": "74A400500-1018",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {}
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "aef8fb9d-cf85-43d2-90a3-aae56cf8a931",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.0
+      },
+      "externalId": "aef8fb9d-cf85-43d2-90a3-aae56cf8a931",
+      "flow": "MS20995C32",
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "74A400574-1001 ASSEMBLY",
+      "tags": {
+        "Comment": "",
+        "Name": "LOCKWIRE",
+        "Row": 40,
+        "Source": "74A400500-1018",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {}
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "f873778b-b8c0-43b7-984f-667a1f0c3fa0",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.0
+      },
+      "externalId": "f873778b-b8c0-43b7-984f-667a1f0c3fa0",
+      "flow": "74A400575-2003",
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "74A400574-1001 ASSEMBLY",
+      "tags": {
+        "Comment": "",
+        "Name": "ROD, THREADED END",
+        "Row": 31,
+        "Source": "74A400500-1018",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {
+          "externalId": "f873778b-b8c0-43b7-984f-667a1f0c3fa0",
+          "origin": "local.data.GitHub.2019.EPA_PSM_antelope.catalog.psm-hackathon"
+        }
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "87dc130c-3fc8-43be-8cd4-9a06dd4c544b",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.0
+      },
+      "externalId": "87dc130c-3fc8-43be-8cd4-9a06dd4c544b",
+      "flow": "74A400575-2001",
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "f873778b-b8c0-43b7-984f-667a1f0c3fa0",
+      "tags": {
+        "Comment": "",
+        "Name": "ROD, SWAGING",
+        "Row": 32,
+        "Source": "74A400500-1018",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {}
+      }
+    }
+  ]
+}

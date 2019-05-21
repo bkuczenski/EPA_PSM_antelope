@@ -1,0 +1,157 @@
+{
+  "fragments": [
+    {
+      "direction": "Input",
+      "entityId": "b68713ca-8300-4ee8-b735-f58850c34649",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.0
+      },
+      "externalId": "74A400750-1005 ASSEMBLY",
+      "flow": "74A400750-1005",
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": null,
+      "tags": {
+        "Comment": "",
+        "Name": "LINK ASSY, LWR",
+        "Row": 60,
+        "Source": "74A400700-1013",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {
+          "externalId": "74A400750-1005 ASSEMBLY",
+          "origin": "local.data.GitHub.2019.EPA_PSM_antelope.catalog.psm-hackathon"
+        }
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "8fdd9426-ba62-43a9-b73a-c8799b01fa33",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 2.0,
+        "1": 0.0
+      },
+      "externalId": "8fdd9426-ba62-43a9-b73a-c8799b01fa33",
+      "flow": "74A400758-2001",
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "74A400750-1005 ASSEMBLY",
+      "tags": {
+        "Comment": "",
+        "Name": "BUSHING",
+        "Row": 63,
+        "Source": "74A400700-1013",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {}
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "bccb17bc-1c0c-420c-9a58-f864a2572d4c",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 2.0,
+        "1": 0.0
+      },
+      "externalId": "bccb17bc-1c0c-420c-9a58-f864a2572d4c",
+      "flow": "AS3588-03",
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "74A400750-1005 ASSEMBLY",
+      "tags": {
+        "Comment": "",
+        "Name": "PLUG ASSY",
+        "Row": 64,
+        "Source": "74A400700-1013",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {}
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "dff0fd76-ad9f-455b-a672-b8f3cb9a816d",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.0
+      },
+      "externalId": "dff0fd76-ad9f-455b-a672-b8f3cb9a816d",
+      "flow": "74A400751-2005",
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "74A400750-1005 ASSEMBLY",
+      "tags": {
+        "Comment": "",
+        "Name": "LINK, LOWER",
+        "Row": 61,
+        "Source": "74A400700-1013",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {}
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "e7e2d862-f8b1-42a5-94b0-3e7a03e04c4f",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.0
+      },
+      "externalId": "e7e2d862-f8b1-42a5-94b0-3e7a03e04c4f",
+      "flow": "NAS516-1A",
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "74A400750-1005 ASSEMBLY",
+      "tags": {
+        "Comment": "",
+        "Name": "FITTING",
+        "Row": 65,
+        "Source": "74A400700-1013",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {}
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "ee6860fb-7413-491e-a2b3-297035c8e8d0",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 2.0,
+        "1": 0.0
+      },
+      "externalId": "ee6860fb-7413-491e-a2b3-297035c8e8d0",
+      "flow": "74A400754-2003",
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "74A400750-1005 ASSEMBLY",
+      "tags": {
+        "Comment": "",
+        "Name": "BUSHING",
+        "Row": 62,
+        "Source": "74A400700-1013",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {}
+      }
+    }
+  ]
+}

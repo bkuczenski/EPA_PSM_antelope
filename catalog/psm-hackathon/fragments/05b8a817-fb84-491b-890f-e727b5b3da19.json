@@ -1,0 +1,57 @@
+{
+  "fragments": [
+    {
+      "direction": "Input",
+      "entityId": "05b8a817-fb84-491b-890f-e727b5b3da19",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.0
+      },
+      "externalId": "74B400977-101 ASSEMBLY",
+      "flow": "74B400977-101",
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": null,
+      "tags": {
+        "Comment": "",
+        "Name": "BEARING",
+        "Row": 175,
+        "Source": "74A400500-1018",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {
+          "externalId": "74B400977-101 ASSEMBLY",
+          "origin": "local.data.GitHub.2019.EPA_PSM_antelope.catalog.psm-hackathon"
+        }
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "87e43421-6a83-420a-ad5b-09f0b206c3c0",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.0
+      },
+      "externalId": "87e43421-6a83-420a-ad5b-09f0b206c3c0",
+      "flow": "74B400977-201",
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "74B400977-101 ASSEMBLY",
+      "tags": {
+        "Comment": "",
+        "Name": "BEARING",
+        "Row": 176,
+        "Source": "74A400500-1018",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {}
+      }
+    }
+  ]
+}

@@ -1,0 +1,188 @@
+{
+  "fragments": [
+    {
+      "direction": "Input",
+      "entityId": "06af7d3e-6054-4c34-bfb7-4e7f82ff9620",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.0
+      },
+      "externalId": "74A400740-1001 ASSEMBLY",
+      "flow": "74A400740-1001",
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": null,
+      "tags": {
+        "Comment": "",
+        "Name": "SIDE BR ASSY,LWR",
+        "Row": 50,
+        "Source": "74A400700-1013",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {
+          "externalId": "74A400740-1001 ASSEMBLY",
+          "origin": "local.data.GitHub.2019.EPA_PSM_antelope.catalog.psm-hackathon"
+        }
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "3c7eebb9-6b9e-4db7-8349-e25e132c1c58",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 4.0,
+        "1": 0.0
+      },
+      "externalId": "3c7eebb9-6b9e-4db7-8349-e25e132c1c58",
+      "flow": "NAS516-1A",
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "74A400740-1001 ASSEMBLY",
+      "tags": {
+        "Comment": "",
+        "Name": "FITTING",
+        "Row": 56,
+        "Source": "74A400700-1013",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {}
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "d077c39e-64ec-4c6d-b366-764678c1d13c",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 2.0,
+        "1": 0.0
+      },
+      "externalId": "d077c39e-64ec-4c6d-b366-764678c1d13c",
+      "flow": "74A400757-2001",
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "74A400740-1001 ASSEMBLY",
+      "tags": {
+        "Comment": "",
+        "Name": "BUSHING",
+        "Row": 55,
+        "Source": "74A400700-1013",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {}
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "e3e78b27-1e6f-4994-8e40-e81dc7ff332e",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 2.0,
+        "1": 0.0
+      },
+      "externalId": "e3e78b27-1e6f-4994-8e40-e81dc7ff332e",
+      "flow": "74A400756-2001",
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "74A400740-1001 ASSEMBLY",
+      "tags": {
+        "Comment": "",
+        "Name": "BUSHING",
+        "Row": 54,
+        "Source": "74A400700-1013",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {}
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "f1dad96d-6cbf-4cdc-a54d-52e863032c4a",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.0
+      },
+      "externalId": "f1dad96d-6cbf-4cdc-a54d-52e863032c4a",
+      "flow": "74A400741-2003",
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "74A400740-1001 ASSEMBLY",
+      "tags": {
+        "Comment": "",
+        "Name": "SIDE BRACE,LWR",
+        "Row": 51,
+        "Source": "74A400700-1013",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {
+          "externalId": "f1dad96d-6cbf-4cdc-a54d-52e863032c4a",
+          "origin": "local.data.GitHub.2019.EPA_PSM_antelope.catalog.psm-hackathon"
+        }
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "7fe7dd6a-bff2-43d6-8f33-84837c3f3189",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.0
+      },
+      "externalId": "7fe7dd6a-bff2-43d6-8f33-84837c3f3189",
+      "flow": "74A400741-2001",
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "f1dad96d-6cbf-4cdc-a54d-52e863032c4a",
+      "tags": {
+        "Comment": "",
+        "Name": "SIDE BRACE,LWR",
+        "Row": 52,
+        "Source": "74A400700-1013",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {
+          "externalId": "7fe7dd6a-bff2-43d6-8f33-84837c3f3189",
+          "origin": "local.data.GitHub.2019.EPA_PSM_antelope.catalog.psm-hackathon"
+        }
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "1f8e7c44-8189-478d-9db3-5174ce4d69d1",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.0
+      },
+      "externalId": "1f8e7c44-8189-478d-9db3-5174ce4d69d1",
+      "flow": "74A400743-2001",
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "7fe7dd6a-bff2-43d6-8f33-84837c3f3189",
+      "tags": {
+        "Comment": "",
+        "Name": "SIDE BRACE,LWR,FORGING",
+        "Row": 53,
+        "Source": "74A400700-1013",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {}
+      }
+    }
+  ]
+}

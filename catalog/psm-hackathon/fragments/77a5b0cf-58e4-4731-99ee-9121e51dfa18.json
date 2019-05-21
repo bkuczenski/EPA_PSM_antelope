@@ -1,0 +1,82 @@
+{
+  "fragments": [
+    {
+      "direction": "Input",
+      "entityId": "77a5b0cf-58e4-4731-99ee-9121e51dfa18",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.0
+      },
+      "externalId": "74A400939-1001 ASSEMBLY",
+      "flow": "74A400939-1001",
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": null,
+      "tags": {
+        "Comment": "",
+        "Name": "ROD ASSY, SPR",
+        "Row": 201,
+        "Source": "74A400500-1017",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {
+          "externalId": "74A400939-1001 ASSEMBLY",
+          "origin": "local.data.GitHub.2019.EPA_PSM_antelope.catalog.psm-hackathon"
+        }
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "2816b5fc-d7c5-48af-8d0a-d45b26524ff4",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 1.0,
+        "1": 0.0
+      },
+      "externalId": "2816b5fc-d7c5-48af-8d0a-d45b26524ff4",
+      "flow": "74A400992-2001",
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "74A400939-1001 ASSEMBLY",
+      "tags": {
+        "Comment": "",
+        "Name": "ROD",
+        "Row": 202,
+        "Source": "74A400500-1017",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {}
+      }
+    },
+    {
+      "direction": "Input",
+      "entityId": "7591d555-368f-4582-969f-ebc5b87c980f",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 2.0,
+        "1": 0.0
+      },
+      "externalId": "7591d555-368f-4582-969f-ebc5b87c980f",
+      "flow": "74B400952-201",
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "74A400939-1001 ASSEMBLY",
+      "tags": {
+        "Comment": "",
+        "Name": "BUSHING",
+        "Row": 203,
+        "Source": "74A400500-1017",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {}
+      }
+    }
+  ]
+}
