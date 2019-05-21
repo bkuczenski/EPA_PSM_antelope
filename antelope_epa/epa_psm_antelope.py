@@ -1,5 +1,8 @@
 import os
+from collections import defaultdict
+
 from antelope_catalog.providers.xl_dict import XlDict
+from lcatools.entities.tree_isomorphism import isomorphic, TreeIsomorphismException
 
 from .validation import validate_folder
 from .exceptions import DuplicateSubAssembly
@@ -96,6 +99,12 @@ class EpaF18Foreground(object):
         i, row = i_row
         i += 1
         parent_num = row.pop('Next Assembly')
+        qna = row.pop('QNA')
+        try:
+            amount = float(qna)
+        except (TypeError, ValueError):
+            amount = 1.0
+
         try:
             flow = self._row_to_flow(row)
         except ValueError:
@@ -108,16 +117,16 @@ class EpaF18Foreground(object):
             raise DuplicateSubAssembly('(row %d) flow: %s' % (i, flow.link))  # handle this if it comes up
 
         if parent_num is None:
-            return self._new_reference_fragment(flow, Source=source, Row=i)
+            return self._new_reference_fragment(flow, value=amount, Source=source, Row=i)
 
         else:
             try:
                 parent = next(k for k in self.fg.fragments_with_flow(parent_num) if k['Source'] == source)
             except StopIteration:
                 print('Bad parent reference: %s; creating new reference fragment' % parent_num)
-                return self._new_reference_fragment(flow, Source=source, Row=i)
+                return self._new_reference_fragment(flow, value=amount, Source=source, Row=i)
 
-        self.fg.new_fragment(flow, 'Input', parent=parent, Source=source, Row=i)
+        self.fg.new_fragment(flow, 'Input', parent=parent, value=amount, Source=source, Row=i)
         return
 
     def fragment_from_xl_sheet(self, sheet):
@@ -148,3 +157,56 @@ class EpaF18Foreground(object):
             print('Assembly not found: %s' % assy)
             return
         return self.fragment_from_xl_sheet(sh)
+
+    def duplicate_subassemblies(self):
+        """
+        Generates sets of fragments (ignoring leaf nodes) with the same flow and direction.  Only reports the highest-
+        level subassemblies that are duplicated (i.e. fragments whose parents are nonduplicated).
+
+        Use this to screen out and remove data duplication.
+        :return:
+        """
+        dupes = set()
+        top_dupes = defaultdict(set)
+
+        # first, make a list of all duplicated non-leaf fragments
+        for flow in self.fg.flows():
+            for dirn in ('Input', 'Output'):
+                asm = set(k for k in self.fg.fragments_with_flow(flow, direction=dirn) if not k.term.is_null)
+                if len(asm) > 1:
+                    dupes |= asm
+
+        # next, screen them down to top-level frags (frags whose parents are nonduplicated)
+        for frag in dupes:
+            if frag.reference_entity not in dupes:
+                top_dupes[frag.flow, frag.direction].add(frag)
+
+        # finally, generate the duplicate sets
+        for v in top_dupes.values():
+            yield v
+
+    def _split_subassembly(self, frag):
+        parent_ref = self._get_next_name(frag.flow)
+        self.fg.split_subfragment(frag)
+        self.fg.name_fragment(frag, parent_ref)
+        self._refs.append(frag)
+
+    def reduce_duplicates(self, master, *dupes, verify=True):
+        """
+
+        :param master:
+        :param dupes: 0 or more fragments that are duplicates
+        :param verify: [True] whether to test that the master and duplicate are isomorphic
+        :return:
+        """
+        if master.reference_entity is not None:
+            self._split_subassembly(master)
+        for dupe in dupes:
+            if verify:
+                try:
+                    isomorphic(master, dupe)
+                except TreeIsomorphismException:
+                    print('Fragment %s failed isomorphism' % dupe)
+                    continue
+            ditch = self.fg.split_subfragment(dupe, replacement=master)
+            self.fg.delete_fragment(ditch)
