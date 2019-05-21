@@ -3,4 +3,34 @@ Tue May 07 16:07:21 -0700 2019
 
 Dangerous to commit this to the repo with an indication of (a) the start of work and (b) the apparent total hours spent.
 
-Anyway- I did miss part of the kickoff slideshow but 
+Anyway- I did miss part of the kickoff slideshow but I don't think I missed anything important.
+
+Except maybe what the QNA column means.
+
+==========
+Mon May 20 11:38:52 -0700 2019
+
+First- a general plan:
+
+ 0. Validate spreadsheets; detect faulty parent-child relationships
+ 1. Construct product systems (fragments) for each xls sheet
+ 2. enumerate leaf nodes and terminate them (by hand??) (multiply)
+    - I am not going to spend a lot of time researching parts
+ 3. fragment inventtory to process definition
+ 4. process upload to OLCA
+ 5. disclosure
+
+OK, so we've got product systems- now we are dealing with the duplicate assemblies issue.  I am really stumped by the idea of the "normative" solution: how should we deal with this in the "BEST" way? by which I mean: (1) allow the user to determine whether to detect duplicate assemblies, (2) if a duplicate assembly is detected, validate that the duplicate is identical to the original; (3) if the duplicate is not identical to the original, construct an alternate and properly use it; (4) allow input data to be arbitrarily ordered.
+
+We are already not acknowledging (4) because we require a parent to be found in the foreground when the child is created- if it is not, the child node will be created as a reference fragment but the parent relationship will not be restored if the parent is subsequently created.
+
+The problems with the other 3 have mainly to do with the lack of in-place infrastructure to create fragments in a "sandbox" and to delete fragments.  The further problem is that my implementation assumes uniqueness in the way it searches for parent fragments.
+
+Fixed this by adding in a source filter.
+
+OK, so now it seems clear that the simplest way forward is to blindly allow duplicate subassemblies, constrain parents to having the same source sheet, and optionally search for duplicate subassemblies later on.  The wrinkle to that is with nested duplicates- if you have a duplicate subassembly, every subassembly nested under it will also be duplicated-- but if you want to delete duplicates and reuse the primary subassembly, then the duplicate subassembly should get deleted too.  That jusst implies an ordering: the subassemblies should be split off highest-first.
+
+OK, let's give this a try.
+
+
+
