@@ -1,0 +1,17 @@
+{
+  "local.data.GitHub.2019.EPA_PSM_antelope.catalog.psm-hackathon": [
+    {
+      "dataSource": "$CAT_ROOT/psm-hackathon",
+      "dataSourceType": "LcForeground",
+      "interfaces": [
+        "foreground",
+        "index",
+        "basic"
+      ],
+      "priority": 50,
+      "static": false,
+      "quiet": true,
+      "config": {}
+    }
+  ]
+}
