@@ -33,4 +33,37 @@ OK, so now it seems clear that the simplest way forward is to blindly allow dupl
 OK, let's give this a try.
 
 
+==========
+Tue May 21 15:17:20 -0700 2019
 
+Foreground built, no problem!
+
+Question for later: the 74A400800-1001 "RETRACT ACTUATOR ASSY" has a QNA of 2 in the reference flow-- how is this to be interpreted?
+
+==========
+Wed May 22 13:31:22 -0700 2019
+
+OK.  Revised plan:
+
+ - implement USEEIO-- use Wes's OLCA archive
+
+ - validate USLCI, Ecoinvent 3.5, ELCD on an INVENTORY basis
+
+ - Annotate all the non-assembly parts [i.e. flows that appear on cutoff fragments]
+   This is the labor-intensive step-- there are about 800 of them
+   = assign a material a
+   = characterize by mass
+   = characterize by whatever reference qty is used in USEEIO (presumably e.g. 2012$USD)
+   = identify an appropriate provider for each database:
+     - USLCI
+     - Ecoinvent 3.5
+     - ELCD
+     - USEEIO
+
+ - create a new single fragment to contain the various assemblies.
+   = Give it a child flow for each distinct non-assembly [i.e. cutoff] part
+   = then go through and terminate each child flow to specified provider 
+
+
+
+Today's task(s): anno

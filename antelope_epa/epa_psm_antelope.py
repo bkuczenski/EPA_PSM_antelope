@@ -158,12 +158,16 @@ class EpaF18Foreground(object):
             return
         return self.fragment_from_xl_sheet(sh)
 
+    '''
+    Detect and remove duplicates
+    '''
+
     def duplicate_subassemblies(self):
         """
-        Generates sets of fragments (ignoring leaf nodes) with the same flow and direction.  Only reports the highest-
-        level subassemblies that are duplicated (i.e. fragments whose parents are nonduplicated).
-
-        Use this to screen out and remove data duplication.
+        Generates sets of foreground fragments with the same flow and direction- in the present application these are
+        duplicated subassemblies.  Only reports the highest-level subassemblies that are duplicated (i.e. fragments
+        whose parents are non-duplicated).  Computes sequentially and feeds from a local dict to avoid "dict changed
+        size during iteration"
         :return:
         """
         dupes = set()
@@ -172,7 +176,7 @@ class EpaF18Foreground(object):
         # first, make a list of all duplicated non-leaf fragments
         for flow in self.fg.flows():
             for dirn in ('Input', 'Output'):
-                asm = set(k for k in self.fg.fragments_with_flow(flow, direction=dirn) if not k.term.is_null)
+                asm = set(k for k in self.fg.fragments_with_flow(flow, direction=dirn) if k.term.is_fg)
                 if len(asm) > 1:
                     dupes |= asm
 
