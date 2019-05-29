@@ -1,0 +1,54 @@
+{
+  "local.ecoinvent.3.4.apos": [
+    {
+      "dataSource": "/data/LCI/Ecoinvent/3.4/ecoinvent 3.4_apos_ecoSpold02",
+      "dataSourceType": "EcospoldV2Archive",
+      "interfaces": [
+        "basic",
+        "inventory"
+      ],
+      "priority": 50,
+      "static": false,
+      "prefix": "datasets",
+      "config": {
+        "hints": [
+          [
+            "context",
+            "water",
+            "to water"
+          ],
+          [
+            "context",
+            "air",
+            "to air"
+          ],
+          [
+            "quantity",
+            "EcoSpold Quantity m2",
+            "Area"
+          ],
+          [
+            "quantity",
+            "EcoSpold Quantity MJ",
+            "Net Calorific Value"
+          ],
+          [
+            "quantity",
+            "EcoSpold Quantity m3",
+            "Volume"
+          ],
+          [
+            "quantity",
+            "EcoSpold Quantity m2*year",
+            "Area*time"
+          ],
+          [
+            "quantity",
+            "EcoSpold Quantity kg",
+            "Mass"
+          ]
+        ]
+      }
+    }
+  ]
+}

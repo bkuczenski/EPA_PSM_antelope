@@ -1,0 +1,16 @@
+{
+  "local.elcd.3.2.index.20190528": [
+    {
+      "dataSource": "$CAT_ROOT/index/aa6258ca0fcff12f7c7f4b6aae398cb1eddedf27.json.gz",
+      "dataSourceType": "json",
+      "interfaces": [
+        "index",
+        "basic"
+      ],
+      "priority": 50,
+      "static": true,
+      "_internal": true,
+      "config": {}
+    }
+  ]
+}

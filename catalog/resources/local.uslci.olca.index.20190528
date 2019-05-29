@@ -1,0 +1,16 @@
+{
+  "local.uslci.olca.index.20190528": [
+    {
+      "dataSource": "$CAT_ROOT/index/ef42cf8f53552305a9d267d00e965d22fe6a185b.json.gz",
+      "dataSourceType": "json",
+      "interfaces": [
+        "index",
+        "basic"
+      ],
+      "priority": 50,
+      "static": true,
+      "_internal": true,
+      "config": {}
+    }
+  ]
+}

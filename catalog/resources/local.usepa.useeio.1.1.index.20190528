@@ -1,0 +1,16 @@
+{
+  "local.usepa.useeio.1.1.index.20190528": [
+    {
+      "dataSource": "$CAT_ROOT/index/0bfdaea6ff0149c86e4d245afec4b2e47c07afb8.json.gz",
+      "dataSourceType": "json",
+      "interfaces": [
+        "index",
+        "basic"
+      ],
+      "priority": 50,
+      "static": true,
+      "_internal": true,
+      "config": {}
+    }
+  ]
+}

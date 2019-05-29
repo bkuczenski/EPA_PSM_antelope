@@ -1,0 +1,16 @@
+{
+  "local.ecoinvent.3.4.apos.index.20190528": [
+    {
+      "dataSource": "$CAT_ROOT/index/a57075ecd68e35920696904ec830bc522fc6b2b2.json.gz",
+      "dataSourceType": "json",
+      "interfaces": [
+        "index",
+        "basic"
+      ],
+      "priority": 50,
+      "static": true,
+      "_internal": true,
+      "config": {}
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "local.usepa.useeio.1.1": [
+    {
+      "dataSource": "/data/LCI/USEEIO/USEEIOv1.1-JSONLD-foropenlca.zip",
+      "dataSourceType": "OpenLcaJsonLdArchive",
+      "interfaces": [
+        "inventory",
+        "basic",
+        "quantity"
+      ],
+      "priority": 50,
+      "static": false,
+      "config": {
+        "hints": [
+          [
+            "context",
+            "air",
+            "to air"
+          ],
+          [
+            "context",
+            "water",
+            "to water"
+          ]
+        ]
+      }
+    }
+  ]
+}
