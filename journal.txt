@@ -66,4 +66,31 @@ OK.  Revised plan:
 
 
 
-Today's task(s): anno
+Today's task(s): annotate the flows...
+
+==========
+Tue May 28 14:17:07 -0700 2019
+
+OK, so we are down to ginning up terminations for each of the 53 part types we created, for each of the 4 background databases we are using.
+
+We got USEEIO working this morning; EI3.5, USLCI, and ELCD are already working.
+
+We did want to try to use Wes's electricity LCI model but I have not investigated that yet.
+
+Simplest idea: create simple background fragments for each of the 810 parts; terminate them each to 4 different terminations for 4 different LCI data selection scenarios, based on mapping their part types.
+ Pros:
+  * simple. Can do it in an afternoon
+  * can showcase the flow-quantity conversion built into fragment terminations by assigning mass and price to all 810 parts
+
+ Cons:
+  * limited to a single background activity per part. This makes it difficult to use, e.g. USLCI, to distinguish between 'steel, hardware' and 'steel, fabricated'
+ 
+Alternate idea: we want to create child fragments for all of the 53 part types that include both "material" and "fabrication" contributions.  BUT we will not do this because of the specific exclusion in the kickoff slide deck: "NOT objectives: Creating original unit processes (except bridge processes)"
+
+So the fragment child flows operate as bridge processes inherently. Only they are way cheaper than processes.
+
+Oh, add to the TODO: aggregate traversal result into process model
+
+Wed 2019-05-29 12:23:56 -0700
+Right now we need to come up with a simple way to assign random mass and price to every flow, so that terminations to 
+

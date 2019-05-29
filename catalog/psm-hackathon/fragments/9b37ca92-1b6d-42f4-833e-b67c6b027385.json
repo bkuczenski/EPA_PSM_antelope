@@ -1100,59 +1100,6 @@
     },
     {
       "direction": "Input",
-      "entityId": "48700e3d-e539-4eae-9489-f65e77b2837c",
-      "entityType": "fragment",
-      "exchangeValues": {
-        "0": 2.0,
-        "1": 0.0
-      },
-      "externalId": "48700e3d-e539-4eae-9489-f65e77b2837c",
-      "flow": "74A410518-2005A",
-      "isBackground": false,
-      "isBalanceFlow": false,
-      "isPrivate": false,
-      "parent": "58a8b359-e159-4bbf-8999-b33c5a7be855",
-      "tags": {
-        "Comment": "",
-        "Name": "RING, TIEDOWN",
-        "Row": 272,
-        "Source": "74A400500-1017",
-        "StageName": ""
-      },
-      "terminations": {
-        "default": {
-          "externalId": "48700e3d-e539-4eae-9489-f65e77b2837c",
-          "origin": "local.data.GitHub.2019.EPA_PSM_antelope.catalog.psm-hackathon"
-        }
-      }
-    },
-    {
-      "direction": "Input",
-      "entityId": "73d295e6-7892-4089-9d71-5e766b4c2ddf",
-      "entityType": "fragment",
-      "exchangeValues": {
-        "0": 1.0,
-        "1": 0.0
-      },
-      "externalId": "73d295e6-7892-4089-9d71-5e766b4c2ddf",
-      "flow": "74A410518-2001",
-      "isBackground": false,
-      "isBalanceFlow": false,
-      "isPrivate": false,
-      "parent": "48700e3d-e539-4eae-9489-f65e77b2837c",
-      "tags": {
-        "Comment": "",
-        "Name": "RING, TIEDOWN, FORGING",
-        "Row": 273,
-        "Source": "74A400500-1017",
-        "StageName": ""
-      },
-      "terminations": {
-        "default": {}
-      }
-    },
-    {
-      "direction": "Input",
       "entityId": "4c028e78-b043-4219-ace3-48f9d5b12bcb",
       "entityType": "fragment",
       "exchangeValues": {
@@ -1887,6 +1834,32 @@
     },
     {
       "direction": "Input",
+      "entityId": "f6cb3f0c-f600-4bc8-852f-43c39e8dcb95",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 2.0,
+        "1": 0.0
+      },
+      "externalId": "f6cb3f0c-f600-4bc8-852f-43c39e8dcb95",
+      "flow": "74A410518-2005A",
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "58a8b359-e159-4bbf-8999-b33c5a7be855",
+      "tags": {
+        "Comment": "New subfragment",
+        "Name": "RING, TIEDOWN",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {
+          "externalId": "74A410518-2005A ASSEMBLY",
+          "origin": "local.data.GitHub.2019.EPA_PSM_antelope.catalog.psm-hackathon"
+        }
+      }
+    },
+    {
+      "direction": "Input",
       "entityId": "593148fb-e582-4b53-ad65-039da977b547",
       "entityType": "fragment",
       "exchangeValues": {
@@ -2012,6 +1985,32 @@
     },
     {
       "direction": "Input",
+      "entityId": "77c3acf7-e867-4ed7-9916-475256a41b1f",
+      "entityType": "fragment",
+      "exchangeValues": {
+        "0": 2.0,
+        "1": 0.0
+      },
+      "externalId": "77c3acf7-e867-4ed7-9916-475256a41b1f",
+      "flow": "74B400516-2001",
+      "isBackground": false,
+      "isBalanceFlow": false,
+      "isPrivate": false,
+      "parent": "74A400500-1017 ASSEMBLY",
+      "tags": {
+        "Comment": "New subfragment",
+        "Name": "SCREW, CAP",
+        "StageName": ""
+      },
+      "terminations": {
+        "default": {
+          "externalId": "74B400516-2001 ASSEMBLY",
+          "origin": "local.data.GitHub.2019.EPA_PSM_antelope.catalog.psm-hackathon"
+        }
+      }
+    },
+    {
+      "direction": "Input",
       "entityId": "7de9c098-60e3-44b1-84f1-6040432ffd8e",
       "entityType": "fragment",
       "exchangeValues": {
@@ -2103,59 +2102,6 @@
         "Comment": "",
         "Name": "PIN, PIVOT",
         "Row": 5,
-        "Source": "74A400500-1017",
-        "StageName": ""
-      },
-      "terminations": {
-        "default": {}
-      }
-    },
-    {
-      "direction": "Input",
-      "entityId": "88285adf-704a-4902-ac32-6708ae413e38",
-      "entityType": "fragment",
-      "exchangeValues": {
-        "0": 2.0,
-        "1": 0.0
-      },
-      "externalId": "88285adf-704a-4902-ac32-6708ae413e38",
-      "flow": "74B400516-2001",
-      "isBackground": false,
-      "isBalanceFlow": false,
-      "isPrivate": false,
-      "parent": "74A400500-1017 ASSEMBLY",
-      "tags": {
-        "Comment": "",
-        "Name": "SCREW, CAP",
-        "Row": 284,
-        "Source": "74A400500-1017",
-        "StageName": ""
-      },
-      "terminations": {
-        "default": {
-          "externalId": "88285adf-704a-4902-ac32-6708ae413e38",
-          "origin": "local.data.GitHub.2019.EPA_PSM_antelope.catalog.psm-hackathon"
-        }
-      }
-    },
-    {
-      "direction": "Input",
-      "entityId": "66439216-f6ad-4f10-9dbd-abf023a8cd19",
-      "entityType": "fragment",
-      "exchangeValues": {
-        "0": 1.0,
-        "1": 0.0
-      },
-      "externalId": "66439216-f6ad-4f10-9dbd-abf023a8cd19",
-      "flow": "NAS1351C5H12",
-      "isBackground": false,
-      "isBalanceFlow": false,
-      "isPrivate": false,
-      "parent": "88285adf-704a-4902-ac32-6708ae413e38",
-      "tags": {
-        "Comment": "",
-        "Name": "MAKE FROM VENDOR PART",
-        "Row": 285,
         "Source": "74A400500-1017",
         "StageName": ""
       },
