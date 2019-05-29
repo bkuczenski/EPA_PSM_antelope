@@ -24,7 +24,7 @@
       "terminations": {
         "default": {
           "externalId": "74A400600-1019 ASSEMBLY",
-          "origin": "local.data.GitHub.2019.EPA_PSM_antelope.catalog.psm-hackathon"
+          "origin": "foreground.psm-hackathon"
         }
       }
     },
@@ -277,7 +277,7 @@
       "terminations": {
         "default": {
           "externalId": "233eb9ec-63fa-493c-98f8-0e175c4d9904",
-          "origin": "local.data.GitHub.2019.EPA_PSM_antelope.catalog.psm-hackathon"
+          "origin": "foreground.psm-hackathon"
         }
       }
     },
@@ -305,7 +305,7 @@
       "terminations": {
         "default": {
           "externalId": "28fe9a51-2df5-4764-a529-e8eb62aceca5",
-          "origin": "local.data.GitHub.2019.EPA_PSM_antelope.catalog.psm-hackathon"
+          "origin": "foreground.psm-hackathon"
         }
       }
     },
@@ -383,7 +383,7 @@
       "terminations": {
         "default": {
           "externalId": "8b059493-4908-43fd-8e90-68dbb1e0a665",
-          "origin": "local.data.GitHub.2019.EPA_PSM_antelope.catalog.psm-hackathon"
+          "origin": "foreground.psm-hackathon"
         }
       }
     },
@@ -436,7 +436,7 @@
       "terminations": {
         "default": {
           "externalId": "b16313bf-97cd-4627-a3f4-e4cb3bf5d92b",
-          "origin": "local.data.GitHub.2019.EPA_PSM_antelope.catalog.psm-hackathon"
+          "origin": "foreground.psm-hackathon"
         }
       }
     },
@@ -464,7 +464,7 @@
       "terminations": {
         "default": {
           "externalId": "8500cfe9-547f-4372-8eca-c271a37f20b3",
-          "origin": "local.data.GitHub.2019.EPA_PSM_antelope.catalog.psm-hackathon"
+          "origin": "foreground.psm-hackathon"
         }
       }
     },
@@ -667,7 +667,7 @@
       "terminations": {
         "default": {
           "externalId": "459c6a00-a349-480f-a94e-afaac2fbcedc",
-          "origin": "local.data.GitHub.2019.EPA_PSM_antelope.catalog.psm-hackathon"
+          "origin": "foreground.psm-hackathon"
         }
       }
     },
@@ -1045,7 +1045,7 @@
       "terminations": {
         "default": {
           "externalId": "934c9004-6d7f-4ff9-9cc1-fb5b38868669",
-          "origin": "local.data.GitHub.2019.EPA_PSM_antelope.catalog.psm-hackathon"
+          "origin": "foreground.psm-hackathon"
         }
       }
     },
@@ -1273,7 +1273,7 @@
       "terminations": {
         "default": {
           "externalId": "b9ddc779-ee94-4edd-8c0e-a286fa510157",
-          "origin": "local.data.GitHub.2019.EPA_PSM_antelope.catalog.psm-hackathon"
+          "origin": "foreground.psm-hackathon"
         }
       }
     },
@@ -1301,7 +1301,7 @@
       "terminations": {
         "default": {
           "externalId": "017872fc-4ee1-4705-ba5a-765169859270",
-          "origin": "local.data.GitHub.2019.EPA_PSM_antelope.catalog.psm-hackathon"
+          "origin": "foreground.psm-hackathon"
         }
       }
     },

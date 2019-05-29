@@ -24,7 +24,7 @@
       "terminations": {
         "default": {
           "externalId": "74A400711-1001 ASSEMBLY",
-          "origin": "local.data.GitHub.2019.EPA_PSM_antelope.catalog.psm-hackathon"
+          "origin": "foreground.psm-hackathon"
         }
       }
     },

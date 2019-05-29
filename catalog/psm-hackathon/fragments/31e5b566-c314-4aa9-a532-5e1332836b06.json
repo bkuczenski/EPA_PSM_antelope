@@ -24,7 +24,7 @@
       "terminations": {
         "default": {
           "externalId": "74A400700-1014 ASSEMBLY",
-          "origin": "local.data.GitHub.2019.EPA_PSM_antelope.catalog.psm-hackathon"
+          "origin": "foreground.psm-hackathon"
         }
       }
     },
@@ -102,7 +102,7 @@
       "terminations": {
         "default": {
           "externalId": "375d7cc1-114a-4af4-b4db-ca4bb78975dc",
-          "origin": "local.data.GitHub.2019.EPA_PSM_antelope.catalog.psm-hackathon"
+          "origin": "foreground.psm-hackathon"
         }
       }
     },
@@ -228,7 +228,7 @@
       "terminations": {
         "default": {
           "externalId": "74A400701-1005 ASSEMBLY",
-          "origin": "local.data.GitHub.2019.EPA_PSM_antelope.catalog.psm-hackathon"
+          "origin": "foreground.psm-hackathon"
         }
       }
     },
@@ -329,7 +329,7 @@
       "terminations": {
         "default": {
           "externalId": "74A400734-1003 ASSEMBLY",
-          "origin": "local.data.GitHub.2019.EPA_PSM_antelope.catalog.psm-hackathon"
+          "origin": "foreground.psm-hackathon"
         }
       }
     },
@@ -355,7 +355,7 @@
       "terminations": {
         "default": {
           "externalId": "74A400517-1003 ASSEMBLY",
-          "origin": "local.data.GitHub.2019.EPA_PSM_antelope.catalog.psm-hackathon"
+          "origin": "foreground.psm-hackathon"
         }
       }
     },
@@ -381,7 +381,7 @@
       "terminations": {
         "default": {
           "externalId": "74A400740-1001 ASSEMBLY",
-          "origin": "local.data.GitHub.2019.EPA_PSM_antelope.catalog.psm-hackathon"
+          "origin": "foreground.psm-hackathon"
         }
       }
     },
@@ -707,7 +707,7 @@
       "terminations": {
         "default": {
           "externalId": "74A400736-1001 ASSEMBLY",
-          "origin": "local.data.GitHub.2019.EPA_PSM_antelope.catalog.psm-hackathon"
+          "origin": "foreground.psm-hackathon"
         }
       }
     },
@@ -808,7 +808,7 @@
       "terminations": {
         "default": {
           "externalId": "74A400750-1005 ASSEMBLY",
-          "origin": "local.data.GitHub.2019.EPA_PSM_antelope.catalog.psm-hackathon"
+          "origin": "foreground.psm-hackathon"
         }
       }
     },
@@ -909,7 +909,7 @@
       "terminations": {
         "default": {
           "externalId": "74A400711-1001 ASSEMBLY",
-          "origin": "local.data.GitHub.2019.EPA_PSM_antelope.catalog.psm-hackathon"
+          "origin": "foreground.psm-hackathon"
         }
       }
     },
@@ -1010,7 +1010,7 @@
       "terminations": {
         "default": {
           "externalId": "74A400730-1003 ASSEMBLY",
-          "origin": "local.data.GitHub.2019.EPA_PSM_antelope.catalog.psm-hackathon"
+          "origin": "foreground.psm-hackathon"
         }
       }
     },
@@ -1288,7 +1288,7 @@
       "terminations": {
         "default": {
           "externalId": "983f1e17-4df9-40cf-a5b4-2aa2d01ffb39",
-          "origin": "local.data.GitHub.2019.EPA_PSM_antelope.catalog.psm-hackathon"
+          "origin": "foreground.psm-hackathon"
         }
       }
     },
@@ -1314,7 +1314,7 @@
       "terminations": {
         "default": {
           "externalId": "74A400780-1003 ASSEMBLY",
-          "origin": "local.data.GitHub.2019.EPA_PSM_antelope.catalog.psm-hackathon"
+          "origin": "foreground.psm-hackathon"
         }
       }
     },
@@ -1942,7 +1942,7 @@
       "terminations": {
         "default": {
           "externalId": "d8a336ac-34f9-4e3b-9791-50dd614f1e82",
-          "origin": "local.data.GitHub.2019.EPA_PSM_antelope.catalog.psm-hackathon"
+          "origin": "foreground.psm-hackathon"
         }
       }
     },

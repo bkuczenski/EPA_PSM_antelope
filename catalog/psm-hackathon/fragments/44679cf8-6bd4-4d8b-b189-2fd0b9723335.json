@@ -24,7 +24,7 @@
       "terminations": {
         "default": {
           "externalId": "74A400800-1001 ASSEMBLY",
-          "origin": "local.data.GitHub.2019.EPA_PSM_antelope.catalog.psm-hackathon"
+          "origin": "foreground.psm-hackathon"
         }
       }
     },
@@ -227,7 +227,7 @@
       "terminations": {
         "default": {
           "externalId": "40a73015-8628-45f1-ad3a-382eebd6e081",
-          "origin": "local.data.GitHub.2019.EPA_PSM_antelope.catalog.psm-hackathon"
+          "origin": "foreground.psm-hackathon"
         }
       }
     },
@@ -330,7 +330,7 @@
       "terminations": {
         "default": {
           "externalId": "58121dfd-d43a-49b9-a52d-8b6f1c2da4c2",
-          "origin": "local.data.GitHub.2019.EPA_PSM_antelope.catalog.psm-hackathon"
+          "origin": "foreground.psm-hackathon"
         }
       }
     },
@@ -583,7 +583,7 @@
       "terminations": {
         "default": {
           "externalId": "d0bf351e-d94b-4019-bdfb-c0b2f0ef73cc",
-          "origin": "local.data.GitHub.2019.EPA_PSM_antelope.catalog.psm-hackathon"
+          "origin": "foreground.psm-hackathon"
         }
       }
     },
