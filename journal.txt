@@ -51,7 +51,7 @@ OK.  Revised plan:
 
  - Annotate all the non-assembly parts [i.e. flows that appear on cutoff fragments]
    This is the labor-intensive step-- there are about 800 of them
-   = assign a material a
+   = assign a material
    = characterize by mass
    = characterize by whatever reference qty is used in USEEIO (presumably e.g. 2012$USD)
    = identify an appropriate provider for each database:
@@ -92,5 +92,15 @@ So the fragment child flows operate as bridge processes inherently. Only they ar
 Oh, add to the TODO: aggregate traversal result into process model
 
 Wed 2019-05-29 12:23:56 -0700
-Right now we need to come up with a simple way to assign random mass and price to every flow, so that terminations to 
+Right now we need to come up with a simple way to assign random mass and price to every flow, so that terminations to ....
 
+(see mass_hints)
+
+Thu 2019-05-30 09:45:35 -0700
+Well, it wouldn't be an antelope project if it didn't include a desperate 11th-hour discovery of a coding design failure.  In this case a somewhat indeterminate situation with flow characterizations.
+
+
+Fri 2019-05-31 15:28:41 -0700
+
+Make that 12th-hour.
+anyway, all the tests are passing again. now it's time for a 15 hour sprint.
