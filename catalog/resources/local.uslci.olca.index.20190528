@@ -11,6 +11,19 @@
       "static": true,
       "_internal": true,
       "config": {}
+    },
+    {
+      "dataSource": "$CAT_ROOT/archives/local.uslci.olca.index.20190528_background.mat",
+      "dataSourceType": "Background",
+      "interfaces": [
+        "background",
+        "basic"
+      ],
+      "priority": 99,
+      "static": false,
+      "save_after": true,
+      "_internal": true,
+      "config": {}
     }
   ]
 }
