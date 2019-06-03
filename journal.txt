@@ -104,3 +104,44 @@ Fri 2019-05-31 15:28:41 -0700
 
 Make that 12th-hour.
 anyway, all the tests are passing again. now it's time for a 15 hour sprint.
+
+==========
+Sun Jun 02 16:17:26 -0700 2019
+
+OK, here's the deal.
+
+We "finished" our termination dictionary, meaning we did USLCI and USEEIO, and the 85% for which ELCD that is not completely outlandishly unsuitable, and decided to skip ecoinvent because we really don't need that to demonstrate the utility of the system.
+
+NOW, all that's left (staged approach):
+
+ - build (by hand) an enclosing fragment for the smallest top-level product system, which is 74A400800-1001.
+ - write machinery to mechanistically terminate from the xls dict
+ - terminate the enclosing fragment under 2 scenarios
+ - validate the disclosure for 2 scenarios [this will include the flow-quantity conversion, but that should be a piece of cake]
+ - validate-test the effect of non-matched child flows
+ - write a big-enclosing-fragment-builder and terminate it to the various foregrounds
+ - terminate the child flows
+ - do the big traversal disclosures
+
+Then it's all over but the doco
+
+so let's just do the first few steps on that and see how far we get in 20 min
+
+Sun 2019-06-02 23:17:08 -0700
+
+Checkin:
+ X build (by hand) an enclosing fragment for the smallest top-level product system, which is 74A400800-1001.
+ X write machinery to mechanistically terminate from the xls dict
+ X terminate the enclosing fragment under 2 scenarios
+ X validate the disclosure for 2 scenarios [this will include the flow-quantity conversion, but that should be a piece of cake]
+ - validate-test the effect of non-matched child flows
+ - write a big-enclosing-fragment-builder and terminate it to the various foregrounds
+ - terminate the child flows
+ - do the big traversal disclosures
+
+not bloody bad
+
+Still to do:
+ - test and debug descend
+ - cleanup the code a little
+
