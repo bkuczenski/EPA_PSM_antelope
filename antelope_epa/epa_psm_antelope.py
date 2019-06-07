@@ -20,7 +20,7 @@ class EpaF18Foreground(object):
     def __init__(self, foreground, folder=None):
         """
 
-        :param foreground: an Antelope foreground interface
+        :param foreground: an Antelope foreground query
         :param folder: [None] directory containing source files
         """
         self._fg = foreground
