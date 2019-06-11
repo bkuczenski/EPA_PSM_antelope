@@ -77,6 +77,11 @@ class EpaF18Foreground(object):
         return flow
 
     def _get_next_name(self, flow):
+        """
+        This should probably be an interface method, since I already need it again for container building
+        :param flow:
+        :return:
+        """
         parent_ref = '%s ASSEMBLY' % flow.external_ref
         if self.fg[parent_ref] is not None:
             _ac = 0

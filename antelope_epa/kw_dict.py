@@ -6,17 +6,22 @@ def mk_kwd(filename, sheet, kwcols=1, lower=True, strict=True):
     Create a keyword dictionary from an excel spreadsheet.  THe keys into the dict are taken from the first k
     columns.  If k == 1, only the first column is used. If k > 1, a tuple is constructed from the first k columns.
 
-    The values are themselves dicts whose keys are taken from the header rows after kwcols columns, and whose values
+    The first row is interpreted as a header row, and every subsequent row will generate an entry in the kw dict.
+
+    The values are themselves dicts whose keys are taken from the header columns after kwcols, and whose values
     are taken from the corresponding columns of each row.
 
     The 'None' key returns a tuple of length kwcols that reports the names of the header columns used to generate the
     keys.
 
+    Empty strings are replaced with None
+
     :param filename: path to workbook file
     :param sheet: sheet name to read
     :param kwcols: [1] number of columns to use for keys
     :param lower: [True] whether to lowercase dict keys
-    :param strict: [True] whether to raise an error if the same key is encountered twice
+    :param strict: [True] whether to raise an error if the same key is encountered twice. If False, later values
+     will overwrite earlier values.
     :return:
     """
     _kwd = dict()
@@ -35,6 +40,12 @@ def mk_kwd(filename, sheet, kwcols=1, lower=True, strict=True):
             return _s_cell(r, c).lower()
         return _s_cell(r, c)
 
+    def _v_cell(r, c):
+        v = _s_cell(r, c)
+        if isinstance(v, str) and len(v) == 0:
+            return None
+        return v
+
     for row in range(1, _s.nrows):
         if kwcols == 1:
             key = _k_cell(row, 0)
@@ -42,7 +53,7 @@ def mk_kwd(filename, sheet, kwcols=1, lower=True, strict=True):
             key = tuple(_k_cell(row, k) for k in range(kwcols))
         if key in _kwd and strict:
             raise KeyError('Key %s already exists' % key)
-        _kwd[key] = {_k_cell(0, k): _s_cell(row, k) for k in range(kwcols, _s.ncols)}
+        _kwd[key] = {_k_cell(0, k): _v_cell(row, k) for k in range(kwcols, _s.ncols)}
 
     _kwd[None] = tuple(_k_cell(0, k) for k in range(kwcols))
     return _kwd
