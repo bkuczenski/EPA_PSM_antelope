@@ -31,7 +31,7 @@ Future plans include breaking `lca-tools` into several distinct packages:
 
  - `antelope-interface`, which defines the interface superclasses and has no dependencies
  - `antelope-catalog`, which supports all basic functionality and requires only file I/O packages like lxml and xlrd
- - `antelope-background`, which performs the background matrix construction ([partial ordering](https://doi.org/10.1007/s11367-015-0972-x)) and requires `scipy`
+ - `antelope-background`, which performs the background matrix construction ([partial ordering](https://doi.org/10.1007/s11367-015-0972-x)) and requires `scipy`. The idea is for this package to be optional, with users instead having the option to use remote resources via Web-based API to perform background computations.
 
 For the moment, installation is as follows:
 
