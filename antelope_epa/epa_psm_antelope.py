@@ -111,13 +111,35 @@ class EpaF18Foreground(object):
                 return parent_ref
 
     def _new_reference_fragment(self, flow, **kwargs):
+        """
+        This should probably be worked into the new_fragment machinery-- it basically just assigns an external_ref
+        that is designed according to a custom template and ensured to be unique.  But if _get_next_name gets
+        folded into the interface, then new_fragment should use it internally when creating a reference fragment.
+        :param flow:
+        :param kwargs:
+        :return:
+        """
         # create a new parent fragment
         parent_ref = self._get_next_name(flow)
-        frag = self.fg.new_fragment(flow, 'Output', Name=parent_ref, **kwargs)
-        self.fg.name_fragment(frag, parent_ref)
+        frag = self.fg.new_fragment(flow, 'Output', Name=parent_ref, external_ref=parent_ref, **kwargs)
+        self._refs.append(frag)
         return frag
 
     def _process_row(self, i_row, source):
+        """
+        This procedure is general, although the implementation is hackathon-specific.
+
+        Given a record, extract: parent ref, flow, [infer direction], exchange value, [foreground = self-termination]
+        if parent ref is None, create a new reference fragment; otherwise, retrieve the correct parent and create a
+        child fragment.
+
+        The thorny part is in "retrieving the correct parent", in case duplicate assemblies are allowed.  In this case
+        we disallow duplicates within the same XLS sheet, and screen out duplicates from other XLS sheets by filtering
+        by sheet i.e. frag['Source']
+        :param i_row:
+        :param source:
+        :return:
+        """
         i, row = i_row
         i += 1
         parent_num = row.pop('Next Assembly')
@@ -150,8 +172,7 @@ class EpaF18Foreground(object):
                 #print('Bad parent reference: %s; creating new reference fragment' % parent_num)
                 #return self._new_reference_fragment(flow, value=amount, Source=source, Row=i)
 
-        self.fg.new_fragment(flow, 'Input', parent=parent, value=amount, Source=source, Row=i)
-        return
+        return self.fg.new_fragment(flow, 'Input', parent=parent, value=amount, Source=source, Row=i)
 
     def fragment_from_xl_sheet(self, sheet):
         """
@@ -171,9 +192,7 @@ class EpaF18Foreground(object):
         except EntityNotFound:
             xl = XlDict(sheet)
             for row in xl.iterrows():
-                ref = self._process_row(row, sheet.name)
-                if ref is not None:
-                    self._refs.append(ref)
+                self._process_row(row, sheet.name)
             frag = self.fg.get(pn)
         return frag
 
@@ -224,6 +243,8 @@ class EpaF18Foreground(object):
 
     def reduce_duplicates(self, master, *dupes, verify=True):
         """
+        Care must be taken to supply duplicates to this function in the proper order: the first one is kept; the others
+        are ditched.
 
         :param master:
         :param dupes: 0 or more fragments that are duplicates
