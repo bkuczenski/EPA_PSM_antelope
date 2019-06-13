@@ -15,23 +15,26 @@ The software components used in this entry are contained in two public repositor
  * [lca-tools](https://github.com/bkuczenski/lca-tools), a.k.a. giant antelope pre-release bundle. Please check out `strike-uuids` branch for current work.
  * [lca_disclosures](https://github.com/pjamesjoyce/lca_disclosures). Please check out `typed_flows` branch for current work.
 
-The requirements for these tools are fairly extensive:
+The requirements for these tools are not light:
 
- - python 3.6
- - scipy (for background matrix computation)
- - pandas (required by `lca_disclosures`)
+ - python 3.6+
+ - scipy (for background matrix computation-- not strictly needed for this project)
+ - pandas (required by `lca_disclosures` for excel output)
  - lxml
  - xlrd
  - XlsxWriter
- - pylzma, if direct access to 7z archives is desired
- - six (though python2 is probably not supported)
- - perhaps others. I will update this after testing.
+ - python-magic
+ - pylzma (though it doesn't work for modern 7z archives, ecoinvent 3.4 and later)
+
+This worked on my system in a new virtualenv.
 
 Future plans include breaking `lca-tools` into several distinct packages:
 
  - `antelope-interface`, which defines the interface superclasses and has no dependencies
  - `antelope-catalog`, which supports all basic functionality and requires only file I/O packages like lxml and xlrd
  - `antelope-background`, which performs the background matrix construction ([partial ordering](https://doi.org/10.1007/s11367-015-0972-x)) and requires `scipy`. The idea is for this package to be optional, with users instead having the option to use remote resources via Web-based API to perform background computations.
+
+### Installation
 
 For the moment, installation is as follows:
 
@@ -40,8 +43,21 @@ For the moment, installation is as follows:
  1. add `lca-tools` root directory to pythonpath
  1. Download `lca_disclosures` package and symlink to it in the `lca-tools` directory
  1. Checkout `typed_flows` branch of `lca_disclosures
- 1. Install and configure `jupyter` if notebook support is required.
- 
+ 1. Install and configure `jupyter` if notebook support is desired.
+
+### Configuration and run
+
+The following steps were sufficient on my system:
+
+    $ mkvirtualenv -p /usr/bin/python3.7 hackathon
+    (hackathon)$ add2virtualenv /path/to/lca-tools
+    (hackathon)$ pip install pandas scipy lxml xlrd XlsxWriter python-magic pylzma
+    (hackathon)$ cd /path/to/EPA_PSM_hackathon
+
+    [edit user config in gen_disclosures.py]
+
+    (hackathon)$ python gen_disclosures.py
+    
 
 ### Data Model
 
