@@ -2,10 +2,15 @@ import os
 from collections import defaultdict
 
 from antelope_catalog.providers.xl_dict import XlDict
+from lcatools.interfaces import EntityNotFound
 from lcatools.entities.tree_isomorphism import isomorphic, TreeIsomorphismException
 
 from .validation import validate_folder
 from .exceptions import DuplicateSubAssembly
+
+
+class BadParentReference(Exception):
+    pass
 
 
 class EpaF18Foreground(object):
@@ -52,6 +57,11 @@ class EpaF18Foreground(object):
         for s in self._valid_sheets:
             yield s.name
 
+    @property
+    def models(self):
+        for m in self._refs:
+            yield m
+
     '''
     Fragment Building
     '''
@@ -69,29 +79,34 @@ class EpaF18Foreground(object):
         flow_name = row.pop('Part Name')
         if flow_name is None:
             flow_name = '%s ASSEMBLY' % flow_ref
-        flow = self.fg[flow_ref]
-        if flow is None:
+        try:
+            flow = self.fg.get(flow_ref)
+        except EntityNotFound:
             flow = self.fg.new_flow(flow_name, 'Number of items', external_ref=flow_ref, **row)
-            if self.fg[flow_ref] is not flow:
+            if self.fg.get(flow_ref) != flow:
                 raise KeyError('Flow ref %s failed to properly register' % flow_ref)
         return flow
 
     def _get_next_name(self, flow):
         """
         This should probably be an interface method, since I already need it again for container building
+        Plus, now that fg doesn't support __getitem__ it's a bit awkward
         :param flow:
         :return:
         """
         parent_ref = '%s ASSEMBLY' % flow.external_ref
-        if self.fg[parent_ref] is not None:
-            _ac = 0
-            while True:
-                parent_ref = '%s ASSEMBLY alt %d' % (flow.external_ref, _ac)
-                if self.fg[parent_ref] is not None:
-                    _ac += 1
-                    continue
-                break
-        return parent_ref
+        try:
+            self.fg.get(parent_ref)
+        except EntityNotFound:
+            return parent_ref
+        _ac = 0
+        while True:
+            parent_ref = '%s ASSEMBLY alt %d' % (flow.external_ref, _ac)
+            try:
+                self.fg.get(parent_ref)
+                _ac += 1
+            except EntityNotFound:
+                return parent_ref
 
     def _new_reference_fragment(self, flow, **kwargs):
         # create a new parent fragment
@@ -128,8 +143,10 @@ class EpaF18Foreground(object):
             try:
                 parent = next(k for k in self.fg.fragments_with_flow(parent_num) if k['Source'] == source)
             except StopIteration:
-                print('Bad parent reference: %s; creating new reference fragment' % parent_num)
-                return self._new_reference_fragment(flow, value=amount, Source=source, Row=i)
+                print('Source: %s Row: %d flow: %s' % (source, i, flow))
+                raise BadParentReference(parent_num)
+                #print('Bad parent reference: %s; creating new reference fragment' % parent_num)
+                #return self._new_reference_fragment(flow, value=amount, Source=source, Row=i)
 
         self.fg.new_fragment(flow, 'Input', parent=parent, value=amount, Source=source, Row=i)
         return
@@ -147,13 +164,16 @@ class EpaF18Foreground(object):
         and may be duplicated.
         """
         pn = '%s ASSEMBLY' % sheet.name
-        if self.fg[pn] is None:
+        try:
+            frag = self.fg.get(pn)
+        except EntityNotFound:
             xl = XlDict(sheet)
             for row in xl.iterrows():
                 ref = self._process_row(row, sheet.name)
                 if ref is not None:
                     self._refs.append(ref)
-        return self.fg[pn]
+            frag = self.fg.get(pn)
+        return frag
 
     def create_assembly(self, assy):
         try:
