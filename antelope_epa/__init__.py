@@ -27,6 +27,9 @@ def create_annotated_foreground(cat, fg_name, annotation_file):
 def create_epa_psms(fg, data_dir):
 
     efg = EpaF18Foreground(fg, folder=data_dir)
+    if len([k for k in efg.models]) == 27:
+        return True
+
     for sheet in efg.valid_sheets:
         efg.create_assembly(sheet)
 
@@ -46,7 +49,7 @@ def create_epa_psms(fg, data_dir):
     return True
 
 
-def mock_inventory_data(cat, fg, inventory_file):
+def mock_inventory_data(cat, fg, inventory_file, **kwargs):
     """
     Use a spreadsheet annotated with mock material / mass / price information to generate mass and price
     characterizations for leaf flows
@@ -55,18 +58,16 @@ def mock_inventory_data(cat, fg, inventory_file):
     :param inventory_file:
     :return:
     """
-    ar = cat.get_archive(fg.origin)
-
-    f = ar['NAS6203-4D']
+    f = fg.get('NAS6203-4D')
 
     mass = fg.get_canonical('mass')
     price = cat.query('local.usepa.useeio').get('b0682037-e878-4be4-a63a-a7a81053a691')
 
-    mock = MockCfGenerator(mass, price, inventory_file, sheet='mass_hints')
+    mock = MockCfGenerator(mass, price, inventory_file, sheet='mass_hints', **kwargs)
     mock.characterize(f, demo=True)
 
     for f in fg.flows(Material='.'):  # regexp: matches any material spec
         mock.characterize(f, demo=False)
 
-    ar.save()
+    fg.save()
     mock.save()

@@ -3,6 +3,16 @@ from .kw_dict import mk_kwd
 
 
 class NoTermFound(Exception):
+    """
+    Used when a flow's properties do not show up in the term dict
+    """
+    pass
+
+
+class NoTermEntry(Exception):
+    """
+    Used when a particular origin is not found in a term dict entry
+    """
     pass
 
 
@@ -24,16 +34,20 @@ class PsmTerminationBuilder(object):
 
     def _get_term_dict(self, flow):
         key = tuple((flow.get(k) or '').strip() for k in self.term_dict[None])
-        return self.term_dict[key]
+        try:
+            return self.term_dict[key]
+        except KeyError:
+            print(flow)
+            raise NoTermFound(key)
 
     def _get_term_from_dict(self, td, key):
         if key not in td or td[key] is None:
-            raise NoTermFound
+            raise NoTermEntry
         try:
             proc = self.cat.query(key).get(td[key])
         except KeyError:
             print('origin: %s | unable to retrieve %s' % (key, td[key]))
-            raise NoTermFound
+            raise NoTermEntry
         return proc
 
     def terminate_by_dict(self, leaf, *origins):
@@ -45,7 +59,7 @@ class PsmTerminationBuilder(object):
         for k in origins:
             try:
                 proc = self._get_term_from_dict(_td, k)
-            except NoTermFound:
+            except NoTermEntry:
                 continue
             rx = proc.reference()
             leaf.terminate(proc, scenario=k, term_flow=rx.flow)
@@ -70,7 +84,7 @@ class PsmTerminationBuilder(object):
             _td = self._get_term_dict(ff.fragment.flow)
             try:
                 proc = self._get_term_from_dict(_td, origin)
-            except NoTermFound:
+            except NoTermEntry:
                 continue
             rx = proc.reference()
             if background:

@@ -30,6 +30,8 @@ class EpaF18Foreground(object):
         """
         self._fg = foreground
         self.folder = folder
+        for frag in self._fg.fragments():
+            self._refs.append(frag)
 
     @property
     def fg(self):

@@ -14,9 +14,8 @@ CATALOG_DIR = '/data/LCI/hack2it'
 ### End User-editable config
 ###############################################################################################
 
-# import os
+import os
 
-# cat = make_cat(os.getcwd())
 
 def load_background_data_sources(cat, elcd=False, elcd_source=None):
     """
@@ -136,7 +135,8 @@ def do_epa_study(cat_dir=CATALOG_DIR, elcd=True, elcd_source='/data/LCI/ELCD/ELC
 
     fg = create_annotated_foreground(cat, fg_name, ANNOTATION_FILE)
     create_epa_psms(fg, DATA_DIR)
-    mock_inventory_data(cat, fg, ANNOTATION_FILE)
+    cf_file = os.path.join(cat_dir, fg_name, 'cfs.json')
+    mock_inventory_data(cat, fg, ANNOTATION_FILE, save_file=cf_file)
 
     simple_product_model_disclosures(cat, fg_name, ANNOTATION_FILE)
     large_product_model_mixed_scenarios(cat, fg_name, ANNOTATION_FILE)

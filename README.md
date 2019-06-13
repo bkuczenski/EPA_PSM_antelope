@@ -22,6 +22,7 @@ The requirements for these tools are not light:
  - pandas (required by `lca_disclosures` for excel output)
  - lxml
  - xlrd
+ - requests
  - XlsxWriter
  - python-magic
  - pylzma (though it doesn't work for modern 7z archives, ecoinvent 3.4 and later)
@@ -51,7 +52,7 @@ The following steps were sufficient on my system:
 
     $ mkvirtualenv -p /usr/bin/python3.7 hackathon
     (hackathon)$ add2virtualenv /path/to/lca-tools
-    (hackathon)$ pip install pandas scipy lxml xlrd XlsxWriter python-magic pylzma
+    (hackathon)$ pip install pandas scipy lxml xlrd XlsxWriter python-magic pylzma requests
     (hackathon)$ cd /path/to/EPA_PSM_hackathon
 
     [edit user config in gen_disclosures.py]
