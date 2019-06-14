@@ -67,6 +67,7 @@ The following steps were sufficient on my system:
 
 # Documentation
 
-Please see [data-model.md](data-model.md) for a description of the data model and [antelope.md](antelope.md) for a discussion about the features and capabilities of the Antelope interface and Antelope Catalog.
-
-
+Please see:
+ * [data-model.md](data-model.md) for a description of the data model
+ * [antelope.md](antelope.md) for a discussion about the features and capabilities of the Antelope interface and Antelope Catalog
+ * [antelope-interface.md](antelope-interface.md) for a semi-complete description of the Antelope interface

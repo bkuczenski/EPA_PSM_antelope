@@ -48,3 +48,10 @@ this is equivalent to:
 
 In order to answer the query, the catalog will have to contain a resource whose origin starts with `local.uslci` and which recognizes the term `Acetic acid, at plant` -- the Ecospold V1 version of USLCI can handle this because Ecospold V1 filenames are plain text.
 
+# Links
+
+Please see:
+ * [Repository README](README.md)
+ * [data-model.md](data-model.md) for a description of the data model
+ * [antelope-interface.md](antelope-interface.md) for a semi-complete description of the Antelope interface
+ 

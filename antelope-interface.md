@@ -1,5 +1,7 @@
 # Antelope Interface Specification
 
+The Antelope Interface is an abstraction layer between a foreground modeling setting and an LCA data source.  The interface is meant to supply access to all information that would be required to utilize a data resource.  The ultimate goal is to create a Web API implementation of the interface that would enable practitioners to perform LCA without requiring physical access to any data source or computational capabilities, other than foreground model traversal.  This will enable light-weight (incl. web-based) tools for LCA model construction and critical review, as well as mediated and/or privacy-preserving access to proprietary resources.
+
 ### Basic Interface
 
 The [Basic Interface](https://github.com/bkuczenski/lca-tools/blob/strike-uuids/lcatools/interfaces/abstract_query.py) provides elementary access to a resource:
@@ -78,3 +80,10 @@ The foreground interface is still under development.
  
 More to come.
 
+# Links
+
+Please see:
+ * [Repository README](README.md)
+ * [data-model.md](data-model.md) for a description of the data model
+ * [antelope.md](antelope.md) for a discussion about the features and capabilities of the Antelope interface and Antelope Catalog
+ 

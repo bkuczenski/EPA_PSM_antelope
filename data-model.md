@@ -63,3 +63,12 @@ Finally, fragment links can terminate to other fragments, in which case the term
 
 A collection of fragment links is well-defined if every fragment link's parent node is either None or in the collection.  Such a collection forms a [directed forest](https://en.wikipedia.org/wiki/Tree_(graph_theory)#Polyforest). Every fragment link with None parent is called a "reference fragment", or simply a fragment by the above definition.  The set of reference fragments equals the distinct set of product systems modeled by the forest.
 
+# Links
+
+Please see:
+ * [Repository README](README.md)
+ * [antelope.md](antelope.md) for a discussion about the features and capabilities of the Antelope interface and Antelope Catalog
+ * [antelope-interface.md](antelope-interface.md) for a semi-complete description of the Antelope interface
+ 
+
+
