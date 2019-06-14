@@ -7,7 +7,7 @@
 Drawing from [Semantic Catalogs for Life Cycle Assessment Data](https://doi.org/10.1016/j.jclepro.2016.07.216), the LCA data model has three distinct entity types:
 
  * **Flows** are "things in the world" that can be observed and described in quantitative terms.  I regard the unique concept of the flow as the definitive conceptual class of LCA and industrial ecology generally.  In our implementation, every flow must be assigned a specific reference quantity to describe its extent, with the default being "number of items".<sup>1</sup>
- * **Quantities** are extensive properties that can be used to describe the extent or dimensionality of specific, observed flows. Mass and price are quantities; LCIA characterizations are also quantities.  
+ * **Quantities** are extensive properties that can be used to describe the extent or dimensionality of specific, observed flows. Mass and price are quantities; LCIA indicators are also quantities.  
  * **Activities** are interactions of several flows exchanged across a well-defined spatial and temporal boundary.  I use the term "Process" to describe a concrete inventory model  of a specific activity, i.e. an enumeration and quantification of all flows that are co-exchanged across a boundary having a specific spatiotemporal scope.
 
 1- *Note: although the "Semantic Catalogs" article describes flows as having mandatory Compartments, this requirement has been abandoned in favor of contexts.*
