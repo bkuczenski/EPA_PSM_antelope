@@ -161,7 +161,7 @@ class EpaF18Foreground(object):
             raise DuplicateSubAssembly('(row %d) flow: %s' % (i, flow.link))  # handle this if it comes up
 
         if parent_num is None:
-            return self._new_reference_fragment(flow, value=amount, Source=source, Row=i)
+            return self._new_reference_fragment(flow, value=1.0, Source=source, Row=i)  # discard qty info on reference
 
         else:
             try:
