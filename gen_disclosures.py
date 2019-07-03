@@ -4,11 +4,24 @@ from lca_disclosures.antelope import AntelopeTraversalDisclosure
 
 ANNOTATION_FILE = 'PSM-hackathon-leaf-flows_annotated.xlsx'  # in working directory
 
+ANON = True
+
 ###############################################################################################
 ### TODO: User-editable config begins here
 ###############################################################################################
-DATA_DIR = '/data/GitHub/2019/LCAproductsystemassembly_1/data-foreground/'
-OUTPUT_DIR = 'output'
+if ANON:
+    DATA_DIR = '/data/GitHub/2019/LCAproductsystemassembly_1/anon-foreground/'
+    FG_NAME = 'anon-hackathon'
+    OUTPUT_DIR = 'anon-output'
+    small = 'ANON_777789 ASSEMBLY'
+    large = 'ANON_966501 ASSEMBLY'
+else:
+    DATA_DIR = '/data/GitHub/2019/LCAproductsystemassembly_1/data-foreground/'
+    FG_NAME = 'psm-hackathon'
+    OUTPUT_DIR = 'output'
+    small = '74A400800-1001 ASSEMBLY'
+    large = '74A400500-1017 ASSEMBLY'
+
 CATALOG_DIR = '/data/LCI/hack2it'
 ELCD_PATH = '/data/LCI/ELCD/ELCD3.2-a.zip'  # set None to download it
 ###############################################################################################
@@ -65,7 +78,7 @@ def load_background_data_sources(cat, elcd=False, elcd_source=None):
         cat.index_ref(elcd_ref)  # -- done in bg generation for other resources
 
 
-def simple_product_model_disclosures(cat, fg_name, termination_file, psm='74A400800-1001 ASSEMBLY', quiet=True,
+def simple_product_model_disclosures(cat, fg_name, termination_file, psm=small, quiet=True,
                                      folder=OUTPUT_DIR):
     """
     Creates a set of disclosures describing the simplest product model, 74A400800-1001 Retract Actuator assembly.
@@ -122,7 +135,7 @@ def simple_product_model_disclosures(cat, fg_name, termination_file, psm='74A400
     d.write_excel('simple_uslci_termed')
 
 
-def large_product_model_mixed_scenarios(cat, fg_name, termination_file, psm='74A400500-1017 ASSEMBLY', quiet=True,
+def large_product_model_mixed_scenarios(cat, fg_name, termination_file, psm=large, quiet=True,
                                         folder=OUTPUT_DIR):
     """
     Demonstrates the disclosure framework for a larger fragment.  Here we are building a container fragment just as
@@ -180,7 +193,7 @@ def large_product_model_mixed_scenarios(cat, fg_name, termination_file, psm='74A
     d.write_excel('large_mixed_nondescend')
 
 
-def do_epa_study(cat_dir=CATALOG_DIR, elcd=True, elcd_source=ELCD_PATH, fg_name='psm-hackathon',
+def do_epa_study(cat_dir=CATALOG_DIR, elcd=True, elcd_source=ELCD_PATH, fg_name=FG_NAME,
                  scratch=False):
     # create and prepare the catalog
     cat = LcCatalog(cat_dir)
