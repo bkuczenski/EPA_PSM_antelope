@@ -76,11 +76,14 @@ class EpaF18Foreground(object):
         if 'Next Assembly' in row:
             raise AttributeError('"Next Assembly" should be popped')
         flow_ref = row.pop('Part Number')
-        if flow_ref is None:
-            raise ValueError('Part number cannot be none')
         flow_name = row.pop('Part Name')
-        if flow_name is None:
-            flow_name = '%s ASSEMBLY' % flow_ref
+        if flow_ref is None:
+            if flow_name is None:
+                raise ValueError('Part number and Part Name cannot both be none')
+            flow_ref = flow_name
+        else:
+            if flow_name is None:
+                flow_name = '%s ASSEMBLY' % flow_ref
         try:
             flow = self.fg.get(flow_ref)
         except EntityNotFound:
@@ -191,9 +194,17 @@ class EpaF18Foreground(object):
             frag = self.fg.get(pn)
         except EntityNotFound:
             xl = XlDict(sheet)
-            for row in xl.iterrows():
-                self._process_row(row, sheet.name)
-            frag = self.fg.get(pn)
+            # added for PCB product system- use first row part name instead of sheet name to name fragment
+            _, firstrow = next(xl.iterrows())
+            firstrow.pop('Next Assembly')
+            ref_flow = self._row_to_flow(firstrow)
+            pn = '%s ASSEMBLY' % ref_flow.external_ref
+            try:
+                return self.fg.get(pn)
+            except EntityNotFound:
+                for row in xl.iterrows():
+                    self._process_row(row, sheet.name)
+                frag = self.fg.get(pn)
         return frag
 
     def create_assembly(self, assy):
