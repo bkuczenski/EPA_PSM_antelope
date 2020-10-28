@@ -1,6 +1,6 @@
 # EPA_PSM_Antelope
 
-EPA Product System Modeling Hackathon - antelope branch.  See planning [here](plan.md).
+EPA Product System Modeling Hackathon - antelope branch.  
 
 ## Overview
 

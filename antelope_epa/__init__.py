@@ -29,7 +29,7 @@ def create_annotated_foreground(cat, fg_name, annotation_file, scratch=False):
     else:
         f = fg.get('3M1169C3D6A')
     assert f.has_property('Material')
-    assert f['Material'] == 'Nickel'
+    assert f['Material'] == 'Nickel'  # unit test - mid-op
 
     assert len([k for k in fg.flows(Material='.')]) == 810
 
@@ -62,7 +62,7 @@ def create_epa_psms(fg, data_dir):
     assert efg.fg.count('fragment') == 1528
 
     for dup in efg.duplicate_subassemblies():
-        sdup = sorted(dup, key=lambda x: not x.is_reference)
+        sdup = sorted(dup, key=lambda x: not x.is_reference)  # make sure
         efg.reduce_duplicates(*sdup)
 
     assert len([k for k in efg.models]) == 27

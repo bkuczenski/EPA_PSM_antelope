@@ -51,7 +51,7 @@ def validate_folder(folder):
     asm = dict()
     mis = dict()
     xl = dict()
-    xlss = [k for k in os.listdir(folder)]
+    xlss = [k for k in os.listdir(folder) if os.path.splitext(k)[1].lower().startswith('.xls')]
     for xls in xlss:
         try:
             xl[xls] = xlrd.open_workbook(os.path.join(folder, xls))
