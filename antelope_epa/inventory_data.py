@@ -55,8 +55,8 @@ class MockCfGenerator(object):
         p *= random.lognormvariate(self.p_base, sig)
         if demo:
             print('[%s] %s: mass %3g %s; price: %3g %s' % (flow.external_ref, flow.name,
-                                                           m, self.mass.unit(),
-                                                           p, self.price.unit()))
+                                                           m, self.mass.unit,
+                                                           p, self.price.unit))
         return m, p
 
     def characterize(self, flow, demo=False):
@@ -82,6 +82,6 @@ class MockCfGenerator(object):
         p = self.price.cf(f)
         if demo:
             print('%s [%s]\nCFs: mass: %.3g %s; price: %.3g %s' % (f, f.external_ref,
-                                                                   m, self.mass.unit(), p, self.price.unit()))
+                                                                   m, self.mass.unit, p, self.price.unit))
         assert m == self._cf_dict[f.link]['mass']
         assert p == self._cf_dict[f.link]['price']
